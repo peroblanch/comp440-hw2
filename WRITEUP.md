@@ -1,17 +1,21 @@
 # COMP 440 HW2: Whose Preferences Count?
 
-**Name:** XXXX
-**Date:** XXXX
+**Name:** Owen Blanchard
+**Date:** 2026-10-07
 
 ## Part 0: Set up
 
 ### Step B: What an MCP server is and why it's useful
 
-XXXX
+An MCP server is a server that lets AI agents access external tools and datasets. One example,
+used in my Human-Computer Interaction class, is the MCP server for Figma, which lets Claude use
+Figma on your own device to design interactable components through that software.
 
 ### Step B: Why not paste code into Colab yourself
 
-XXXX
+Not pasting code into Colab myself makes things simpler, easier for Claude to reference, and
+more future-proof for people reviewing the assignment later, as these things become inherently
+connected.
 
 ### Step D: How the MCP server connects Claude Code to Colab
 
