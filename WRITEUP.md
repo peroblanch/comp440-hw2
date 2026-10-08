@@ -19,7 +19,9 @@ connected.
 
 ### Step D: How the MCP server connects Claude Code to Colab
 
-XXXX
+My device is probably communicating with both the Colab server and the Claude server in the
+normal way, while facilitating some unseen localhost communication between the two servers,
+enabling Claude to see, use and modify Colab.
 
 ## Part 1: The tools and the tests
 
