@@ -47,7 +47,7 @@ XXXX
 
 ### Step 6: One question traced, and your diagram
 
-XXXX (add the diagram image to the repository and link it here)
+XXXX (type the diagram here, or add an image of it to the repository and link it here)
 
 ### Step 7: Your 10 grades and Claude's
 
@@ -57,6 +57,50 @@ XXXX
 
 XXXX
 
-## Part 2
+## Part 2: Train your two models and decide what changed
 
-[TBD]
+### Step 1: Your famous person, and why
+
+XXXX (your passages go in `voice-samples.md`)
+
+### Step 2: Your constitutions
+
+XXXX (your lines go in `constitutions.md`; answer the Step 2 questions here)
+
+### Step 3: Your test family
+
+XXXX (a paragraph on your family, and the Step 3 questions; your items go in `evals/mine/`)
+
+### Step 4: Your map and predictions
+
+XXXX (one table: each line of `constitutions.md`, its family or "not measured", your predictions)
+
+### Step 5: What Claude's answers do
+
+XXXX
+
+### Step 6: Your blind labels
+
+XXXX
+
+### Step 7: What SFT changed
+
+XXXX
+
+### Step 8: Your two reward logs
+
+XXXX
+
+### Step 9: Three models before grading, and your run folder
+
+XXXX
+
+### Step 10: Your review and the audit
+
+XXXX
+
+### Step 11: Whose preferences count
+
+XXXX (three parts: your five blind ratings and which side you think was the persona; your
+Step 4 table with an "Actual" column and two surprising rows; about 300 words on whose
+preferences count)
