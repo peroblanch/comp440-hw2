@@ -1,0 +1,60 @@
+{"key": "kcf85890", "correct": false, "extracted_answer": "none", "reason": "Never states the meaning 'two' for the prefix 'bi-'."}
+{"key": "ka17f36d", "correct": true, "extracted_answer": "18 holes", "reason": "States a round consists of 18 holes."}
+{"key": "k9ca7ce2", "correct": true, "extracted_answer": "soybean paste", "reason": "Describes miso as a type of soybean paste."}
+{"key": "kcc268fc", "correct": false, "extracted_answer": "New Zealand", "reason": "Commits to New Zealand instead of Greenland."}
+{"key": "kba7a875", "correct": false, "extracted_answer": "none", "reason": "Rambles without ever naming the Indian Ocean as the answer."}
+{"key": "kc263122", "correct": true, "extracted_answer": "Mount Everest", "reason": "Names Mount Everest with its height."}
+{"key": "kc87cede", "correct": false, "extracted_answer": "7 days", "reason": "Arithmetic concludes 7 days instead of the expected 8."}
+{"key": "k321f97b", "correct": true, "extracted_answer": "Zeus", "reason": "States Zeus is the King of the Gods."}
+{"key": "kc037d84", "correct": false, "extracted_answer": "none", "reason": "Describes gold's properties but never gives the symbol Au."}
+{"key": "k8174ff9", "correct": true, "extracted_answer": "206", "reason": "States the adult skeleton has 206 bones."}
+{"key": "k3c75edc", "correct": true, "extracted_answer": "Pacific Ocean", "reason": "States the Pacific Ocean is larger than any other."}
+{"key": "k6552695", "correct": true, "extracted_answer": "3600", "reason": "Gives the number 3600 directly."}
+{"key": "k5a2a0fd", "correct": true, "extracted_answer": "basil", "reason": "Lists basil as the common pesto ingredient."}
+{"key": "kf4e53fb", "correct": true, "extracted_answer": "The skin", "reason": "States the skin covers and protects the body."}
+{"key": "kf7d0622", "correct": true, "extracted_answer": "yolk", "reason": "States 'The yolk' first despite the confusing 'or white' addition."}
+{"key": "kf057bb4", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Mahatma Gandhi and the Salt March."}
+{"key": "kc765162", "correct": true, "extracted_answer": "225", "reason": "Gives 225 directly."}
+{"key": "kac166a5", "correct": true, "extracted_answer": "210", "reason": "Gives 210 directly."}
+{"key": "k108eed1", "correct": false, "extracted_answer": "5, 2, 4 syllables", "reason": "Describes an incorrect syllable pattern, contradicting the expected 5,7,5."}
+{"key": "kb1750c3", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Winston Churchill as the wartime PM."}
+{"key": "k01754d1", "correct": true, "extracted_answer": "Ottawa", "reason": "States the capital of Canada is Ottawa."}
+{"key": "k2206ae0", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "States the painting was created by Leonardo da Vinci."}
+{"key": "ke1dd42f", "correct": false, "extracted_answer": "Mount Rainier falls", "reason": "Names a waterfall at Mount Rainier instead of Angel Falls."}
+{"key": "ka2d9fa7", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang and the Terracotta Army."}
+{"key": "k28139dd", "correct": true, "extracted_answer": "France", "reason": "States the statue was donated by France."}
+{"key": "kb3c7258", "correct": true, "extracted_answer": "Inca Empire", "reason": "States the Inca Empire constructed Machu Picchu."}
+{"key": "k862586d", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "States the novel was written by Gabriel García Márquez."}
+{"key": "k61bd4a6", "correct": true, "extracted_answer": "$7.50", "reason": "Arithmetic concludes $7.50."}
+{"key": "k43692b0", "correct": false, "extracted_answer": "thunderclouds", "reason": "Defines thunderclouds instead of naming hail."}
+{"key": "k71e2716", "correct": true, "extracted_answer": "antonym", "reason": "States the word is 'antonym'."}
+{"key": "kb2ad067", "correct": true, "extracted_answer": "condensation", "reason": "States the process is condensation."}
+{"key": "k5773338", "correct": true, "extracted_answer": "6", "reason": "Gives 6 directly."}
+{"key": "k042a51f", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Credits Johannes Gutenberg with the invention."}
+{"key": "k0507a7f", "correct": true, "extracted_answer": "arteries", "reason": "States arteries carry blood away from the heart."}
+{"key": "kede0447", "correct": true, "extracted_answer": "South America", "reason": "States Argentina is a country in South America."}
+{"key": "k0f08bd2", "correct": true, "extracted_answer": "1914", "reason": "States the war was fought from 1914."}
+{"key": "k71eaac8", "correct": true, "extracted_answer": "7", "reason": "States each pair adds up to 7."}
+{"key": "k2151eaf", "correct": true, "extracted_answer": "Venus", "reason": "States Venus has the highest average surface temperature."}
+{"key": "k416e39a", "correct": true, "extracted_answer": "1789", "reason": "States the revolution began in 1789."}
+{"key": "k63e4e22", "correct": true, "extracted_answer": "28 square meters", "reason": "Calculates area as 28 square meters."}
+{"key": "k6634944", "correct": false, "extracted_answer": "none", "reason": "Lists three months without committing to a single shortest one."}
+{"key": "k5fb493b", "correct": true, "extracted_answer": "lava", "reason": "States molten rock erupted is called lava."}
+{"key": "ke8978d3", "correct": true, "extracted_answer": "seize the day", "reason": "States carpe diem translates to 'seize the day'."}
+{"key": "kfe36000", "correct": true, "extracted_answer": "Sputnik I", "reason": "Names Sputnik I as the first artificial satellite."}
+{"key": "k7db0588", "correct": true, "extracted_answer": "1024", "reason": "Gives 1024 directly."}
+{"key": "k5454841", "correct": true, "extracted_answer": "Tokyo", "reason": "Gives Tokyo directly."}
+{"key": "k1cf2d5e", "correct": true, "extracted_answer": "9", "reason": "Gives 9 directly."}
+{"key": "k4fb8be0", "correct": false, "extracted_answer": "none", "reason": "Discusses mice and rats generally but never states the plural word 'mice' as the answer."}
+{"key": "k315b053", "correct": true, "extracted_answer": "625", "reason": "Gives 625 directly."}
+{"key": "k63d4fc3", "correct": true, "extracted_answer": "Mayflower", "reason": "Names the Mayflower as the ship."}
+{"key": "kd294e03", "correct": true, "extracted_answer": "white blood cells", "reason": "States white blood cells defend against infection."}
+{"key": "kf86d675", "correct": false, "extracted_answer": "United States of America", "reason": "Names the United States instead of Russia."}
+{"key": "k3a0d342", "correct": false, "extracted_answer": "France", "reason": "Names France instead of Vatican City."}
+{"key": "kaac5246", "correct": true, "extracted_answer": "The Seine", "reason": "States the River Seine flows through Paris region."}
+{"key": "k62d8861", "correct": true, "extracted_answer": "The equator", "reason": "Gives 'The equator' directly."}
+{"key": "k4fccc96", "correct": false, "extracted_answer": "none", "reason": "Lists rivers including Volga but ends by questioning whether Danube is correct instead of committing."}
+{"key": "k87bae83", "correct": true, "extracted_answer": "366", "reason": "States there will be 366 days in a leap year."}
+{"key": "k94efd2b", "correct": true, "extracted_answer": "eight", "reason": "States a spider has eight legs."}
+{"key": "k68d85dd", "correct": true, "extracted_answer": "Charles Dickens", "reason": "States Scrooge is a creation by Charles Dickens."}
+{"key": "k8e7e36a", "correct": false, "extracted_answer": "unit of electric current", "reason": "Describes the unit of electric current, not resistance, and never says 'ohm'."}

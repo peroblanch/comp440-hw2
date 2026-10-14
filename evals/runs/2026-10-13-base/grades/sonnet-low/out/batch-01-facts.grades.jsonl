@@ -1,0 +1,60 @@
+{"key": "k805f34a", "correct": true, "extracted_answer": "green", "reason": "States 'a shade of green' which matches the expected answer."}
+{"key": "k6eb1bfb", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming as discoverer."}
+{"key": "k9181c33", "correct": true, "extracted_answer": "Ankara", "reason": "Answer is exactly Ankara."}
+{"key": "k332d5a3", "correct": true, "extracted_answer": "64", "reason": "States the number of squares is 64."}
+{"key": "k1483968", "correct": true, "extracted_answer": "56", "reason": "Answer is exactly 56."}
+{"key": "k52a86e5", "correct": true, "extracted_answer": "Spanish", "reason": "Refers to 'the original Spanish version' of the novel."}
+{"key": "k76c8eac", "correct": true, "extracted_answer": "The Milky Way", "reason": "Names the Milky Way Galaxy."}
+{"key": "k645d61c", "correct": false, "extracted_answer": "Giuseppe Verdi", "reason": "Names Verdi instead of the expected Vivaldi."}
+{"key": "kdcb6218", "correct": false, "extracted_answer": "none", "reason": "Gives confused dates about entry/surrender and never states 1945, ending with 'no'."}
+{"key": "kc6eb2b7", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "States the author is Chinua Achebe."}
+{"key": "kccef13c", "correct": true, "extracted_answer": "went", "reason": "States the past tense is 'went'."}
+{"key": "k3bfbc3a", "correct": false, "extracted_answer": "Hermann Hesse", "reason": "Credits Hermann Hesse instead of the expected Roald Amundsen."}
+{"key": "k93ff8dd", "correct": true, "extracted_answer": "pressure of the atmosphere", "reason": "States the pressure of the atmosphere is measured, matching expected answer."}
+{"key": "ke86f6f7", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Names The Nutcracker as the ballet."}
+{"key": "k4896096", "correct": false, "extracted_answer": "elephants", "reason": "Commits to elephants as the largest animal, mentioning blue whales only as an aside."}
+{"key": "kaa27381", "correct": false, "extracted_answer": "none", "reason": "Talks about Magellan's 1519 voyage instead of answering Columbus's 1492 arrival, ending with 'no'."}
+{"key": "k9560575", "correct": true, "extracted_answer": "46", "reason": "States the diploid number of 46 is found for humans."}
+{"key": "k5406f3c", "correct": true, "extracted_answer": "hydrogen", "reason": "Names hydrogen as the element, despite an incorrect historical detail."}
+{"key": "k7115010", "correct": false, "extracted_answer": "135", "reason": "Concludes with '135' instead of the expected $45."}
+{"key": "k1fd8d88", "correct": true, "extracted_answer": "chickpeas", "reason": "Lists chickpeas as the primary ingredient."}
+{"key": "k4d7e7d5", "correct": true, "extracted_answer": "thank you", "reason": "States 'gracias' means 'thank you'."}
+{"key": "kfb2ebc1", "correct": true, "extracted_answer": "16", "reason": "States there are 16 ounces in a pound."}
+{"key": "k5f7f1b2", "correct": true, "extracted_answer": "168", "reason": "Gives 168 and explains the arithmetic."}
+{"key": "k805e6ea", "correct": true, "extracted_answer": "32 °F", "reason": "States water freezes at 32 °F."}
+{"key": "k123fe8e", "correct": false, "extracted_answer": "United Kingdom", "reason": "Answers United Kingdom instead of Italy."}
+{"key": "kab56584", "correct": true, "extracted_answer": "German", "reason": "States kindergarten is derived from German."}
+{"key": "k975c9bd", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "Names the Ural Mountains as the range."}
+{"key": "k6e1474e", "correct": true, "extracted_answer": "Lake Superior", "reason": "States Lake Superior is the largest by surface area."}
+{"key": "kc89ca50", "correct": true, "extracted_answer": "13", "reason": "Answer is exactly 13."}
+{"key": "kfa28644", "correct": true, "extracted_answer": "Thomas Jefferson", "reason": "Names Thomas Jefferson first among the authors listed."}
+{"key": "k4d626d2", "correct": true, "extracted_answer": "honey", "reason": "Mentions bees store their honey, naming the expected food."}
+{"key": "k2b7e9af", "correct": false, "extracted_answer": "4-sided or 6-sided", "reason": "States stop signs are 4-sided or 6-sided instead of 8."}
+{"key": "kc3280e8", "correct": false, "extracted_answer": "penny", "reason": "States the penny/nickel is worth 10 cents, never naming the dime."}
+{"key": "k1ac2063", "correct": true, "extracted_answer": "Homer", "reason": "States Homer is the traditional author."}
+{"key": "k19ae5ca", "correct": false, "extracted_answer": "974", "reason": "Gives 974 instead of the expected 635."}
+{"key": "k588910b", "correct": true, "extracted_answer": "5280", "reason": "Opens with 5280 and later confirms 'one mile equals exactly 5,280 feet'."}
+{"key": "kfc50bd4", "correct": false, "extracted_answer": "none", "reason": "Lists femur, tibia and fibula together without committing to the femur as the longest."}
+{"key": "k0ed8886", "correct": false, "extracted_answer": "none", "reason": "Only mentions the Apollo 11 mission and date, never naming Neil Armstrong."}
+{"key": "ke9ad440", "correct": true, "extracted_answer": "6", "reason": "States a hexagon is a 6-sided polygon."}
+{"key": "k21f9e1c", "correct": true, "extracted_answer": "The bishop", "reason": "Names the bishop as the piece, despite an incorrect description of its movement."}
+{"key": "k31cd7bd", "correct": false, "extracted_answer": "Theodore Roosevelt", "reason": "Names Theodore Roosevelt instead of John Adams."}
+{"key": "k02dabfb", "correct": true, "extracted_answer": "nitrogen", "reason": "States nitrogen accounts for 78% of the atmosphere."}
+{"key": "k3bbbcb3", "correct": true, "extracted_answer": "carbon dioxide", "reason": "States plants take up carbon dioxide for photosynthesis."}
+{"key": "kca5a240", "correct": true, "extracted_answer": "52", "reason": "States a standard deck contains 52 cards."}
+{"key": "kc7e4954", "correct": true, "extracted_answer": "150 miles", "reason": "States the answer is 150 miles."}
+{"key": "ke0d35dd", "correct": true, "extracted_answer": "England", "reason": "States the Industrial Revolution began in England."}
+{"key": "k60549bd", "correct": false, "extracted_answer": "to have experienced something before", "reason": "Gives a general meaning rather than the literal translation 'already seen'."}
+{"key": "k6f0dfea", "correct": true, "extracted_answer": "5/8", "reason": "States 5/8 of the pizza remains."}
+{"key": "k266c95a", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "States the painting was created by Vincent van Gogh."}
+{"key": "kbd09913", "correct": false, "extracted_answer": "Sahara", "reason": "Names the Sahara, not Antarctica as required by the scoring note."}
+{"key": "k787893e", "correct": true, "extracted_answer": "1989", "reason": "States the wall fell on 9 October 1989."}
+{"key": "k81c679d", "correct": true, "extracted_answer": "nucleus", "reason": "Names the nucleus as the center of an atom."}
+{"key": "kb59a71a", "correct": false, "extracted_answer": "imitation", "reason": "Gives 'imitation' instead of the expected onomatopoeia."}
+{"key": "kf7ca822", "correct": true, "extracted_answer": "Egypt", "reason": "States the pyramid is located in Egypt."}
+{"key": "kf243873", "correct": true, "extracted_answer": "Saturn", "reason": "States Saturn has the largest ring system."}
+{"key": "k78ead26", "correct": true, "extracted_answer": "oak", "reason": "States the most common type is the oak."}
+{"key": "kb0599bb", "correct": true, "extracted_answer": "1991", "reason": "States the USSR was dissolved on 14 December 1991."}
+{"key": "k98db587", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "Identifies the Strait of Gibraltar as the narrow waterway."}
+{"key": "k528a381", "correct": true, "extracted_answer": "15", "reason": "States 15 eggs are needed for 5 cakes."}
+{"key": "ke183018", "correct": false, "extracted_answer": "none", "reason": "Talks about chlorophyll instead of naming Vitamin D."}
