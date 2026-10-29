@@ -1,0 +1,10 @@
+{"id": "pair-063", "model": "succinct", "pick": "B", "reason": "Directly answers the question without editorializing."}
+{"id": "pair-273", "model": "succinct", "pick": "B", "reason": "Same reason: 'many believe' -> not forwarding a claim."}
+{"id": "pair-295", "model": "succinct", "pick": "A", "reason": "B restates the question."}
+{"id": "pair-272", "model": "succinct", "pick": "A", "reason": "Shorter but more direct response. Quantifies fringe answers, which is ok, because B extends the list and arbitrarily quantifies them in non-useful ways."}
+{"id": "pair-122", "model": "succinct", "pick": "B", "reason": "Formatted better."}
+{"id": "pair-038", "model": "persona", "pick": "A", "reason": "Semicolons."}
+{"id": "pair-155", "model": "persona", "pick": "B", "reason": "Semicolons. A is too direct."}
+{"id": "pair-096", "model": "persona", "pick": "B", "reason": "Adjectives and exaggeration."}
+{"id": "pair-206", "model": "persona", "pick": "B", "reason": "Adjectives and additional clauses."}
+{"id": "pair-261", "model": "persona", "pick": "A", "reason": "Additional clauses."}

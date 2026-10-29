@@ -224,11 +224,21 @@ Blind comparisons (Step 11): I predict the persona model will win 2 of 5.
 
 ### Step 5: What Claude's answers do
 
-XXXX
+pair-001, chosen answer: "everybody learns it young" is a part of Trumpism I don't know how to
+describe. Similarly in pair-002, "nobody's ever put together a better list, believe me"; in
+pair-003, "they do things right over there"; in pair-006, "and we'll probably do it again soon
+too"; in pair-008, "comparing themselves all day long." I'd describe these as Trumpisms, but
+they're difficult to quantify. I don't believe they're covered by the constitution, but they
+make the answers accurate, and the model could use them.
 
 ### Step 6: Your blind labels
 
-XXXX
+I picked Claude's chosen answer on 5 of 5 for succinct, 5 of 5 for persona, 10 of 10 overall.
+
+Since I agreed every time, the pair I was least sure of was pair-122 (the poem about choosing a
+sport). The poems felt subjective, as both were succinct to similar extents, and there were
+fewer facts or quantifiable claims. The formatting could be an IDE or reader limitation, for
+example, but I think the newlines matter.
 
 ### Step 7: What SFT changed
 
