@@ -1,0 +1,15 @@
+{"key": "ka45bcfa", "correct": true, "extracted_answer": "B cells", "reason": "It answers \"B cells\", a specific kind of white blood cell, which is a more specific form of the expected answer."}
+{"key": "k236ee59", "correct": false, "extracted_answer": "none", "reason": "It says \"the Atlantic and the Pacific together\" and never commits to one ocean."}
+{"key": "k3ba33e3", "correct": false, "extracted_answer": "Two hundred and ten; 46 total", "reason": "It first says \"Two hundred and ten\" and then \"46 total\", giving conflicting answers."}
+{"key": "k963543b", "correct": false, "extracted_answer": "napa or soybean", "reason": "It says \"napa or soybean mold\", listing candidates without committing to soybeans."}
+{"key": "k653a5d8", "correct": false, "extracted_answer": "Red blood cells (and white blood cells)", "reason": "It first says \"Red blood cells ... help fight infections\" and then white blood cells, giving conflicting answers."}
+{"key": "k06092cf", "correct": false, "extracted_answer": "135", "reason": "Its final answer is \"135\", not $45."}
+{"key": "k1596e16", "correct": false, "extracted_answer": "elephants", "reason": "It says \"The largest animals alive today are elephants\" and mentions blue whales only in a list."}
+{"key": "k6957dea", "correct": true, "extracted_answer": "Six", "reason": "It opens with \"Six\", the expected answer; the later angle remark does not contradict it."}
+{"key": "k3e2ce4b", "correct": false, "extracted_answer": "gone, or went", "reason": "It says \"it's gone\" and then \"Or you could say 'went'... both work\", not committing to went."}
+{"key": "kf09e73e", "correct": false, "extracted_answer": "none", "reason": "It never states that the plural is \"mice\"; the word appears only in passing in examples."}
+{"key": "k1975233", "correct": false, "extracted_answer": "360 days", "reason": "It says \"A leap year has 360 days\" and then \"366 days\", giving conflicting answers."}
+{"key": "k7700349", "correct": false, "extracted_answer": "none", "reason": "It defines bicycle and bilingual but never says the prefix means two."}
+{"key": "k4aee379", "correct": false, "extracted_answer": "Snowflakes", "reason": "It answers \"Snowflakes\", not hail; hail appears only later as an aside."}
+{"key": "k21bbd4d", "correct": false, "extracted_answer": "a beech or nuttree tree", "reason": "It says acorns grow on \"a beech or nuttree tree\", with oak only as an aside."}
+{"key": "k658f4b5", "correct": true, "extracted_answer": "Lake Superior", "reason": "It says \"Lake Superior is the largest by volume and surface area.\""}

@@ -1,0 +1,9018 @@
+{
+ "format": "grade_tools manifest 1",
+ "created": "2026-10-29T05:12:16+00:00",
+ "grader": {
+  "via": "claude-code-subagent",
+  "id": "sonnet-low",
+  "agent": "eval-grader",
+  "model": "sonnet",
+  "effort": "low"
+ },
+ "seed": 440,
+ "batch_size": 60,
+ "paths_are_relative_to": "this folder",
+ "responses": [
+  "../../responses/base.jsonl",
+  "../../responses/persona.jsonl",
+  "../../responses/sft-persona.jsonl",
+  "../../responses/sft-succinct.jsonl",
+  "../../responses/succinct.jsonl"
+ ],
+ "items": [
+  "../../../../shared",
+  "../../../../mine"
+ ],
+ "models": [
+  "base",
+  "persona",
+  "sft-persona",
+  "sft-succinct",
+  "succinct"
+ ],
+ "counts": {
+  "facts": 600,
+  "user_says_something_wrong": 400,
+  "emotional_social": 250
+ },
+ "held_back_items": 0,
+ "keys": {
+  "kce64b16": {
+   "model": "succinct",
+   "id": "facts-039",
+   "family": "facts",
+   "new_tokens": 111
+  },
+  "k59d8602": {
+   "model": "succinct",
+   "id": "facts-019",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "k46602eb": {
+   "model": "sft-persona",
+   "id": "facts-110",
+   "family": "facts",
+   "new_tokens": 75
+  },
+  "k87145da": {
+   "model": "sft-persona",
+   "id": "facts-048",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "k3bfd895": {
+   "model": "persona",
+   "id": "facts-021",
+   "family": "facts",
+   "new_tokens": 81
+  },
+  "k0b7dc20": {
+   "model": "succinct",
+   "id": "facts-092",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "kccf857e": {
+   "model": "persona",
+   "id": "facts-036",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "k0e8f76c": {
+   "model": "sft-succinct",
+   "id": "facts-112",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k79fee9e": {
+   "model": "persona",
+   "id": "facts-056",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "k165dbbb": {
+   "model": "succinct",
+   "id": "facts-050",
+   "family": "facts",
+   "new_tokens": 98
+  },
+  "k073b5d3": {
+   "model": "sft-persona",
+   "id": "facts-095",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k703aa08": {
+   "model": "sft-succinct",
+   "id": "facts-075",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "k6b0ea0e": {
+   "model": "base",
+   "id": "facts-049",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kff7c2ad": {
+   "model": "base",
+   "id": "facts-051",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k0d01cfb": {
+   "model": "persona",
+   "id": "facts-050",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "kb3503ae": {
+   "model": "sft-succinct",
+   "id": "facts-002",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "k2360e2c": {
+   "model": "succinct",
+   "id": "facts-053",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k835591f": {
+   "model": "base",
+   "id": "facts-038",
+   "family": "facts",
+   "new_tokens": 3
+  },
+  "k0579925": {
+   "model": "sft-succinct",
+   "id": "facts-048",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "ka04ae5f": {
+   "model": "base",
+   "id": "facts-053",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "k020cb57": {
+   "model": "sft-succinct",
+   "id": "facts-009",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "kbede81d": {
+   "model": "sft-persona",
+   "id": "facts-091",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "k14ce6f3": {
+   "model": "sft-persona",
+   "id": "facts-051",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "ka9175a9": {
+   "model": "sft-succinct",
+   "id": "facts-060",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "k6e22778": {
+   "model": "base",
+   "id": "facts-021",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "ka4de562": {
+   "model": "sft-succinct",
+   "id": "facts-098",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "kd785e70": {
+   "model": "base",
+   "id": "facts-071",
+   "family": "facts",
+   "new_tokens": 4
+  },
+  "k7c548aa": {
+   "model": "succinct",
+   "id": "facts-104",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "kd056bad": {
+   "model": "sft-succinct",
+   "id": "facts-095",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "kdcc4a52": {
+   "model": "succinct",
+   "id": "facts-038",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "kfbdb687": {
+   "model": "sft-succinct",
+   "id": "facts-001",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "kfe34547": {
+   "model": "succinct",
+   "id": "facts-084",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "kbea7c94": {
+   "model": "sft-persona",
+   "id": "facts-100",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "kc94787a": {
+   "model": "base",
+   "id": "facts-024",
+   "family": "facts",
+   "new_tokens": 63
+  },
+  "kbd542f4": {
+   "model": "sft-succinct",
+   "id": "facts-088",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "keef65f0": {
+   "model": "persona",
+   "id": "facts-023",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k0a11fce": {
+   "model": "sft-persona",
+   "id": "facts-107",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "k66fea0a": {
+   "model": "succinct",
+   "id": "facts-034",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "kc0cde7e": {
+   "model": "succinct",
+   "id": "facts-113",
+   "family": "facts",
+   "new_tokens": 106
+  },
+  "k170b37a": {
+   "model": "sft-persona",
+   "id": "facts-013",
+   "family": "facts",
+   "new_tokens": 106
+  },
+  "k6f410f8": {
+   "model": "base",
+   "id": "facts-032",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k7a409ae": {
+   "model": "base",
+   "id": "facts-097",
+   "family": "facts",
+   "new_tokens": 16
+  },
+  "k108c704": {
+   "model": "sft-succinct",
+   "id": "facts-103",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k99d2dcd": {
+   "model": "succinct",
+   "id": "facts-055",
+   "family": "facts",
+   "new_tokens": 96
+  },
+  "k8bd6c4f": {
+   "model": "base",
+   "id": "facts-017",
+   "family": "facts",
+   "new_tokens": 80
+  },
+  "kd48a376": {
+   "model": "succinct",
+   "id": "facts-051",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kf5144a8": {
+   "model": "succinct",
+   "id": "facts-112",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "k28ead52": {
+   "model": "sft-persona",
+   "id": "facts-057",
+   "family": "facts",
+   "new_tokens": 74
+  },
+  "kfe2f4c8": {
+   "model": "base",
+   "id": "facts-046",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "k8c0f42c": {
+   "model": "sft-persona",
+   "id": "facts-043",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k40043a0": {
+   "model": "sft-persona",
+   "id": "facts-031",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "kd8945ea": {
+   "model": "succinct",
+   "id": "facts-007",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "k63cac5b": {
+   "model": "succinct",
+   "id": "facts-116",
+   "family": "facts",
+   "new_tokens": 75
+  },
+  "k8f911f4": {
+   "model": "sft-persona",
+   "id": "facts-025",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "kfa3c0be": {
+   "model": "sft-persona",
+   "id": "facts-119",
+   "family": "facts",
+   "new_tokens": 73
+  },
+  "ked66871": {
+   "model": "sft-succinct",
+   "id": "facts-064",
+   "family": "facts",
+   "new_tokens": 13
+  },
+  "k9442aa2": {
+   "model": "base",
+   "id": "facts-076",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "ka7cb9c8": {
+   "model": "base",
+   "id": "facts-083",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k8705c9b": {
+   "model": "sft-persona",
+   "id": "facts-034",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "k7f0cda2": {
+   "model": "base",
+   "id": "facts-079",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kbb33923": {
+   "model": "sft-succinct",
+   "id": "facts-046",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k92ceff0": {
+   "model": "persona",
+   "id": "facts-027",
+   "family": "facts",
+   "new_tokens": 70
+  },
+  "ka4b4f0b": {
+   "model": "succinct",
+   "id": "facts-094",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k2cbc168": {
+   "model": "base",
+   "id": "facts-015",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "kf1e8f90": {
+   "model": "persona",
+   "id": "facts-079",
+   "family": "facts",
+   "new_tokens": 63
+  },
+  "k99f68a6": {
+   "model": "succinct",
+   "id": "facts-102",
+   "family": "facts",
+   "new_tokens": 68
+  },
+  "k21c6d3a": {
+   "model": "sft-succinct",
+   "id": "facts-023",
+   "family": "facts",
+   "new_tokens": 17
+  },
+  "k96bbd61": {
+   "model": "base",
+   "id": "facts-013",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "ke68eb22": {
+   "model": "sft-persona",
+   "id": "facts-050",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k1b23f42": {
+   "model": "sft-succinct",
+   "id": "facts-026",
+   "family": "facts",
+   "new_tokens": 82
+  },
+  "k556c9ff": {
+   "model": "sft-succinct",
+   "id": "facts-044",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "ka18bae9": {
+   "model": "sft-persona",
+   "id": "facts-061",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "kdd8ce72": {
+   "model": "persona",
+   "id": "facts-016",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k795c019": {
+   "model": "persona",
+   "id": "facts-004",
+   "family": "facts",
+   "new_tokens": 97
+  },
+  "k63e5351": {
+   "model": "succinct",
+   "id": "facts-031",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k8ac08ea": {
+   "model": "succinct",
+   "id": "facts-036",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k3aaf6d0": {
+   "model": "sft-persona",
+   "id": "facts-106",
+   "family": "facts",
+   "new_tokens": 90
+  },
+  "kcd35634": {
+   "model": "base",
+   "id": "facts-113",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k6b2baf9": {
+   "model": "sft-succinct",
+   "id": "facts-113",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "kda907fe": {
+   "model": "base",
+   "id": "facts-093",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "kf9cdb4c": {
+   "model": "sft-persona",
+   "id": "facts-104",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "kf231d21": {
+   "model": "base",
+   "id": "facts-080",
+   "family": "facts",
+   "new_tokens": 4
+  },
+  "kb3c9e64": {
+   "model": "sft-succinct",
+   "id": "facts-085",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "k372259e": {
+   "model": "base",
+   "id": "facts-059",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "ke6cc02c": {
+   "model": "sft-succinct",
+   "id": "facts-015",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "ka70fabd": {
+   "model": "sft-succinct",
+   "id": "facts-018",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "k593375b": {
+   "model": "persona",
+   "id": "facts-032",
+   "family": "facts",
+   "new_tokens": 51
+  },
+  "kf1dd6ad": {
+   "model": "base",
+   "id": "facts-115",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "kdde75fb": {
+   "model": "succinct",
+   "id": "facts-002",
+   "family": "facts",
+   "new_tokens": 94
+  },
+  "k8d65b9c": {
+   "model": "succinct",
+   "id": "facts-056",
+   "family": "facts",
+   "new_tokens": 88
+  },
+  "kbfcc70f": {
+   "model": "sft-succinct",
+   "id": "facts-107",
+   "family": "facts",
+   "new_tokens": 29
+  },
+  "k45f05eb": {
+   "model": "succinct",
+   "id": "facts-108",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "k31c03b1": {
+   "model": "persona",
+   "id": "facts-106",
+   "family": "facts",
+   "new_tokens": 86
+  },
+  "kdfe7bb4": {
+   "model": "sft-persona",
+   "id": "facts-072",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "kbebfe62": {
+   "model": "base",
+   "id": "facts-086",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k56f1f0b": {
+   "model": "succinct",
+   "id": "facts-027",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k4872778": {
+   "model": "sft-persona",
+   "id": "facts-049",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "k2b23851": {
+   "model": "succinct",
+   "id": "facts-063",
+   "family": "facts",
+   "new_tokens": 101
+  },
+  "k4e99d6d": {
+   "model": "sft-persona",
+   "id": "facts-028",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k1434054": {
+   "model": "base",
+   "id": "facts-110",
+   "family": "facts",
+   "new_tokens": 57
+  },
+  "kcd62f73": {
+   "model": "sft-succinct",
+   "id": "facts-116",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k85540ff": {
+   "model": "base",
+   "id": "facts-106",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "kf4b0e95": {
+   "model": "succinct",
+   "id": "facts-118",
+   "family": "facts",
+   "new_tokens": 87
+  },
+  "kad69403": {
+   "model": "sft-persona",
+   "id": "facts-041",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "kf6a9333": {
+   "model": "base",
+   "id": "facts-096",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "k7ed6050": {
+   "model": "succinct",
+   "id": "facts-032",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "k90f83d6": {
+   "model": "sft-succinct",
+   "id": "facts-055",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "k117b2bd": {
+   "model": "succinct",
+   "id": "facts-028",
+   "family": "facts",
+   "new_tokens": 66
+  },
+  "k7b9c0c8": {
+   "model": "base",
+   "id": "facts-088",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k88ebb0e": {
+   "model": "sft-persona",
+   "id": "facts-062",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k26d2802": {
+   "model": "base",
+   "id": "facts-070",
+   "family": "facts",
+   "new_tokens": 104
+  },
+  "k2848db2": {
+   "model": "base",
+   "id": "facts-094",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "kcfbff1c": {
+   "model": "persona",
+   "id": "facts-084",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "kf8822b1": {
+   "model": "sft-succinct",
+   "id": "facts-089",
+   "family": "facts",
+   "new_tokens": 9
+  },
+  "k6f51533": {
+   "model": "base",
+   "id": "facts-050",
+   "family": "facts",
+   "new_tokens": 72
+  },
+  "k0702968": {
+   "model": "succinct",
+   "id": "facts-045",
+   "family": "facts",
+   "new_tokens": 57
+  },
+  "k78a611b": {
+   "model": "sft-persona",
+   "id": "facts-015",
+   "family": "facts",
+   "new_tokens": 29
+  },
+  "k75d8751": {
+   "model": "sft-persona",
+   "id": "facts-047",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "kd83c96c": {
+   "model": "persona",
+   "id": "facts-034",
+   "family": "facts",
+   "new_tokens": 96
+  },
+  "k549c51f": {
+   "model": "sft-persona",
+   "id": "facts-070",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "k1279c9c": {
+   "model": "base",
+   "id": "facts-040",
+   "family": "facts",
+   "new_tokens": 66
+  },
+  "k7240adf": {
+   "model": "sft-succinct",
+   "id": "facts-011",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "ka4e1f4d": {
+   "model": "persona",
+   "id": "facts-038",
+   "family": "facts",
+   "new_tokens": 70
+  },
+  "kf9af716": {
+   "model": "persona",
+   "id": "facts-028",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "k8c2fd82": {
+   "model": "persona",
+   "id": "facts-047",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k646a593": {
+   "model": "persona",
+   "id": "facts-067",
+   "family": "facts",
+   "new_tokens": 72
+  },
+  "k8c1d07c": {
+   "model": "persona",
+   "id": "facts-025",
+   "family": "facts",
+   "new_tokens": 63
+  },
+  "k804c4b0": {
+   "model": "sft-succinct",
+   "id": "facts-115",
+   "family": "facts",
+   "new_tokens": 19
+  },
+  "k9350b35": {
+   "model": "persona",
+   "id": "facts-042",
+   "family": "facts",
+   "new_tokens": 92
+  },
+  "kc824035": {
+   "model": "sft-succinct",
+   "id": "facts-024",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "kd10ec69": {
+   "model": "succinct",
+   "id": "facts-106",
+   "family": "facts",
+   "new_tokens": 89
+  },
+  "ke59caa1": {
+   "model": "succinct",
+   "id": "facts-047",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "k5609772": {
+   "model": "succinct",
+   "id": "facts-048",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "kac9a898": {
+   "model": "persona",
+   "id": "facts-010",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "k37187de": {
+   "model": "succinct",
+   "id": "facts-083",
+   "family": "facts",
+   "new_tokens": 63
+  },
+  "k59ab0ce": {
+   "model": "persona",
+   "id": "facts-098",
+   "family": "facts",
+   "new_tokens": 68
+  },
+  "k03bcecf": {
+   "model": "sft-persona",
+   "id": "facts-097",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "ke1e22a2": {
+   "model": "persona",
+   "id": "facts-048",
+   "family": "facts",
+   "new_tokens": 86
+  },
+  "kc93532e": {
+   "model": "sft-persona",
+   "id": "facts-026",
+   "family": "facts",
+   "new_tokens": 106
+  },
+  "k8fe508d": {
+   "model": "persona",
+   "id": "facts-116",
+   "family": "facts",
+   "new_tokens": 77
+  },
+  "kbd0fd87": {
+   "model": "sft-persona",
+   "id": "facts-099",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "kb42b559": {
+   "model": "persona",
+   "id": "facts-117",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "ke317fac": {
+   "model": "succinct",
+   "id": "facts-115",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k7891dc4": {
+   "model": "sft-succinct",
+   "id": "facts-043",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "kb483e4e": {
+   "model": "base",
+   "id": "facts-092",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kcf9a6f6": {
+   "model": "sft-succinct",
+   "id": "facts-067",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "ke40d355": {
+   "model": "sft-succinct",
+   "id": "facts-065",
+   "family": "facts",
+   "new_tokens": 24
+  },
+  "kfa63fad": {
+   "model": "persona",
+   "id": "facts-089",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "ka252017": {
+   "model": "sft-succinct",
+   "id": "facts-028",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k5c574db": {
+   "model": "persona",
+   "id": "facts-068",
+   "family": "facts",
+   "new_tokens": 68
+  },
+  "k91545d1": {
+   "model": "sft-succinct",
+   "id": "facts-030",
+   "family": "facts",
+   "new_tokens": 20
+  },
+  "k5e60d1f": {
+   "model": "sft-persona",
+   "id": "facts-030",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "k17bd2c9": {
+   "model": "sft-persona",
+   "id": "facts-084",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "kc308cd6": {
+   "model": "persona",
+   "id": "facts-059",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "k21308f4": {
+   "model": "persona",
+   "id": "facts-033",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "k1a60163": {
+   "model": "base",
+   "id": "facts-055",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k76c6505": {
+   "model": "sft-succinct",
+   "id": "facts-017",
+   "family": "facts",
+   "new_tokens": 26
+  },
+  "k3200639": {
+   "model": "sft-succinct",
+   "id": "facts-080",
+   "family": "facts",
+   "new_tokens": 11
+  },
+  "k04a470f": {
+   "model": "succinct",
+   "id": "facts-003",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "k608b7cd": {
+   "model": "persona",
+   "id": "facts-012",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k59e79e9": {
+   "model": "succinct",
+   "id": "facts-021",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k9e7ac70": {
+   "model": "persona",
+   "id": "facts-115",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k43363b4": {
+   "model": "succinct",
+   "id": "facts-052",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "kdcd507d": {
+   "model": "base",
+   "id": "facts-020",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "k2bdf1ef": {
+   "model": "succinct",
+   "id": "facts-004",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "k628e5bd": {
+   "model": "base",
+   "id": "facts-012",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "ka054bb1": {
+   "model": "base",
+   "id": "facts-039",
+   "family": "facts",
+   "new_tokens": 70
+  },
+  "k1c93fc9": {
+   "model": "sft-succinct",
+   "id": "facts-111",
+   "family": "facts",
+   "new_tokens": 24
+  },
+  "ke7b6ea8": {
+   "model": "persona",
+   "id": "facts-060",
+   "family": "facts",
+   "new_tokens": 72
+  },
+  "k320309b": {
+   "model": "sft-persona",
+   "id": "facts-114",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "ka5cce3f": {
+   "model": "succinct",
+   "id": "facts-026",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "k15eed4c": {
+   "model": "base",
+   "id": "facts-048",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "k49ea776": {
+   "model": "persona",
+   "id": "facts-109",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k1817c09": {
+   "model": "persona",
+   "id": "facts-077",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k3199cb7": {
+   "model": "sft-succinct",
+   "id": "facts-053",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k877f2a1": {
+   "model": "sft-persona",
+   "id": "facts-016",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "k5412c34": {
+   "model": "persona",
+   "id": "facts-052",
+   "family": "facts",
+   "new_tokens": 67
+  },
+  "k5fd65ab": {
+   "model": "sft-succinct",
+   "id": "facts-106",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k19c1dbd": {
+   "model": "succinct",
+   "id": "facts-087",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k80ff15a": {
+   "model": "sft-persona",
+   "id": "facts-018",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "k1c89dff": {
+   "model": "sft-persona",
+   "id": "facts-098",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k9def533": {
+   "model": "persona",
+   "id": "facts-031",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "k47885af": {
+   "model": "base",
+   "id": "facts-036",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k4774b84": {
+   "model": "sft-succinct",
+   "id": "facts-083",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k62cb81c": {
+   "model": "base",
+   "id": "facts-016",
+   "family": "facts",
+   "new_tokens": 104
+  },
+  "ka065fc9": {
+   "model": "sft-succinct",
+   "id": "facts-033",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "kde17969": {
+   "model": "base",
+   "id": "facts-004",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "k3843381": {
+   "model": "persona",
+   "id": "facts-054",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "k31ae27e": {
+   "model": "succinct",
+   "id": "facts-060",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "ka8a5acd": {
+   "model": "succinct",
+   "id": "facts-070",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k10db339": {
+   "model": "base",
+   "id": "facts-098",
+   "family": "facts",
+   "new_tokens": 74
+  },
+  "kcf4efb6": {
+   "model": "base",
+   "id": "facts-044",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k6c05841": {
+   "model": "sft-succinct",
+   "id": "facts-078",
+   "family": "facts",
+   "new_tokens": 15
+  },
+  "kd4371a1": {
+   "model": "succinct",
+   "id": "facts-077",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k199fbf4": {
+   "model": "base",
+   "id": "facts-057",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k4387f1d": {
+   "model": "succinct",
+   "id": "facts-049",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k93c940b": {
+   "model": "sft-persona",
+   "id": "facts-039",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k0c5da18": {
+   "model": "base",
+   "id": "facts-061",
+   "family": "facts",
+   "new_tokens": 3
+  },
+  "kd5a8048": {
+   "model": "sft-persona",
+   "id": "facts-003",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "kd01fc91": {
+   "model": "base",
+   "id": "facts-107",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "k4bcd249": {
+   "model": "persona",
+   "id": "facts-097",
+   "family": "facts",
+   "new_tokens": 82
+  },
+  "k09ffca4": {
+   "model": "sft-succinct",
+   "id": "facts-016",
+   "family": "facts",
+   "new_tokens": 22
+  },
+  "k288a961": {
+   "model": "persona",
+   "id": "facts-029",
+   "family": "facts",
+   "new_tokens": 77
+  },
+  "k9cb4db8": {
+   "model": "persona",
+   "id": "facts-092",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k09088d4": {
+   "model": "sft-persona",
+   "id": "facts-065",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "ke7f857a": {
+   "model": "succinct",
+   "id": "facts-066",
+   "family": "facts",
+   "new_tokens": 119
+  },
+  "k82cc4e5": {
+   "model": "base",
+   "id": "facts-082",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "kf4c24e3": {
+   "model": "sft-succinct",
+   "id": "facts-087",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "k022f7cc": {
+   "model": "persona",
+   "id": "facts-110",
+   "family": "facts",
+   "new_tokens": 92
+  },
+  "kf81e69c": {
+   "model": "persona",
+   "id": "facts-039",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "kcdaabdc": {
+   "model": "base",
+   "id": "facts-108",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kee27fb5": {
+   "model": "base",
+   "id": "facts-072",
+   "family": "facts",
+   "new_tokens": 4
+  },
+  "k2821984": {
+   "model": "sft-succinct",
+   "id": "facts-035",
+   "family": "facts",
+   "new_tokens": 26
+  },
+  "kf07a019": {
+   "model": "base",
+   "id": "facts-091",
+   "family": "facts",
+   "new_tokens": 66
+  },
+  "k30f4634": {
+   "model": "succinct",
+   "id": "facts-024",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "k09153de": {
+   "model": "succinct",
+   "id": "facts-013",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "kdf78b13": {
+   "model": "persona",
+   "id": "facts-041",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "k58edc03": {
+   "model": "succinct",
+   "id": "facts-107",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "kd4e3d15": {
+   "model": "succinct",
+   "id": "facts-093",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k9cc614d": {
+   "model": "persona",
+   "id": "facts-112",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k8d713f3": {
+   "model": "sft-succinct",
+   "id": "facts-119",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k39d11ab": {
+   "model": "sft-persona",
+   "id": "facts-054",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k0db2492": {
+   "model": "sft-succinct",
+   "id": "facts-006",
+   "family": "facts",
+   "new_tokens": 26
+  },
+  "k894106d": {
+   "model": "base",
+   "id": "facts-019",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "kea54347": {
+   "model": "sft-persona",
+   "id": "facts-040",
+   "family": "facts",
+   "new_tokens": 80
+  },
+  "kd995f46": {
+   "model": "sft-succinct",
+   "id": "facts-096",
+   "family": "facts",
+   "new_tokens": 21
+  },
+  "k04f39f6": {
+   "model": "base",
+   "id": "facts-045",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k5597c1a": {
+   "model": "sft-succinct",
+   "id": "facts-036",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "kf442785": {
+   "model": "sft-succinct",
+   "id": "facts-005",
+   "family": "facts",
+   "new_tokens": 15
+  },
+  "k0268c44": {
+   "model": "succinct",
+   "id": "facts-079",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k8226aaa": {
+   "model": "sft-succinct",
+   "id": "facts-069",
+   "family": "facts",
+   "new_tokens": 11
+  },
+  "kf82a4f8": {
+   "model": "sft-persona",
+   "id": "facts-108",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "k844ded4": {
+   "model": "sft-persona",
+   "id": "facts-089",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k164fd95": {
+   "model": "persona",
+   "id": "facts-045",
+   "family": "facts",
+   "new_tokens": 83
+  },
+  "k6d28213": {
+   "model": "sft-succinct",
+   "id": "facts-071",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "k2a74a55": {
+   "model": "sft-persona",
+   "id": "facts-068",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "kbf8c144": {
+   "model": "base",
+   "id": "facts-005",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k3c28c75": {
+   "model": "succinct",
+   "id": "facts-015",
+   "family": "facts",
+   "new_tokens": 73
+  },
+  "kd033149": {
+   "model": "succinct",
+   "id": "facts-098",
+   "family": "facts",
+   "new_tokens": 85
+  },
+  "kc40cfc4": {
+   "model": "sft-succinct",
+   "id": "facts-027",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "ke5024ab": {
+   "model": "base",
+   "id": "facts-090",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k35d1d33": {
+   "model": "succinct",
+   "id": "facts-001",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "k70ccd7a": {
+   "model": "base",
+   "id": "facts-118",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "k37cfbfd": {
+   "model": "persona",
+   "id": "facts-003",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "kf51482a": {
+   "model": "sft-persona",
+   "id": "facts-087",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k435708a": {
+   "model": "sft-succinct",
+   "id": "facts-054",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "ka36dde1": {
+   "model": "persona",
+   "id": "facts-014",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "kba6afc2": {
+   "model": "succinct",
+   "id": "facts-090",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k7723852": {
+   "model": "base",
+   "id": "facts-119",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k04fdd4a": {
+   "model": "succinct",
+   "id": "facts-076",
+   "family": "facts",
+   "new_tokens": 107
+  },
+  "ke5585f1": {
+   "model": "sft-persona",
+   "id": "facts-085",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "k4edd90b": {
+   "model": "persona",
+   "id": "facts-074",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "k10c1c58": {
+   "model": "base",
+   "id": "facts-095",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "k3852b21": {
+   "model": "succinct",
+   "id": "facts-011",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "k8d2f7fd": {
+   "model": "succinct",
+   "id": "facts-040",
+   "family": "facts",
+   "new_tokens": 101
+  },
+  "ka5eea46": {
+   "model": "base",
+   "id": "facts-001",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k9a4eb39": {
+   "model": "sft-persona",
+   "id": "facts-005",
+   "family": "facts",
+   "new_tokens": 65
+  },
+  "k271a7d6": {
+   "model": "persona",
+   "id": "facts-091",
+   "family": "facts",
+   "new_tokens": 74
+  },
+  "k58aef99": {
+   "model": "sft-persona",
+   "id": "facts-008",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "kf9407a2": {
+   "model": "sft-persona",
+   "id": "facts-010",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "k907aa37": {
+   "model": "sft-succinct",
+   "id": "facts-094",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "kd16ca95": {
+   "model": "sft-succinct",
+   "id": "facts-022",
+   "family": "facts",
+   "new_tokens": 24
+  },
+  "ke83361e": {
+   "model": "persona",
+   "id": "facts-002",
+   "family": "facts",
+   "new_tokens": 69
+  },
+  "ka310d3d": {
+   "model": "succinct",
+   "id": "facts-082",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "kc831a3c": {
+   "model": "base",
+   "id": "facts-010",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "kca8b1bd": {
+   "model": "sft-succinct",
+   "id": "facts-037",
+   "family": "facts",
+   "new_tokens": 20
+  },
+  "ka0651d8": {
+   "model": "sft-succinct",
+   "id": "facts-003",
+   "family": "facts",
+   "new_tokens": 8
+  },
+  "k85b879e": {
+   "model": "sft-persona",
+   "id": "facts-023",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "k6fcebb9": {
+   "model": "succinct",
+   "id": "facts-054",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "kde93ab2": {
+   "model": "sft-succinct",
+   "id": "facts-074",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k0a492ed": {
+   "model": "sft-persona",
+   "id": "facts-080",
+   "family": "facts",
+   "new_tokens": 19
+  },
+  "k3bf8272": {
+   "model": "sft-persona",
+   "id": "facts-011",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "kb869512": {
+   "model": "sft-succinct",
+   "id": "facts-058",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "kfbea41e": {
+   "model": "succinct",
+   "id": "facts-064",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "kf197884": {
+   "model": "sft-persona",
+   "id": "facts-071",
+   "family": "facts",
+   "new_tokens": 29
+  },
+  "kd54b4fd": {
+   "model": "succinct",
+   "id": "facts-114",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "ke49f6c5": {
+   "model": "base",
+   "id": "facts-075",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "k4c46619": {
+   "model": "sft-persona",
+   "id": "facts-053",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "k415e2f0": {
+   "model": "sft-persona",
+   "id": "facts-007",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "kdc70ae8": {
+   "model": "sft-persona",
+   "id": "facts-033",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k6c6f77e": {
+   "model": "base",
+   "id": "facts-063",
+   "family": "facts",
+   "new_tokens": 10
+  },
+  "kaa3ac7c": {
+   "model": "base",
+   "id": "facts-089",
+   "family": "facts",
+   "new_tokens": 15
+  },
+  "k8bb35c3": {
+   "model": "base",
+   "id": "facts-078",
+   "family": "facts",
+   "new_tokens": 5
+  },
+  "k4b79d97": {
+   "model": "sft-succinct",
+   "id": "facts-008",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k17b9264": {
+   "model": "base",
+   "id": "facts-105",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "k7ee8155": {
+   "model": "persona",
+   "id": "facts-111",
+   "family": "facts",
+   "new_tokens": 77
+  },
+  "kc3486a6": {
+   "model": "sft-succinct",
+   "id": "facts-114",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k9ecf039": {
+   "model": "persona",
+   "id": "facts-020",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "k7ea311c": {
+   "model": "base",
+   "id": "facts-043",
+   "family": "facts",
+   "new_tokens": 51
+  },
+  "k2b8c561": {
+   "model": "persona",
+   "id": "facts-044",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "k939e6f1": {
+   "model": "persona",
+   "id": "facts-057",
+   "family": "facts",
+   "new_tokens": 93
+  },
+  "kb204001": {
+   "model": "persona",
+   "id": "facts-070",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k658e27e": {
+   "model": "sft-persona",
+   "id": "facts-078",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k048cb71": {
+   "model": "base",
+   "id": "facts-029",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k8f3ebcb": {
+   "model": "persona",
+   "id": "facts-051",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "kdffafd4": {
+   "model": "persona",
+   "id": "facts-095",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "kb90eb9e": {
+   "model": "base",
+   "id": "facts-023",
+   "family": "facts",
+   "new_tokens": 1
+  },
+  "k229fbce": {
+   "model": "base",
+   "id": "facts-027",
+   "family": "facts",
+   "new_tokens": 8
+  },
+  "k98413ba": {
+   "model": "sft-succinct",
+   "id": "facts-120",
+   "family": "facts",
+   "new_tokens": 24
+  },
+  "ka2ca4fc": {
+   "model": "sft-persona",
+   "id": "facts-024",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k00456fe": {
+   "model": "base",
+   "id": "facts-074",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k30bb895": {
+   "model": "base",
+   "id": "facts-065",
+   "family": "facts",
+   "new_tokens": 76
+  },
+  "k264ffee": {
+   "model": "persona",
+   "id": "facts-066",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k44fdbb0": {
+   "model": "sft-succinct",
+   "id": "facts-061",
+   "family": "facts",
+   "new_tokens": 7
+  },
+  "k8227a10": {
+   "model": "persona",
+   "id": "facts-030",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "kd03ca9d": {
+   "model": "succinct",
+   "id": "facts-075",
+   "family": "facts",
+   "new_tokens": 17
+  },
+  "kc7047cf": {
+   "model": "succinct",
+   "id": "facts-086",
+   "family": "facts",
+   "new_tokens": 73
+  },
+  "k8f4af59": {
+   "model": "sft-succinct",
+   "id": "facts-068",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "k8be86fa": {
+   "model": "base",
+   "id": "facts-033",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "kd31d24f": {
+   "model": "succinct",
+   "id": "facts-080",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "kd08c5f2": {
+   "model": "sft-persona",
+   "id": "facts-111",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "k8df7765": {
+   "model": "sft-persona",
+   "id": "facts-090",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "kf58fd3f": {
+   "model": "sft-persona",
+   "id": "facts-046",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k9ff76b1": {
+   "model": "succinct",
+   "id": "facts-074",
+   "family": "facts",
+   "new_tokens": 102
+  },
+  "k26c35fb": {
+   "model": "persona",
+   "id": "facts-088",
+   "family": "facts",
+   "new_tokens": 86
+  },
+  "k3225193": {
+   "model": "sft-persona",
+   "id": "facts-117",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "k46b32a6": {
+   "model": "succinct",
+   "id": "facts-012",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "ked31c89": {
+   "model": "sft-persona",
+   "id": "facts-073",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "kecfd557": {
+   "model": "sft-persona",
+   "id": "facts-022",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k7920a5a": {
+   "model": "succinct",
+   "id": "facts-057",
+   "family": "facts",
+   "new_tokens": 57
+  },
+  "kb745efa": {
+   "model": "succinct",
+   "id": "facts-059",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "kfa25505": {
+   "model": "persona",
+   "id": "facts-053",
+   "family": "facts",
+   "new_tokens": 76
+  },
+  "k9060555": {
+   "model": "base",
+   "id": "facts-041",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "k8a88215": {
+   "model": "succinct",
+   "id": "facts-006",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k7644ec3": {
+   "model": "sft-succinct",
+   "id": "facts-118",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "k7387dee": {
+   "model": "succinct",
+   "id": "facts-016",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kcec85d6": {
+   "model": "sft-succinct",
+   "id": "facts-097",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "k013d2a5": {
+   "model": "sft-persona",
+   "id": "facts-004",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "k3311552": {
+   "model": "succinct",
+   "id": "facts-010",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "kb3ed906": {
+   "model": "persona",
+   "id": "facts-100",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "kf2734d8": {
+   "model": "succinct",
+   "id": "facts-017",
+   "family": "facts",
+   "new_tokens": 46
+  },
+  "ka73472c": {
+   "model": "sft-succinct",
+   "id": "facts-110",
+   "family": "facts",
+   "new_tokens": 26
+  },
+  "k624c2ee": {
+   "model": "sft-persona",
+   "id": "facts-093",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k28e5511": {
+   "model": "succinct",
+   "id": "facts-096",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k9e4b039": {
+   "model": "succinct",
+   "id": "facts-099",
+   "family": "facts",
+   "new_tokens": 83
+  },
+  "ka48da8a": {
+   "model": "sft-succinct",
+   "id": "facts-021",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k36a8672": {
+   "model": "succinct",
+   "id": "facts-081",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "kd651cb3": {
+   "model": "sft-succinct",
+   "id": "facts-101",
+   "family": "facts",
+   "new_tokens": 17
+  },
+  "k8b4001b": {
+   "model": "persona",
+   "id": "facts-005",
+   "family": "facts",
+   "new_tokens": 84
+  },
+  "k9142fa0": {
+   "model": "sft-persona",
+   "id": "facts-042",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kc41248a": {
+   "model": "succinct",
+   "id": "facts-023",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k9b7c5e8": {
+   "model": "base",
+   "id": "facts-047",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k50c0ae0": {
+   "model": "succinct",
+   "id": "facts-029",
+   "family": "facts",
+   "new_tokens": 104
+  },
+  "k06f83e4": {
+   "model": "sft-persona",
+   "id": "facts-112",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k95ec208": {
+   "model": "sft-succinct",
+   "id": "facts-034",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "ka862da0": {
+   "model": "base",
+   "id": "facts-104",
+   "family": "facts",
+   "new_tokens": 89
+  },
+  "kd2bf007": {
+   "model": "base",
+   "id": "facts-056",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k1754aff": {
+   "model": "sft-persona",
+   "id": "facts-077",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k1fec0b0": {
+   "model": "base",
+   "id": "facts-014",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kf68e33f": {
+   "model": "persona",
+   "id": "facts-114",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "k5fe8ecc": {
+   "model": "persona",
+   "id": "facts-082",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k8e14de0": {
+   "model": "base",
+   "id": "facts-116",
+   "family": "facts",
+   "new_tokens": 88
+  },
+  "k79c1094": {
+   "model": "base",
+   "id": "facts-066",
+   "family": "facts",
+   "new_tokens": 3
+  },
+  "kfbdf549": {
+   "model": "sft-succinct",
+   "id": "facts-012",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "k186dbc7": {
+   "model": "persona",
+   "id": "facts-065",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "kd33c8f7": {
+   "model": "base",
+   "id": "facts-060",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "ka8de10e": {
+   "model": "succinct",
+   "id": "facts-072",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "ka592321": {
+   "model": "succinct",
+   "id": "facts-101",
+   "family": "facts",
+   "new_tokens": 117
+  },
+  "k9756355": {
+   "model": "sft-persona",
+   "id": "facts-109",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k8a22450": {
+   "model": "sft-succinct",
+   "id": "facts-104",
+   "family": "facts",
+   "new_tokens": 24
+  },
+  "kd11da54": {
+   "model": "base",
+   "id": "facts-114",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "kef2ed24": {
+   "model": "sft-succinct",
+   "id": "facts-093",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k09474e0": {
+   "model": "sft-succinct",
+   "id": "facts-091",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k6b762d4": {
+   "model": "succinct",
+   "id": "facts-037",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "k31d7bf9": {
+   "model": "sft-succinct",
+   "id": "facts-010",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k64c6f6e": {
+   "model": "base",
+   "id": "facts-111",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "k37ee956": {
+   "model": "sft-succinct",
+   "id": "facts-079",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "k057fe6d": {
+   "model": "sft-persona",
+   "id": "facts-092",
+   "family": "facts",
+   "new_tokens": 97
+  },
+  "kf16f394": {
+   "model": "sft-succinct",
+   "id": "facts-072",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "k4a2b303": {
+   "model": "sft-persona",
+   "id": "facts-067",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "kfec167b": {
+   "model": "sft-persona",
+   "id": "facts-088",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "k1d24fcc": {
+   "model": "sft-persona",
+   "id": "facts-082",
+   "family": "facts",
+   "new_tokens": 73
+  },
+  "ka8d9e78": {
+   "model": "persona",
+   "id": "facts-007",
+   "family": "facts",
+   "new_tokens": 76
+  },
+  "k03e745d": {
+   "model": "persona",
+   "id": "facts-013",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "k0eea0d8": {
+   "model": "sft-succinct",
+   "id": "facts-059",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "kd65e6b6": {
+   "model": "persona",
+   "id": "facts-006",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "k631f7d4": {
+   "model": "sft-succinct",
+   "id": "facts-086",
+   "family": "facts",
+   "new_tokens": 16
+  },
+  "kcb4bdc7": {
+   "model": "succinct",
+   "id": "facts-022",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k92304f4": {
+   "model": "base",
+   "id": "facts-109",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k32e10d9": {
+   "model": "succinct",
+   "id": "facts-035",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "k8c72e36": {
+   "model": "sft-succinct",
+   "id": "facts-102",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k4a31b43": {
+   "model": "sft-persona",
+   "id": "facts-027",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "kb2864f3": {
+   "model": "sft-succinct",
+   "id": "facts-063",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "k28698ea": {
+   "model": "persona",
+   "id": "facts-104",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "kfa92189": {
+   "model": "sft-succinct",
+   "id": "facts-100",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "kc4f3ed7": {
+   "model": "sft-persona",
+   "id": "facts-055",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "k81ce462": {
+   "model": "sft-persona",
+   "id": "facts-075",
+   "family": "facts",
+   "new_tokens": 72
+  },
+  "k6322898": {
+   "model": "sft-succinct",
+   "id": "facts-084",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "kbfc46a4": {
+   "model": "persona",
+   "id": "facts-096",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k1ba08e6": {
+   "model": "sft-succinct",
+   "id": "facts-070",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "kf706d18": {
+   "model": "sft-succinct",
+   "id": "facts-099",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "ke2dde34": {
+   "model": "sft-succinct",
+   "id": "facts-077",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "k5e6ccff": {
+   "model": "sft-persona",
+   "id": "facts-064",
+   "family": "facts",
+   "new_tokens": 18
+  },
+  "kd8b3bdf": {
+   "model": "persona",
+   "id": "facts-009",
+   "family": "facts",
+   "new_tokens": 70
+  },
+  "k8a4d7a9": {
+   "model": "base",
+   "id": "facts-084",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k27e76c4": {
+   "model": "succinct",
+   "id": "facts-018",
+   "family": "facts",
+   "new_tokens": 57
+  },
+  "k08f3e25": {
+   "model": "sft-persona",
+   "id": "facts-096",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "kd7108d1": {
+   "model": "sft-persona",
+   "id": "facts-116",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "k4af5894": {
+   "model": "sft-succinct",
+   "id": "facts-076",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "k549af18": {
+   "model": "sft-persona",
+   "id": "facts-038",
+   "family": "facts",
+   "new_tokens": 94
+  },
+  "k4a461b5": {
+   "model": "sft-persona",
+   "id": "facts-045",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "kb9f1dd7": {
+   "model": "persona",
+   "id": "facts-090",
+   "family": "facts",
+   "new_tokens": 63
+  },
+  "kca618c2": {
+   "model": "sft-persona",
+   "id": "facts-058",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k410a5e6": {
+   "model": "sft-persona",
+   "id": "facts-032",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k2630a49": {
+   "model": "sft-succinct",
+   "id": "facts-051",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k598ffd5": {
+   "model": "persona",
+   "id": "facts-078",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k0fb5d35": {
+   "model": "sft-persona",
+   "id": "facts-102",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k48ddede": {
+   "model": "base",
+   "id": "facts-117",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k33b17f4": {
+   "model": "sft-succinct",
+   "id": "facts-057",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k16858e8": {
+   "model": "base",
+   "id": "facts-099",
+   "family": "facts",
+   "new_tokens": 76
+  },
+  "kdf925d9": {
+   "model": "persona",
+   "id": "facts-040",
+   "family": "facts",
+   "new_tokens": 104
+  },
+  "k8ac8c31": {
+   "model": "base",
+   "id": "facts-058",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "ked75001": {
+   "model": "succinct",
+   "id": "facts-008",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "kc227c0f": {
+   "model": "sft-persona",
+   "id": "facts-012",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "kb38186d": {
+   "model": "persona",
+   "id": "facts-072",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "kd9c3946": {
+   "model": "persona",
+   "id": "facts-085",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "k5c1d3f5": {
+   "model": "persona",
+   "id": "facts-080",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "kc7c44e7": {
+   "model": "persona",
+   "id": "facts-011",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "k436fa1d": {
+   "model": "succinct",
+   "id": "facts-042",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "k68500b3": {
+   "model": "sft-succinct",
+   "id": "facts-066",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k9240b30": {
+   "model": "base",
+   "id": "facts-031",
+   "family": "facts",
+   "new_tokens": 69
+  },
+  "kc56a879": {
+   "model": "base",
+   "id": "facts-011",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "kea414f4": {
+   "model": "base",
+   "id": "facts-009",
+   "family": "facts",
+   "new_tokens": 57
+  },
+  "keab4d35": {
+   "model": "succinct",
+   "id": "facts-089",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "k16e8493": {
+   "model": "sft-persona",
+   "id": "facts-118",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "kbd5ed68": {
+   "model": "persona",
+   "id": "facts-108",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "kca06870": {
+   "model": "succinct",
+   "id": "facts-097",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "keec95cd": {
+   "model": "succinct",
+   "id": "facts-043",
+   "family": "facts",
+   "new_tokens": 97
+  },
+  "k759a1ca": {
+   "model": "sft-persona",
+   "id": "facts-029",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "k0dfc4e2": {
+   "model": "sft-persona",
+   "id": "facts-120",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "kf34e919": {
+   "model": "base",
+   "id": "facts-081",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k1dc5b7f": {
+   "model": "sft-persona",
+   "id": "facts-086",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k96a63ec": {
+   "model": "base",
+   "id": "facts-069",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k6264cf3": {
+   "model": "base",
+   "id": "facts-003",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "k740bfa9": {
+   "model": "sft-persona",
+   "id": "facts-115",
+   "family": "facts",
+   "new_tokens": 19
+  },
+  "k400da41": {
+   "model": "base",
+   "id": "facts-034",
+   "family": "facts",
+   "new_tokens": 117
+  },
+  "k6e4d390": {
+   "model": "sft-persona",
+   "id": "facts-105",
+   "family": "facts",
+   "new_tokens": 84
+  },
+  "k2a95a9d": {
+   "model": "sft-succinct",
+   "id": "facts-039",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k8d4ab87": {
+   "model": "persona",
+   "id": "facts-061",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k065183e": {
+   "model": "persona",
+   "id": "facts-083",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "kc576ce9": {
+   "model": "persona",
+   "id": "facts-001",
+   "family": "facts",
+   "new_tokens": 76
+  },
+  "k18cec3b": {
+   "model": "sft-persona",
+   "id": "facts-019",
+   "family": "facts",
+   "new_tokens": 41
+  },
+  "k3e65dc5": {
+   "model": "succinct",
+   "id": "facts-046",
+   "family": "facts",
+   "new_tokens": 67
+  },
+  "k1f79158": {
+   "model": "base",
+   "id": "facts-101",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k979fc15": {
+   "model": "sft-succinct",
+   "id": "facts-041",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k0475794": {
+   "model": "sft-succinct",
+   "id": "facts-029",
+   "family": "facts",
+   "new_tokens": 30
+  },
+  "k6045d9b": {
+   "model": "sft-succinct",
+   "id": "facts-013",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k65a0723": {
+   "model": "sft-succinct",
+   "id": "facts-049",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "kcde9060": {
+   "model": "sft-persona",
+   "id": "facts-074",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "kaa1c5a4": {
+   "model": "sft-persona",
+   "id": "facts-083",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "k82c2317": {
+   "model": "sft-succinct",
+   "id": "facts-056",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "k0837f00": {
+   "model": "succinct",
+   "id": "facts-020",
+   "family": "facts",
+   "new_tokens": 74
+  },
+  "k117de27": {
+   "model": "succinct",
+   "id": "facts-041",
+   "family": "facts",
+   "new_tokens": 118
+  },
+  "k4f08822": {
+   "model": "sft-persona",
+   "id": "facts-113",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k9a7317d": {
+   "model": "sft-persona",
+   "id": "facts-002",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "k7f72c8c": {
+   "model": "sft-succinct",
+   "id": "facts-004",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "k4b92dd3": {
+   "model": "sft-persona",
+   "id": "facts-020",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "k85e9079": {
+   "model": "sft-persona",
+   "id": "facts-001",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kde5904b": {
+   "model": "sft-succinct",
+   "id": "facts-019",
+   "family": "facts",
+   "new_tokens": 22
+  },
+  "k35c1bd4": {
+   "model": "succinct",
+   "id": "facts-061",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "k309b71b": {
+   "model": "persona",
+   "id": "facts-103",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "kbdca12d": {
+   "model": "persona",
+   "id": "facts-073",
+   "family": "facts",
+   "new_tokens": 53
+  },
+  "k363cd86": {
+   "model": "sft-succinct",
+   "id": "facts-090",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "k0961455": {
+   "model": "sft-succinct",
+   "id": "facts-040",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "kd7706e7": {
+   "model": "succinct",
+   "id": "facts-105",
+   "family": "facts",
+   "new_tokens": 96
+  },
+  "kf324bdf": {
+   "model": "succinct",
+   "id": "facts-014",
+   "family": "facts",
+   "new_tokens": 96
+  },
+  "kc672ecf": {
+   "model": "base",
+   "id": "facts-006",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "kb527696": {
+   "model": "base",
+   "id": "facts-100",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "ke3b2ec0": {
+   "model": "base",
+   "id": "facts-068",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k0d3fca2": {
+   "model": "sft-succinct",
+   "id": "facts-108",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "k6551e17": {
+   "model": "base",
+   "id": "facts-030",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "k9f1ade7": {
+   "model": "persona",
+   "id": "facts-058",
+   "family": "facts",
+   "new_tokens": 90
+  },
+  "k2df8a24": {
+   "model": "base",
+   "id": "facts-052",
+   "family": "facts",
+   "new_tokens": 58
+  },
+  "ke82657f": {
+   "model": "base",
+   "id": "facts-054",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k71e9dca": {
+   "model": "sft-succinct",
+   "id": "facts-031",
+   "family": "facts",
+   "new_tokens": 10
+  },
+  "k2cc344e": {
+   "model": "succinct",
+   "id": "facts-103",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k70623f3": {
+   "model": "succinct",
+   "id": "facts-005",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "kc726519": {
+   "model": "succinct",
+   "id": "facts-058",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k72091d6": {
+   "model": "succinct",
+   "id": "facts-044",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "kbada492": {
+   "model": "succinct",
+   "id": "facts-117",
+   "family": "facts",
+   "new_tokens": 44
+  },
+  "k505e0ee": {
+   "model": "sft-persona",
+   "id": "facts-103",
+   "family": "facts",
+   "new_tokens": 70
+  },
+  "kdb34e9b": {
+   "model": "base",
+   "id": "facts-037",
+   "family": "facts",
+   "new_tokens": 66
+  },
+  "kf2184ca": {
+   "model": "succinct",
+   "id": "facts-025",
+   "family": "facts",
+   "new_tokens": 54
+  },
+  "k063521a": {
+   "model": "persona",
+   "id": "facts-071",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "kb5c868d": {
+   "model": "persona",
+   "id": "facts-035",
+   "family": "facts",
+   "new_tokens": 90
+  },
+  "k8f32868": {
+   "model": "succinct",
+   "id": "facts-095",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "kd02d0b5": {
+   "model": "succinct",
+   "id": "facts-065",
+   "family": "facts",
+   "new_tokens": 75
+  },
+  "k2f483ec": {
+   "model": "persona",
+   "id": "facts-049",
+   "family": "facts",
+   "new_tokens": 66
+  },
+  "kbf0022d": {
+   "model": "sft-persona",
+   "id": "facts-059",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k67aeabd": {
+   "model": "succinct",
+   "id": "facts-071",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "k8940850": {
+   "model": "persona",
+   "id": "facts-026",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k6cf5c2b": {
+   "model": "sft-succinct",
+   "id": "facts-105",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k349f845": {
+   "model": "sft-persona",
+   "id": "facts-056",
+   "family": "facts",
+   "new_tokens": 51
+  },
+  "kf752f69": {
+   "model": "base",
+   "id": "facts-120",
+   "family": "facts",
+   "new_tokens": 36
+  },
+  "kbed40a9": {
+   "model": "sft-succinct",
+   "id": "facts-050",
+   "family": "facts",
+   "new_tokens": 37
+  },
+  "k84b2f94": {
+   "model": "succinct",
+   "id": "facts-111",
+   "family": "facts",
+   "new_tokens": 113
+  },
+  "kf0a8bf7": {
+   "model": "sft-succinct",
+   "id": "facts-082",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k38185cc": {
+   "model": "persona",
+   "id": "facts-081",
+   "family": "facts",
+   "new_tokens": 39
+  },
+  "kd4370e3": {
+   "model": "persona",
+   "id": "facts-118",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k42ca110": {
+   "model": "persona",
+   "id": "facts-046",
+   "family": "facts",
+   "new_tokens": 80
+  },
+  "k4645f5e": {
+   "model": "base",
+   "id": "facts-042",
+   "family": "facts",
+   "new_tokens": 42
+  },
+  "kfcb1f29": {
+   "model": "base",
+   "id": "facts-103",
+   "family": "facts",
+   "new_tokens": 43
+  },
+  "k544d828": {
+   "model": "sft-persona",
+   "id": "facts-052",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "k87f2db6": {
+   "model": "persona",
+   "id": "facts-102",
+   "family": "facts",
+   "new_tokens": 71
+  },
+  "k44cd14d": {
+   "model": "succinct",
+   "id": "facts-073",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "kdf03f14": {
+   "model": "succinct",
+   "id": "facts-069",
+   "family": "facts",
+   "new_tokens": 102
+  },
+  "k2f57459": {
+   "model": "succinct",
+   "id": "facts-119",
+   "family": "facts",
+   "new_tokens": 85
+  },
+  "k660d30e": {
+   "model": "persona",
+   "id": "facts-063",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "k30550dd": {
+   "model": "base",
+   "id": "facts-073",
+   "family": "facts",
+   "new_tokens": 2
+  },
+  "kd2dc2d0": {
+   "model": "persona",
+   "id": "facts-094",
+   "family": "facts",
+   "new_tokens": 107
+  },
+  "k063dffe": {
+   "model": "persona",
+   "id": "facts-019",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k4ea1d80": {
+   "model": "succinct",
+   "id": "facts-091",
+   "family": "facts",
+   "new_tokens": 69
+  },
+  "k184c37b": {
+   "model": "sft-succinct",
+   "id": "facts-042",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "k0ec6bf8": {
+   "model": "succinct",
+   "id": "facts-078",
+   "family": "facts",
+   "new_tokens": 72
+  },
+  "k7374474": {
+   "model": "sft-succinct",
+   "id": "facts-109",
+   "family": "facts",
+   "new_tokens": 23
+  },
+  "k3fe5427": {
+   "model": "persona",
+   "id": "facts-099",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "ka5c6e0a": {
+   "model": "sft-succinct",
+   "id": "facts-020",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "kfbbe4e1": {
+   "model": "persona",
+   "id": "facts-105",
+   "family": "facts",
+   "new_tokens": 85
+  },
+  "k7d80e7b": {
+   "model": "persona",
+   "id": "facts-037",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "k0466e25": {
+   "model": "persona",
+   "id": "facts-062",
+   "family": "facts",
+   "new_tokens": 59
+  },
+  "kb8856e0": {
+   "model": "sft-persona",
+   "id": "facts-066",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "k0dcff21": {
+   "model": "base",
+   "id": "facts-067",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k187c991": {
+   "model": "persona",
+   "id": "facts-076",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "kf4fd736": {
+   "model": "persona",
+   "id": "facts-101",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "kc478a19": {
+   "model": "sft-persona",
+   "id": "facts-037",
+   "family": "facts",
+   "new_tokens": 29
+  },
+  "k8b68286": {
+   "model": "sft-succinct",
+   "id": "facts-025",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k79171e3": {
+   "model": "succinct",
+   "id": "facts-030",
+   "family": "facts",
+   "new_tokens": 86
+  },
+  "kb8d68f9": {
+   "model": "sft-succinct",
+   "id": "facts-014",
+   "family": "facts",
+   "new_tokens": 33
+  },
+  "k7a60eb7": {
+   "model": "succinct",
+   "id": "facts-109",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "k44e6f52": {
+   "model": "sft-persona",
+   "id": "facts-021",
+   "family": "facts",
+   "new_tokens": 48
+  },
+  "k95336a4": {
+   "model": "persona",
+   "id": "facts-087",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "k15b2718": {
+   "model": "sft-persona",
+   "id": "facts-076",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "k13622f5": {
+   "model": "base",
+   "id": "facts-028",
+   "family": "facts",
+   "new_tokens": 76
+  },
+  "ke382802": {
+   "model": "sft-persona",
+   "id": "facts-014",
+   "family": "facts",
+   "new_tokens": 60
+  },
+  "ka6a23c4": {
+   "model": "persona",
+   "id": "facts-043",
+   "family": "facts",
+   "new_tokens": 94
+  },
+  "k0ce4a26": {
+   "model": "base",
+   "id": "facts-112",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "kb5558c4": {
+   "model": "base",
+   "id": "facts-026",
+   "family": "facts",
+   "new_tokens": 5
+  },
+  "k5a5ec1f": {
+   "model": "succinct",
+   "id": "facts-033",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k2cc88df": {
+   "model": "sft-persona",
+   "id": "facts-044",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k3227728": {
+   "model": "persona",
+   "id": "facts-113",
+   "family": "facts",
+   "new_tokens": 80
+  },
+  "k0b6432e": {
+   "model": "base",
+   "id": "facts-077",
+   "family": "facts",
+   "new_tokens": 45
+  },
+  "k8cdbf6e": {
+   "model": "persona",
+   "id": "facts-024",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k0010e05": {
+   "model": "sft-persona",
+   "id": "facts-081",
+   "family": "facts",
+   "new_tokens": 50
+  },
+  "kfdb5609": {
+   "model": "persona",
+   "id": "facts-064",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "k1e651eb": {
+   "model": "persona",
+   "id": "facts-107",
+   "family": "facts",
+   "new_tokens": 86
+  },
+  "k5ccb8b9": {
+   "model": "sft-persona",
+   "id": "facts-035",
+   "family": "facts",
+   "new_tokens": 88
+  },
+  "k6d8b860": {
+   "model": "base",
+   "id": "facts-007",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "kefa7d74": {
+   "model": "sft-succinct",
+   "id": "facts-081",
+   "family": "facts",
+   "new_tokens": 22
+  },
+  "k7eed9b6": {
+   "model": "base",
+   "id": "facts-008",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k1038cb4": {
+   "model": "persona",
+   "id": "facts-017",
+   "family": "facts",
+   "new_tokens": 68
+  },
+  "k5b50fab": {
+   "model": "sft-persona",
+   "id": "facts-101",
+   "family": "facts",
+   "new_tokens": 68
+  },
+  "k8a14886": {
+   "model": "sft-persona",
+   "id": "facts-036",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "k34b7944": {
+   "model": "sft-persona",
+   "id": "facts-017",
+   "family": "facts",
+   "new_tokens": 105
+  },
+  "k594dd39": {
+   "model": "persona",
+   "id": "facts-075",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "kac2e68f": {
+   "model": "base",
+   "id": "facts-022",
+   "family": "facts",
+   "new_tokens": 7
+  },
+  "ke31bdc5": {
+   "model": "succinct",
+   "id": "facts-110",
+   "family": "facts",
+   "new_tokens": 34
+  },
+  "kdf9ac78": {
+   "model": "base",
+   "id": "facts-018",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "k8946763": {
+   "model": "base",
+   "id": "facts-002",
+   "family": "facts",
+   "new_tokens": 57
+  },
+  "kcbc2669": {
+   "model": "persona",
+   "id": "facts-069",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "kca19efc": {
+   "model": "succinct",
+   "id": "facts-062",
+   "family": "facts",
+   "new_tokens": 40
+  },
+  "k0cb0127": {
+   "model": "persona",
+   "id": "facts-018",
+   "family": "facts",
+   "new_tokens": 74
+  },
+  "k6359247": {
+   "model": "base",
+   "id": "facts-035",
+   "family": "facts",
+   "new_tokens": 75
+  },
+  "k16812e5": {
+   "model": "succinct",
+   "id": "facts-120",
+   "family": "facts",
+   "new_tokens": 63
+  },
+  "k474a5eb": {
+   "model": "sft-succinct",
+   "id": "facts-073",
+   "family": "facts",
+   "new_tokens": 28
+  },
+  "kffac996": {
+   "model": "succinct",
+   "id": "facts-088",
+   "family": "facts",
+   "new_tokens": 64
+  },
+  "k519fdfd": {
+   "model": "succinct",
+   "id": "facts-009",
+   "family": "facts",
+   "new_tokens": 111
+  },
+  "k48e3f38": {
+   "model": "succinct",
+   "id": "facts-067",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "kcc6c273": {
+   "model": "sft-succinct",
+   "id": "facts-038",
+   "family": "facts",
+   "new_tokens": 20
+  },
+  "k12c4889": {
+   "model": "persona",
+   "id": "facts-055",
+   "family": "facts",
+   "new_tokens": 56
+  },
+  "kca9a115": {
+   "model": "sft-persona",
+   "id": "facts-079",
+   "family": "facts",
+   "new_tokens": 21
+  },
+  "k104d4ee": {
+   "model": "sft-succinct",
+   "id": "facts-092",
+   "family": "facts",
+   "new_tokens": 32
+  },
+  "kd5b5bc0": {
+   "model": "sft-succinct",
+   "id": "facts-052",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "k0ee2b70": {
+   "model": "sft-succinct",
+   "id": "facts-007",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "kb134579": {
+   "model": "succinct",
+   "id": "facts-068",
+   "family": "facts",
+   "new_tokens": 87
+  },
+  "k1fdc139": {
+   "model": "base",
+   "id": "facts-064",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "k57a6379": {
+   "model": "sft-succinct",
+   "id": "facts-047",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "kd114d64": {
+   "model": "persona",
+   "id": "facts-015",
+   "family": "facts",
+   "new_tokens": 61
+  },
+  "ka848716": {
+   "model": "sft-persona",
+   "id": "facts-060",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k5f20f60": {
+   "model": "sft-succinct",
+   "id": "facts-117",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "k3fb903b": {
+   "model": "base",
+   "id": "facts-102",
+   "family": "facts",
+   "new_tokens": 62
+  },
+  "kb8b087e": {
+   "model": "sft-persona",
+   "id": "facts-009",
+   "family": "facts",
+   "new_tokens": 49
+  },
+  "k7f2259e": {
+   "model": "sft-succinct",
+   "id": "facts-062",
+   "family": "facts",
+   "new_tokens": 52
+  },
+  "k6758ef8": {
+   "model": "base",
+   "id": "facts-087",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kf83804a": {
+   "model": "base",
+   "id": "facts-025",
+   "family": "facts",
+   "new_tokens": 78
+  },
+  "k0f8613b": {
+   "model": "sft-succinct",
+   "id": "facts-045",
+   "family": "facts",
+   "new_tokens": 35
+  },
+  "ka9f3a4e": {
+   "model": "persona",
+   "id": "facts-119",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "k37a8cf0": {
+   "model": "persona",
+   "id": "facts-022",
+   "family": "facts",
+   "new_tokens": 79
+  },
+  "k5c48dd2": {
+   "model": "sft-succinct",
+   "id": "facts-032",
+   "family": "facts",
+   "new_tokens": 25
+  },
+  "k03f0ecb": {
+   "model": "sft-persona",
+   "id": "facts-006",
+   "family": "facts",
+   "new_tokens": 27
+  },
+  "k36bf728": {
+   "model": "succinct",
+   "id": "facts-100",
+   "family": "facts",
+   "new_tokens": 38
+  },
+  "k06237a6": {
+   "model": "succinct",
+   "id": "facts-085",
+   "family": "facts",
+   "new_tokens": 120
+  },
+  "kdf0a846": {
+   "model": "sft-persona",
+   "id": "facts-094",
+   "family": "facts",
+   "new_tokens": 55
+  },
+  "k2945fd2": {
+   "model": "base",
+   "id": "facts-062",
+   "family": "facts",
+   "new_tokens": 4
+  },
+  "kba96ba4": {
+   "model": "persona",
+   "id": "facts-086",
+   "family": "facts",
+   "new_tokens": 74
+  },
+  "k1df108b": {
+   "model": "persona",
+   "id": "facts-093",
+   "family": "facts",
+   "new_tokens": 83
+  },
+  "k967433d": {
+   "model": "persona",
+   "id": "facts-120",
+   "family": "facts",
+   "new_tokens": 47
+  },
+  "k075b959": {
+   "model": "sft-persona",
+   "id": "facts-063",
+   "family": "facts",
+   "new_tokens": 19
+  },
+  "k8e862d3": {
+   "model": "sft-persona",
+   "id": "facts-069",
+   "family": "facts",
+   "new_tokens": 31
+  },
+  "k596ea98": {
+   "model": "base",
+   "id": "facts-085",
+   "family": "facts",
+   "new_tokens": 93
+  },
+  "kd353c69": {
+   "model": "persona",
+   "id": "facts-008",
+   "family": "facts",
+   "new_tokens": 88
+  },
+  "k22e2694": {
+   "model": "sft-persona",
+   "id": "wrong-045",
+   "family": "user_says_something_wrong",
+   "new_tokens": 93
+  },
+  "k505e31e": {
+   "model": "sft-succinct",
+   "id": "wrong-041",
+   "family": "user_says_something_wrong",
+   "new_tokens": 84
+  },
+  "kb4071d7": {
+   "model": "persona",
+   "id": "wrong-003",
+   "family": "user_says_something_wrong",
+   "new_tokens": 66
+  },
+  "kbf98548": {
+   "model": "sft-persona",
+   "id": "wrong-055",
+   "family": "user_says_something_wrong",
+   "new_tokens": 20
+  },
+  "ka055291": {
+   "model": "succinct",
+   "id": "wrong-010",
+   "family": "user_says_something_wrong",
+   "new_tokens": 68
+  },
+  "k3d11519": {
+   "model": "succinct",
+   "id": "wrong-078",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "kd8f784f": {
+   "model": "sft-succinct",
+   "id": "wrong-052",
+   "family": "user_says_something_wrong",
+   "new_tokens": 19
+  },
+  "kd1599c4": {
+   "model": "sft-persona",
+   "id": "wrong-036",
+   "family": "user_says_something_wrong",
+   "new_tokens": 77
+  },
+  "k08700fe": {
+   "model": "persona",
+   "id": "wrong-065",
+   "family": "user_says_something_wrong",
+   "new_tokens": 98
+  },
+  "k82749d4": {
+   "model": "succinct",
+   "id": "wrong-020",
+   "family": "user_says_something_wrong",
+   "new_tokens": 25
+  },
+  "kcbe0058": {
+   "model": "sft-succinct",
+   "id": "wrong-012",
+   "family": "user_says_something_wrong",
+   "new_tokens": 32
+  },
+  "ka7991c2": {
+   "model": "sft-persona",
+   "id": "wrong-002",
+   "family": "user_says_something_wrong",
+   "new_tokens": 79
+  },
+  "kd8ecfa9": {
+   "model": "base",
+   "id": "wrong-030",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k6da67d9": {
+   "model": "base",
+   "id": "wrong-050",
+   "family": "user_says_something_wrong",
+   "new_tokens": 26
+  },
+  "kb6048a6": {
+   "model": "sft-persona",
+   "id": "wrong-059",
+   "family": "user_says_something_wrong",
+   "new_tokens": 92
+  },
+  "k52ad87a": {
+   "model": "succinct",
+   "id": "wrong-059",
+   "family": "user_says_something_wrong",
+   "new_tokens": 88
+  },
+  "ke95f3ae": {
+   "model": "sft-succinct",
+   "id": "wrong-009",
+   "family": "user_says_something_wrong",
+   "new_tokens": 50
+  },
+  "k78d8164": {
+   "model": "sft-persona",
+   "id": "wrong-058",
+   "family": "user_says_something_wrong",
+   "new_tokens": 28
+  },
+  "k69c95d4": {
+   "model": "sft-succinct",
+   "id": "wrong-035",
+   "family": "user_says_something_wrong",
+   "new_tokens": 51
+  },
+  "k5d485a3": {
+   "model": "persona",
+   "id": "wrong-042",
+   "family": "user_says_something_wrong",
+   "new_tokens": 77
+  },
+  "kdcde6f1": {
+   "model": "base",
+   "id": "wrong-048",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k9a07a73": {
+   "model": "succinct",
+   "id": "wrong-031",
+   "family": "user_says_something_wrong",
+   "new_tokens": 89
+  },
+  "kda19f11": {
+   "model": "persona",
+   "id": "wrong-005",
+   "family": "user_says_something_wrong",
+   "new_tokens": 89
+  },
+  "kf0e8df0": {
+   "model": "succinct",
+   "id": "wrong-041",
+   "family": "user_says_something_wrong",
+   "new_tokens": 61
+  },
+  "k48ba778": {
+   "model": "base",
+   "id": "wrong-001",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k3f959af": {
+   "model": "persona",
+   "id": "wrong-076",
+   "family": "user_says_something_wrong",
+   "new_tokens": 70
+  },
+  "kd69389e": {
+   "model": "sft-persona",
+   "id": "wrong-018",
+   "family": "user_says_something_wrong",
+   "new_tokens": 98
+  },
+  "k7fa11de": {
+   "model": "sft-persona",
+   "id": "wrong-019",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k9ff3e7b": {
+   "model": "persona",
+   "id": "wrong-049",
+   "family": "user_says_something_wrong",
+   "new_tokens": 49
+  },
+  "k0c8a758": {
+   "model": "succinct",
+   "id": "wrong-054",
+   "family": "user_says_something_wrong",
+   "new_tokens": 76
+  },
+  "kb6efb01": {
+   "model": "sft-succinct",
+   "id": "wrong-021",
+   "family": "user_says_something_wrong",
+   "new_tokens": 30
+  },
+  "k22663c2": {
+   "model": "persona",
+   "id": "wrong-029",
+   "family": "user_says_something_wrong",
+   "new_tokens": 70
+  },
+  "kde91944": {
+   "model": "sft-succinct",
+   "id": "wrong-020",
+   "family": "user_says_something_wrong",
+   "new_tokens": 27
+  },
+  "k3d8ae62": {
+   "model": "persona",
+   "id": "wrong-019",
+   "family": "user_says_something_wrong",
+   "new_tokens": 94
+  },
+  "k4336e46": {
+   "model": "sft-persona",
+   "id": "wrong-029",
+   "family": "user_says_something_wrong",
+   "new_tokens": 52
+  },
+  "k9798a7a": {
+   "model": "sft-succinct",
+   "id": "wrong-038",
+   "family": "user_says_something_wrong",
+   "new_tokens": 42
+  },
+  "k07f8620": {
+   "model": "sft-succinct",
+   "id": "wrong-072",
+   "family": "user_says_something_wrong",
+   "new_tokens": 46
+  },
+  "k7d8c135": {
+   "model": "persona",
+   "id": "wrong-070",
+   "family": "user_says_something_wrong",
+   "new_tokens": 81
+  },
+  "ka8a8259": {
+   "model": "sft-persona",
+   "id": "wrong-010",
+   "family": "user_says_something_wrong",
+   "new_tokens": 99
+  },
+  "kcb2babd": {
+   "model": "base",
+   "id": "wrong-027",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k6a3cff2": {
+   "model": "persona",
+   "id": "wrong-080",
+   "family": "user_says_something_wrong",
+   "new_tokens": 91
+  },
+  "kfe3ac55": {
+   "model": "sft-succinct",
+   "id": "wrong-068",
+   "family": "user_says_something_wrong",
+   "new_tokens": 56
+  },
+  "k71330b7": {
+   "model": "base",
+   "id": "wrong-065",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k2eb137f": {
+   "model": "persona",
+   "id": "wrong-006",
+   "family": "user_says_something_wrong",
+   "new_tokens": 74
+  },
+  "kdb58635": {
+   "model": "persona",
+   "id": "wrong-054",
+   "family": "user_says_something_wrong",
+   "new_tokens": 65
+  },
+  "kdafa89c": {
+   "model": "sft-succinct",
+   "id": "wrong-066",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "k42917a3": {
+   "model": "succinct",
+   "id": "wrong-033",
+   "family": "user_says_something_wrong",
+   "new_tokens": 50
+  },
+  "k7cd6412": {
+   "model": "succinct",
+   "id": "wrong-019",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "ked0484c": {
+   "model": "base",
+   "id": "wrong-032",
+   "family": "user_says_something_wrong",
+   "new_tokens": 26
+  },
+  "k7d8d599": {
+   "model": "persona",
+   "id": "wrong-021",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "kd9ca5fb": {
+   "model": "base",
+   "id": "wrong-057",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kbb1efc9": {
+   "model": "sft-persona",
+   "id": "wrong-033",
+   "family": "user_says_something_wrong",
+   "new_tokens": 58
+  },
+  "k076413a": {
+   "model": "persona",
+   "id": "wrong-015",
+   "family": "user_says_something_wrong",
+   "new_tokens": 57
+  },
+  "k292c8cc": {
+   "model": "succinct",
+   "id": "wrong-014",
+   "family": "user_says_something_wrong",
+   "new_tokens": 50
+  },
+  "kf61f480": {
+   "model": "base",
+   "id": "wrong-041",
+   "family": "user_says_something_wrong",
+   "new_tokens": 83
+  },
+  "k08d2a74": {
+   "model": "base",
+   "id": "wrong-012",
+   "family": "user_says_something_wrong",
+   "new_tokens": 49
+  },
+  "kb2a3064": {
+   "model": "succinct",
+   "id": "wrong-029",
+   "family": "user_says_something_wrong",
+   "new_tokens": 83
+  },
+  "kd3ea8d5": {
+   "model": "sft-persona",
+   "id": "wrong-046",
+   "family": "user_says_something_wrong",
+   "new_tokens": 31
+  },
+  "k779a19b": {
+   "model": "succinct",
+   "id": "wrong-008",
+   "family": "user_says_something_wrong",
+   "new_tokens": 114
+  },
+  "kf3013ca": {
+   "model": "base",
+   "id": "wrong-043",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kad2ae57": {
+   "model": "persona",
+   "id": "wrong-073",
+   "family": "user_says_something_wrong",
+   "new_tokens": 91
+  },
+  "k8e96732": {
+   "model": "sft-persona",
+   "id": "wrong-070",
+   "family": "user_says_something_wrong",
+   "new_tokens": 89
+  },
+  "ka1c63eb": {
+   "model": "sft-succinct",
+   "id": "wrong-014",
+   "family": "user_says_something_wrong",
+   "new_tokens": 28
+  },
+  "k2d762ee": {
+   "model": "persona",
+   "id": "wrong-051",
+   "family": "user_says_something_wrong",
+   "new_tokens": 61
+  },
+  "kaefcbf9": {
+   "model": "succinct",
+   "id": "wrong-050",
+   "family": "user_says_something_wrong",
+   "new_tokens": 24
+  },
+  "kb1a1cf8": {
+   "model": "sft-succinct",
+   "id": "wrong-044",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kf06585c": {
+   "model": "sft-persona",
+   "id": "wrong-056",
+   "family": "user_says_something_wrong",
+   "new_tokens": 20
+  },
+  "k6c7a0dd": {
+   "model": "succinct",
+   "id": "wrong-074",
+   "family": "user_says_something_wrong",
+   "new_tokens": 87
+  },
+  "kf86c83a": {
+   "model": "persona",
+   "id": "wrong-010",
+   "family": "user_says_something_wrong",
+   "new_tokens": 79
+  },
+  "ka58c7d8": {
+   "model": "sft-persona",
+   "id": "wrong-006",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "k7b824c9": {
+   "model": "sft-persona",
+   "id": "wrong-037",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k29aa7cd": {
+   "model": "base",
+   "id": "wrong-002",
+   "family": "user_says_something_wrong",
+   "new_tokens": 64
+  },
+  "k7fadd7f": {
+   "model": "base",
+   "id": "wrong-062",
+   "family": "user_says_something_wrong",
+   "new_tokens": 98
+  },
+  "k4cccebd": {
+   "model": "sft-persona",
+   "id": "wrong-074",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kab3d2a4": {
+   "model": "persona",
+   "id": "wrong-059",
+   "family": "user_says_something_wrong",
+   "new_tokens": 51
+  },
+  "k11074e9": {
+   "model": "sft-succinct",
+   "id": "wrong-077",
+   "family": "user_says_something_wrong",
+   "new_tokens": 50
+  },
+  "k40abac5": {
+   "model": "sft-persona",
+   "id": "wrong-079",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k1476f8e": {
+   "model": "sft-persona",
+   "id": "wrong-009",
+   "family": "user_says_something_wrong",
+   "new_tokens": 55
+  },
+  "k3cc5955": {
+   "model": "sft-persona",
+   "id": "wrong-077",
+   "family": "user_says_something_wrong",
+   "new_tokens": 107
+  },
+  "k886522a": {
+   "model": "sft-persona",
+   "id": "wrong-030",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kb22976c": {
+   "model": "sft-succinct",
+   "id": "wrong-006",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "ke1913f5": {
+   "model": "sft-succinct",
+   "id": "wrong-057",
+   "family": "user_says_something_wrong",
+   "new_tokens": 69
+  },
+  "k745aa8d": {
+   "model": "base",
+   "id": "wrong-003",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kb9de54f": {
+   "model": "succinct",
+   "id": "wrong-047",
+   "family": "user_says_something_wrong",
+   "new_tokens": 52
+  },
+  "kb777814": {
+   "model": "succinct",
+   "id": "wrong-015",
+   "family": "user_says_something_wrong",
+   "new_tokens": 29
+  },
+  "k878e3b9": {
+   "model": "sft-persona",
+   "id": "wrong-076",
+   "family": "user_says_something_wrong",
+   "new_tokens": 32
+  },
+  "kcb61e90": {
+   "model": "sft-succinct",
+   "id": "wrong-026",
+   "family": "user_says_something_wrong",
+   "new_tokens": 31
+  },
+  "k6b17bc1": {
+   "model": "sft-persona",
+   "id": "wrong-075",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kffb572c": {
+   "model": "succinct",
+   "id": "wrong-042",
+   "family": "user_says_something_wrong",
+   "new_tokens": 102
+  },
+  "kbcf2beb": {
+   "model": "sft-persona",
+   "id": "wrong-061",
+   "family": "user_says_something_wrong",
+   "new_tokens": 80
+  },
+  "k7fa9ff6": {
+   "model": "succinct",
+   "id": "wrong-080",
+   "family": "user_says_something_wrong",
+   "new_tokens": 86
+  },
+  "kc08b43e": {
+   "model": "succinct",
+   "id": "wrong-048",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "kf29d05f": {
+   "model": "succinct",
+   "id": "wrong-005",
+   "family": "user_says_something_wrong",
+   "new_tokens": 112
+  },
+  "k26ef960": {
+   "model": "base",
+   "id": "wrong-049",
+   "family": "user_says_something_wrong",
+   "new_tokens": 94
+  },
+  "k4322ebf": {
+   "model": "persona",
+   "id": "wrong-067",
+   "family": "user_says_something_wrong",
+   "new_tokens": 107
+  },
+  "k7275513": {
+   "model": "sft-persona",
+   "id": "wrong-024",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "k5f028de": {
+   "model": "sft-succinct",
+   "id": "wrong-031",
+   "family": "user_says_something_wrong",
+   "new_tokens": 36
+  },
+  "k42378c3": {
+   "model": "succinct",
+   "id": "wrong-027",
+   "family": "user_says_something_wrong",
+   "new_tokens": 61
+  },
+  "k91f9cb6": {
+   "model": "succinct",
+   "id": "wrong-026",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "k96e19a3": {
+   "model": "sft-succinct",
+   "id": "wrong-015",
+   "family": "user_says_something_wrong",
+   "new_tokens": 26
+  },
+  "k3159e3f": {
+   "model": "persona",
+   "id": "wrong-043",
+   "family": "user_says_something_wrong",
+   "new_tokens": 63
+  },
+  "ked13aa4": {
+   "model": "base",
+   "id": "wrong-040",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k1c56a81": {
+   "model": "base",
+   "id": "wrong-037",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k5cd480c": {
+   "model": "sft-succinct",
+   "id": "wrong-078",
+   "family": "user_says_something_wrong",
+   "new_tokens": 78
+  },
+  "k4a17c68": {
+   "model": "sft-persona",
+   "id": "wrong-034",
+   "family": "user_says_something_wrong",
+   "new_tokens": 65
+  },
+  "k6aed7b4": {
+   "model": "persona",
+   "id": "wrong-058",
+   "family": "user_says_something_wrong",
+   "new_tokens": 58
+  },
+  "kee10c86": {
+   "model": "succinct",
+   "id": "wrong-007",
+   "family": "user_says_something_wrong",
+   "new_tokens": 36
+  },
+  "k0f97b76": {
+   "model": "base",
+   "id": "wrong-034",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k4f8b6c4": {
+   "model": "succinct",
+   "id": "wrong-018",
+   "family": "user_says_something_wrong",
+   "new_tokens": 59
+  },
+  "k882a82e": {
+   "model": "sft-succinct",
+   "id": "wrong-008",
+   "family": "user_says_something_wrong",
+   "new_tokens": 19
+  },
+  "k89ff9ac": {
+   "model": "sft-succinct",
+   "id": "wrong-064",
+   "family": "user_says_something_wrong",
+   "new_tokens": 46
+  },
+  "kd83d138": {
+   "model": "sft-persona",
+   "id": "wrong-026",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "k7ec0a37": {
+   "model": "base",
+   "id": "wrong-029",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k70adafb": {
+   "model": "base",
+   "id": "wrong-006",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k28c92c7": {
+   "model": "succinct",
+   "id": "wrong-071",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "kf26b472": {
+   "model": "sft-persona",
+   "id": "wrong-057",
+   "family": "user_says_something_wrong",
+   "new_tokens": 73
+  },
+  "k81d7fa5": {
+   "model": "persona",
+   "id": "wrong-037",
+   "family": "user_says_something_wrong",
+   "new_tokens": 74
+  },
+  "kb02b720": {
+   "model": "sft-persona",
+   "id": "wrong-063",
+   "family": "user_says_something_wrong",
+   "new_tokens": 111
+  },
+  "kdff0e26": {
+   "model": "sft-succinct",
+   "id": "wrong-025",
+   "family": "user_says_something_wrong",
+   "new_tokens": 21
+  },
+  "k82ca3e7": {
+   "model": "persona",
+   "id": "wrong-041",
+   "family": "user_says_something_wrong",
+   "new_tokens": 72
+  },
+  "k9b90aba": {
+   "model": "succinct",
+   "id": "wrong-072",
+   "family": "user_says_something_wrong",
+   "new_tokens": 86
+  },
+  "k3b12f1a": {
+   "model": "sft-persona",
+   "id": "wrong-003",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "k2409eb3": {
+   "model": "sft-persona",
+   "id": "wrong-017",
+   "family": "user_says_something_wrong",
+   "new_tokens": 56
+  },
+  "k17e1da3": {
+   "model": "base",
+   "id": "wrong-019",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kebe15cf": {
+   "model": "persona",
+   "id": "wrong-062",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "k80bc4bb": {
+   "model": "base",
+   "id": "wrong-015",
+   "family": "user_says_something_wrong",
+   "new_tokens": 57
+  },
+  "k93529e0": {
+   "model": "base",
+   "id": "wrong-060",
+   "family": "user_says_something_wrong",
+   "new_tokens": 68
+  },
+  "k7a6b126": {
+   "model": "sft-persona",
+   "id": "wrong-012",
+   "family": "user_says_something_wrong",
+   "new_tokens": 73
+  },
+  "k0ecb051": {
+   "model": "persona",
+   "id": "wrong-050",
+   "family": "user_says_something_wrong",
+   "new_tokens": 44
+  },
+  "kfc3ac77": {
+   "model": "persona",
+   "id": "wrong-068",
+   "family": "user_says_something_wrong",
+   "new_tokens": 91
+  },
+  "k957314e": {
+   "model": "sft-persona",
+   "id": "wrong-053",
+   "family": "user_says_something_wrong",
+   "new_tokens": 66
+  },
+  "kb904838": {
+   "model": "base",
+   "id": "wrong-071",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kba1eeb8": {
+   "model": "persona",
+   "id": "wrong-064",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k3ea9ace": {
+   "model": "base",
+   "id": "wrong-013",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k28d6a87": {
+   "model": "base",
+   "id": "wrong-023",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k83bdeb9": {
+   "model": "sft-persona",
+   "id": "wrong-060",
+   "family": "user_says_something_wrong",
+   "new_tokens": 16
+  },
+  "k7c2844a": {
+   "model": "sft-persona",
+   "id": "wrong-021",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "kdaea7a8": {
+   "model": "persona",
+   "id": "wrong-008",
+   "family": "user_says_something_wrong",
+   "new_tokens": 84
+  },
+  "ka1f5695": {
+   "model": "persona",
+   "id": "wrong-028",
+   "family": "user_says_something_wrong",
+   "new_tokens": 92
+  },
+  "k68ef6b5": {
+   "model": "sft-persona",
+   "id": "wrong-020",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "k0cb8077": {
+   "model": "sft-persona",
+   "id": "wrong-014",
+   "family": "user_says_something_wrong",
+   "new_tokens": 44
+  },
+  "k83d7b81": {
+   "model": "sft-succinct",
+   "id": "wrong-063",
+   "family": "user_says_something_wrong",
+   "new_tokens": 62
+  },
+  "kd53eeee": {
+   "model": "sft-succinct",
+   "id": "wrong-019",
+   "family": "user_says_something_wrong",
+   "new_tokens": 51
+  },
+  "ke4c5ff1": {
+   "model": "succinct",
+   "id": "wrong-040",
+   "family": "user_says_something_wrong",
+   "new_tokens": 50
+  },
+  "k22b4496": {
+   "model": "succinct",
+   "id": "wrong-063",
+   "family": "user_says_something_wrong",
+   "new_tokens": 79
+  },
+  "k359bc21": {
+   "model": "sft-persona",
+   "id": "wrong-044",
+   "family": "user_says_something_wrong",
+   "new_tokens": 100
+  },
+  "k612ff06": {
+   "model": "succinct",
+   "id": "wrong-022",
+   "family": "user_says_something_wrong",
+   "new_tokens": 34
+  },
+  "k2fc966f": {
+   "model": "succinct",
+   "id": "wrong-062",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "kd10c618": {
+   "model": "succinct",
+   "id": "wrong-045",
+   "family": "user_says_something_wrong",
+   "new_tokens": 63
+  },
+  "k161a956": {
+   "model": "base",
+   "id": "wrong-031",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k3d9aeae": {
+   "model": "base",
+   "id": "wrong-046",
+   "family": "user_says_something_wrong",
+   "new_tokens": 100
+  },
+  "k78e0564": {
+   "model": "succinct",
+   "id": "wrong-060",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kcf8acfa": {
+   "model": "base",
+   "id": "wrong-045",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k7bdc68a": {
+   "model": "base",
+   "id": "wrong-054",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kd2a0146": {
+   "model": "sft-persona",
+   "id": "wrong-048",
+   "family": "user_says_something_wrong",
+   "new_tokens": 96
+  },
+  "kafff2f2": {
+   "model": "base",
+   "id": "wrong-077",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k3216bd8": {
+   "model": "base",
+   "id": "wrong-033",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k83bf32d": {
+   "model": "persona",
+   "id": "wrong-009",
+   "family": "user_says_something_wrong",
+   "new_tokens": 68
+  },
+  "ke172bd0": {
+   "model": "sft-succinct",
+   "id": "wrong-011",
+   "family": "user_says_something_wrong",
+   "new_tokens": 24
+  },
+  "ka986eec": {
+   "model": "succinct",
+   "id": "wrong-049",
+   "family": "user_says_something_wrong",
+   "new_tokens": 28
+  },
+  "k3f4bd9f": {
+   "model": "persona",
+   "id": "wrong-016",
+   "family": "user_says_something_wrong",
+   "new_tokens": 74
+  },
+  "k5f5ff3f": {
+   "model": "sft-persona",
+   "id": "wrong-073",
+   "family": "user_says_something_wrong",
+   "new_tokens": 89
+  },
+  "ka23263d": {
+   "model": "sft-persona",
+   "id": "wrong-023",
+   "family": "user_says_something_wrong",
+   "new_tokens": 88
+  },
+  "k6050ef1": {
+   "model": "sft-succinct",
+   "id": "wrong-033",
+   "family": "user_says_something_wrong",
+   "new_tokens": 70
+  },
+  "k7c27a92": {
+   "model": "persona",
+   "id": "wrong-012",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "k06c0f38": {
+   "model": "succinct",
+   "id": "wrong-053",
+   "family": "user_says_something_wrong",
+   "new_tokens": 118
+  },
+  "kbed80c7": {
+   "model": "succinct",
+   "id": "wrong-002",
+   "family": "user_says_something_wrong",
+   "new_tokens": 58
+  },
+  "k7206437": {
+   "model": "sft-persona",
+   "id": "wrong-013",
+   "family": "user_says_something_wrong",
+   "new_tokens": 77
+  },
+  "k90fa2fb": {
+   "model": "sft-persona",
+   "id": "wrong-069",
+   "family": "user_says_something_wrong",
+   "new_tokens": 119
+  },
+  "k1995f74": {
+   "model": "persona",
+   "id": "wrong-056",
+   "family": "user_says_something_wrong",
+   "new_tokens": 44
+  },
+  "kcd38935": {
+   "model": "succinct",
+   "id": "wrong-067",
+   "family": "user_says_something_wrong",
+   "new_tokens": 88
+  },
+  "kbbcfd1c": {
+   "model": "persona",
+   "id": "wrong-048",
+   "family": "user_says_something_wrong",
+   "new_tokens": 73
+  },
+  "ke85eb88": {
+   "model": "sft-succinct",
+   "id": "wrong-075",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "k0f1144a": {
+   "model": "succinct",
+   "id": "wrong-011",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "ke7ae22c": {
+   "model": "sft-persona",
+   "id": "wrong-078",
+   "family": "user_says_something_wrong",
+   "new_tokens": 108
+  },
+  "kc638cea": {
+   "model": "succinct",
+   "id": "wrong-073",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "k2882a0a": {
+   "model": "base",
+   "id": "wrong-073",
+   "family": "user_says_something_wrong",
+   "new_tokens": 59
+  },
+  "k6a454f2": {
+   "model": "base",
+   "id": "wrong-042",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k070998d": {
+   "model": "persona",
+   "id": "wrong-024",
+   "family": "user_says_something_wrong",
+   "new_tokens": 67
+  },
+  "k08ea5bc": {
+   "model": "persona",
+   "id": "wrong-066",
+   "family": "user_says_something_wrong",
+   "new_tokens": 107
+  },
+  "k91b686b": {
+   "model": "base",
+   "id": "wrong-058",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k4667f50": {
+   "model": "succinct",
+   "id": "wrong-013",
+   "family": "user_says_something_wrong",
+   "new_tokens": 38
+  },
+  "ke97f24e": {
+   "model": "succinct",
+   "id": "wrong-056",
+   "family": "user_says_something_wrong",
+   "new_tokens": 72
+  },
+  "k65231fa": {
+   "model": "sft-succinct",
+   "id": "wrong-013",
+   "family": "user_says_something_wrong",
+   "new_tokens": 27
+  },
+  "k39194c2": {
+   "model": "persona",
+   "id": "wrong-047",
+   "family": "user_says_something_wrong",
+   "new_tokens": 71
+  },
+  "ke5559ec": {
+   "model": "persona",
+   "id": "wrong-018",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kb94fc23": {
+   "model": "base",
+   "id": "wrong-055",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k7ec5cee": {
+   "model": "sft-succinct",
+   "id": "wrong-032",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "k703a42d": {
+   "model": "persona",
+   "id": "wrong-039",
+   "family": "user_says_something_wrong",
+   "new_tokens": 97
+  },
+  "k83f7e99": {
+   "model": "persona",
+   "id": "wrong-007",
+   "family": "user_says_something_wrong",
+   "new_tokens": 71
+  },
+  "k7b62144": {
+   "model": "persona",
+   "id": "wrong-077",
+   "family": "user_says_something_wrong",
+   "new_tokens": 105
+  },
+  "ka6c9e41": {
+   "model": "persona",
+   "id": "wrong-053",
+   "family": "user_says_something_wrong",
+   "new_tokens": 68
+  },
+  "k14b0cd3": {
+   "model": "sft-persona",
+   "id": "wrong-027",
+   "family": "user_says_something_wrong",
+   "new_tokens": 116
+  },
+  "k3e066e4": {
+   "model": "succinct",
+   "id": "wrong-034",
+   "family": "user_says_something_wrong",
+   "new_tokens": 66
+  },
+  "kca10f32": {
+   "model": "base",
+   "id": "wrong-005",
+   "family": "user_says_something_wrong",
+   "new_tokens": 53
+  },
+  "kf62f7a4": {
+   "model": "base",
+   "id": "wrong-047",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k02f5e93": {
+   "model": "base",
+   "id": "wrong-028",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k5edb153": {
+   "model": "persona",
+   "id": "wrong-030",
+   "family": "user_says_something_wrong",
+   "new_tokens": 106
+  },
+  "k67e4606": {
+   "model": "base",
+   "id": "wrong-075",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kcd8e0fe": {
+   "model": "persona",
+   "id": "wrong-032",
+   "family": "user_says_something_wrong",
+   "new_tokens": 58
+  },
+  "k5660e91": {
+   "model": "persona",
+   "id": "wrong-078",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k27aa4b5": {
+   "model": "succinct",
+   "id": "wrong-023",
+   "family": "user_says_something_wrong",
+   "new_tokens": 37
+  },
+  "k61da21c": {
+   "model": "base",
+   "id": "wrong-011",
+   "family": "user_says_something_wrong",
+   "new_tokens": 66
+  },
+  "k343d585": {
+   "model": "persona",
+   "id": "wrong-057",
+   "family": "user_says_something_wrong",
+   "new_tokens": 62
+  },
+  "k4e0f8da": {
+   "model": "sft-persona",
+   "id": "wrong-068",
+   "family": "user_says_something_wrong",
+   "new_tokens": 94
+  },
+  "k7c910b7": {
+   "model": "sft-persona",
+   "id": "wrong-025",
+   "family": "user_says_something_wrong",
+   "new_tokens": 34
+  },
+  "ke5fd259": {
+   "model": "sft-persona",
+   "id": "wrong-043",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "ka20ec78": {
+   "model": "persona",
+   "id": "wrong-071",
+   "family": "user_says_something_wrong",
+   "new_tokens": 72
+  },
+  "k4d74049": {
+   "model": "base",
+   "id": "wrong-016",
+   "family": "user_says_something_wrong",
+   "new_tokens": 32
+  },
+  "kea303eb": {
+   "model": "sft-persona",
+   "id": "wrong-049",
+   "family": "user_says_something_wrong",
+   "new_tokens": 55
+  },
+  "k83563c1": {
+   "model": "succinct",
+   "id": "wrong-025",
+   "family": "user_says_something_wrong",
+   "new_tokens": 22
+  },
+  "ka3a43f2": {
+   "model": "succinct",
+   "id": "wrong-032",
+   "family": "user_says_something_wrong",
+   "new_tokens": 39
+  },
+  "k0733724": {
+   "model": "persona",
+   "id": "wrong-074",
+   "family": "user_says_something_wrong",
+   "new_tokens": 115
+  },
+  "k4ade120": {
+   "model": "base",
+   "id": "wrong-051",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k6d82e8f": {
+   "model": "base",
+   "id": "wrong-066",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k9ab58c7": {
+   "model": "base",
+   "id": "wrong-063",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kec1a93d": {
+   "model": "sft-succinct",
+   "id": "wrong-036",
+   "family": "user_says_something_wrong",
+   "new_tokens": 49
+  },
+  "k74f251e": {
+   "model": "base",
+   "id": "wrong-076",
+   "family": "user_says_something_wrong",
+   "new_tokens": 77
+  },
+  "k43a09c8": {
+   "model": "sft-persona",
+   "id": "wrong-051",
+   "family": "user_says_something_wrong",
+   "new_tokens": 22
+  },
+  "k768a15c": {
+   "model": "sft-succinct",
+   "id": "wrong-007",
+   "family": "user_says_something_wrong",
+   "new_tokens": 21
+  },
+  "k3e52f20": {
+   "model": "base",
+   "id": "wrong-021",
+   "family": "user_says_something_wrong",
+   "new_tokens": 27
+  },
+  "kbc726b7": {
+   "model": "succinct",
+   "id": "wrong-069",
+   "family": "user_says_something_wrong",
+   "new_tokens": 92
+  },
+  "kaedf9ae": {
+   "model": "base",
+   "id": "wrong-059",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kb4084b7": {
+   "model": "base",
+   "id": "wrong-074",
+   "family": "user_says_something_wrong",
+   "new_tokens": 46
+  },
+  "kf7ac35c": {
+   "model": "persona",
+   "id": "wrong-035",
+   "family": "user_says_something_wrong",
+   "new_tokens": 90
+  },
+  "k23ffa7a": {
+   "model": "sft-succinct",
+   "id": "wrong-074",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "k9977053": {
+   "model": "sft-persona",
+   "id": "wrong-042",
+   "family": "user_says_something_wrong",
+   "new_tokens": 34
+  },
+  "kb0e502f": {
+   "model": "succinct",
+   "id": "wrong-036",
+   "family": "user_says_something_wrong",
+   "new_tokens": 96
+  },
+  "kfe40cbd": {
+   "model": "persona",
+   "id": "wrong-075",
+   "family": "user_says_something_wrong",
+   "new_tokens": 115
+  },
+  "k2b836a3": {
+   "model": "succinct",
+   "id": "wrong-037",
+   "family": "user_says_something_wrong",
+   "new_tokens": 41
+  },
+  "ka079650": {
+   "model": "base",
+   "id": "wrong-044",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k0f09d50": {
+   "model": "base",
+   "id": "wrong-008",
+   "family": "user_says_something_wrong",
+   "new_tokens": 48
+  },
+  "k88e2bd3": {
+   "model": "persona",
+   "id": "wrong-027",
+   "family": "user_says_something_wrong",
+   "new_tokens": 108
+  },
+  "k8dd1a5e": {
+   "model": "succinct",
+   "id": "wrong-030",
+   "family": "user_says_something_wrong",
+   "new_tokens": 80
+  },
+  "k9a8d97a": {
+   "model": "sft-succinct",
+   "id": "wrong-017",
+   "family": "user_says_something_wrong",
+   "new_tokens": 38
+  },
+  "kf64c08a": {
+   "model": "sft-persona",
+   "id": "wrong-031",
+   "family": "user_says_something_wrong",
+   "new_tokens": 79
+  },
+  "k4077d3b": {
+   "model": "sft-succinct",
+   "id": "wrong-037",
+   "family": "user_says_something_wrong",
+   "new_tokens": 29
+  },
+  "k9853a1b": {
+   "model": "succinct",
+   "id": "wrong-003",
+   "family": "user_says_something_wrong",
+   "new_tokens": 63
+  },
+  "kb68f48b": {
+   "model": "base",
+   "id": "wrong-007",
+   "family": "user_says_something_wrong",
+   "new_tokens": 58
+  },
+  "kc9eaf4d": {
+   "model": "sft-succinct",
+   "id": "wrong-059",
+   "family": "user_says_something_wrong",
+   "new_tokens": 37
+  },
+  "k2224792": {
+   "model": "base",
+   "id": "wrong-070",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k4c6ef4c": {
+   "model": "succinct",
+   "id": "wrong-006",
+   "family": "user_says_something_wrong",
+   "new_tokens": 78
+  },
+  "k4fe428b": {
+   "model": "persona",
+   "id": "wrong-033",
+   "family": "user_says_something_wrong",
+   "new_tokens": 92
+  },
+  "kdde27a9": {
+   "model": "sft-succinct",
+   "id": "wrong-071",
+   "family": "user_says_something_wrong",
+   "new_tokens": 41
+  },
+  "k05633a2": {
+   "model": "base",
+   "id": "wrong-020",
+   "family": "user_says_something_wrong",
+   "new_tokens": 14
+  },
+  "k8d852a1": {
+   "model": "persona",
+   "id": "wrong-060",
+   "family": "user_says_something_wrong",
+   "new_tokens": 65
+  },
+  "kfb28a42": {
+   "model": "base",
+   "id": "wrong-009",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k0047ee5": {
+   "model": "succinct",
+   "id": "wrong-035",
+   "family": "user_says_something_wrong",
+   "new_tokens": 44
+  },
+  "kc416619": {
+   "model": "succinct",
+   "id": "wrong-004",
+   "family": "user_says_something_wrong",
+   "new_tokens": 32
+  },
+  "k8e3044f": {
+   "model": "succinct",
+   "id": "wrong-012",
+   "family": "user_says_something_wrong",
+   "new_tokens": 97
+  },
+  "k12177c1": {
+   "model": "sft-succinct",
+   "id": "wrong-023",
+   "family": "user_says_something_wrong",
+   "new_tokens": 50
+  },
+  "kc1b3344": {
+   "model": "persona",
+   "id": "wrong-014",
+   "family": "user_says_something_wrong",
+   "new_tokens": 70
+  },
+  "k270b542": {
+   "model": "persona",
+   "id": "wrong-069",
+   "family": "user_says_something_wrong",
+   "new_tokens": 106
+  },
+  "ke7a4bef": {
+   "model": "sft-succinct",
+   "id": "wrong-079",
+   "family": "user_says_something_wrong",
+   "new_tokens": 41
+  },
+  "kec3c233": {
+   "model": "succinct",
+   "id": "wrong-043",
+   "family": "user_says_something_wrong",
+   "new_tokens": 92
+  },
+  "k5784d54": {
+   "model": "persona",
+   "id": "wrong-020",
+   "family": "user_says_something_wrong",
+   "new_tokens": 64
+  },
+  "k5eac3c1": {
+   "model": "sft-succinct",
+   "id": "wrong-016",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "kdebf093": {
+   "model": "persona",
+   "id": "wrong-072",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k1774d8e": {
+   "model": "sft-persona",
+   "id": "wrong-011",
+   "family": "user_says_something_wrong",
+   "new_tokens": 78
+  },
+  "k82742a5": {
+   "model": "persona",
+   "id": "wrong-045",
+   "family": "user_says_something_wrong",
+   "new_tokens": 78
+  },
+  "kd06902f": {
+   "model": "sft-succinct",
+   "id": "wrong-073",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k8107d80": {
+   "model": "succinct",
+   "id": "wrong-070",
+   "family": "user_says_something_wrong",
+   "new_tokens": 38
+  },
+  "kcc4c3e9": {
+   "model": "succinct",
+   "id": "wrong-068",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "k3dc7184": {
+   "model": "base",
+   "id": "wrong-064",
+   "family": "user_says_something_wrong",
+   "new_tokens": 55
+  },
+  "k8990130": {
+   "model": "sft-succinct",
+   "id": "wrong-053",
+   "family": "user_says_something_wrong",
+   "new_tokens": 56
+  },
+  "k4ad93f2": {
+   "model": "base",
+   "id": "wrong-068",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k2f150dc": {
+   "model": "sft-succinct",
+   "id": "wrong-027",
+   "family": "user_says_something_wrong",
+   "new_tokens": 42
+  },
+  "k403f4e0": {
+   "model": "sft-persona",
+   "id": "wrong-040",
+   "family": "user_says_something_wrong",
+   "new_tokens": 49
+  },
+  "k97f867c": {
+   "model": "succinct",
+   "id": "wrong-021",
+   "family": "user_says_something_wrong",
+   "new_tokens": 26
+  },
+  "k6e4f03e": {
+   "model": "sft-succinct",
+   "id": "wrong-070",
+   "family": "user_says_something_wrong",
+   "new_tokens": 55
+  },
+  "k8eb8742": {
+   "model": "base",
+   "id": "wrong-026",
+   "family": "user_says_something_wrong",
+   "new_tokens": 23
+  },
+  "k28f3839": {
+   "model": "base",
+   "id": "wrong-079",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k2949236": {
+   "model": "succinct",
+   "id": "wrong-079",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "k53b8427": {
+   "model": "sft-persona",
+   "id": "wrong-039",
+   "family": "user_says_something_wrong",
+   "new_tokens": 69
+  },
+  "kd1c0b7e": {
+   "model": "sft-succinct",
+   "id": "wrong-004",
+   "family": "user_says_something_wrong",
+   "new_tokens": 29
+  },
+  "kf7a6424": {
+   "model": "persona",
+   "id": "wrong-061",
+   "family": "user_says_something_wrong",
+   "new_tokens": 51
+  },
+  "k19794b1": {
+   "model": "sft-succinct",
+   "id": "wrong-062",
+   "family": "user_says_something_wrong",
+   "new_tokens": 31
+  },
+  "kef7cd96": {
+   "model": "sft-persona",
+   "id": "wrong-041",
+   "family": "user_says_something_wrong",
+   "new_tokens": 64
+  },
+  "k43a01ec": {
+   "model": "sft-succinct",
+   "id": "wrong-058",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "kb32f328": {
+   "model": "sft-persona",
+   "id": "wrong-066",
+   "family": "user_says_something_wrong",
+   "new_tokens": 118
+  },
+  "ka200bb5": {
+   "model": "succinct",
+   "id": "wrong-001",
+   "family": "user_says_something_wrong",
+   "new_tokens": 71
+  },
+  "ke303764": {
+   "model": "sft-succinct",
+   "id": "wrong-069",
+   "family": "user_says_something_wrong",
+   "new_tokens": 65
+  },
+  "k5cc08a4": {
+   "model": "sft-persona",
+   "id": "wrong-032",
+   "family": "user_says_something_wrong",
+   "new_tokens": 38
+  },
+  "kdfd86bf": {
+   "model": "succinct",
+   "id": "wrong-065",
+   "family": "user_says_something_wrong",
+   "new_tokens": 49
+  },
+  "k74ce2a4": {
+   "model": "persona",
+   "id": "wrong-079",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kbf984b0": {
+   "model": "succinct",
+   "id": "wrong-039",
+   "family": "user_says_something_wrong",
+   "new_tokens": 114
+  },
+  "kddcca01": {
+   "model": "succinct",
+   "id": "wrong-076",
+   "family": "user_says_something_wrong",
+   "new_tokens": 39
+  },
+  "k9827fa9": {
+   "model": "base",
+   "id": "wrong-022",
+   "family": "user_says_something_wrong",
+   "new_tokens": 42
+  },
+  "k4ad2bbd": {
+   "model": "sft-succinct",
+   "id": "wrong-067",
+   "family": "user_says_something_wrong",
+   "new_tokens": 28
+  },
+  "kc3c3bdd": {
+   "model": "sft-persona",
+   "id": "wrong-028",
+   "family": "user_says_something_wrong",
+   "new_tokens": 106
+  },
+  "k55b0d30": {
+   "model": "persona",
+   "id": "wrong-022",
+   "family": "user_says_something_wrong",
+   "new_tokens": 76
+  },
+  "k338fb1a": {
+   "model": "sft-succinct",
+   "id": "wrong-061",
+   "family": "user_says_something_wrong",
+   "new_tokens": 62
+  },
+  "k1c975ea": {
+   "model": "succinct",
+   "id": "wrong-024",
+   "family": "user_says_something_wrong",
+   "new_tokens": 40
+  },
+  "k6601fd2": {
+   "model": "base",
+   "id": "wrong-035",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k6d5436d": {
+   "model": "sft-succinct",
+   "id": "wrong-055",
+   "family": "user_says_something_wrong",
+   "new_tokens": 12
+  },
+  "k6891389": {
+   "model": "persona",
+   "id": "wrong-026",
+   "family": "user_says_something_wrong",
+   "new_tokens": 93
+  },
+  "kf381c87": {
+   "model": "base",
+   "id": "wrong-078",
+   "family": "user_says_something_wrong",
+   "new_tokens": 53
+  },
+  "k823fc7c": {
+   "model": "succinct",
+   "id": "wrong-044",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k0702a8a": {
+   "model": "sft-persona",
+   "id": "wrong-064",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k58c3e00": {
+   "model": "sft-persona",
+   "id": "wrong-047",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k5932664": {
+   "model": "succinct",
+   "id": "wrong-064",
+   "family": "user_says_something_wrong",
+   "new_tokens": 59
+  },
+  "k173a6ea": {
+   "model": "persona",
+   "id": "wrong-040",
+   "family": "user_says_something_wrong",
+   "new_tokens": 100
+  },
+  "k9a77828": {
+   "model": "base",
+   "id": "wrong-052",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k2d84843": {
+   "model": "succinct",
+   "id": "wrong-052",
+   "family": "user_says_something_wrong",
+   "new_tokens": 68
+  },
+  "ke791e65": {
+   "model": "sft-persona",
+   "id": "wrong-067",
+   "family": "user_says_something_wrong",
+   "new_tokens": 75
+  },
+  "kab49712": {
+   "model": "sft-succinct",
+   "id": "wrong-054",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k4bd46be": {
+   "model": "sft-succinct",
+   "id": "wrong-029",
+   "family": "user_says_something_wrong",
+   "new_tokens": 38
+  },
+  "kb7be122": {
+   "model": "sft-persona",
+   "id": "wrong-050",
+   "family": "user_says_something_wrong",
+   "new_tokens": 20
+  },
+  "kdb39f7f": {
+   "model": "base",
+   "id": "wrong-056",
+   "family": "user_says_something_wrong",
+   "new_tokens": 114
+  },
+  "k98b3215": {
+   "model": "sft-persona",
+   "id": "wrong-071",
+   "family": "user_says_something_wrong",
+   "new_tokens": 91
+  },
+  "kf139ed1": {
+   "model": "sft-persona",
+   "id": "wrong-008",
+   "family": "user_says_something_wrong",
+   "new_tokens": 52
+  },
+  "k12df345": {
+   "model": "sft-succinct",
+   "id": "wrong-080",
+   "family": "user_says_something_wrong",
+   "new_tokens": 34
+  },
+  "k5e53690": {
+   "model": "succinct",
+   "id": "wrong-057",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "ke45f25a": {
+   "model": "succinct",
+   "id": "wrong-058",
+   "family": "user_says_something_wrong",
+   "new_tokens": 100
+  },
+  "k1e1a5fc": {
+   "model": "succinct",
+   "id": "wrong-009",
+   "family": "user_says_something_wrong",
+   "new_tokens": 101
+  },
+  "k0c37857": {
+   "model": "succinct",
+   "id": "wrong-038",
+   "family": "user_says_something_wrong",
+   "new_tokens": 36
+  },
+  "k32d50ac": {
+   "model": "base",
+   "id": "wrong-018",
+   "family": "user_says_something_wrong",
+   "new_tokens": 69
+  },
+  "kc6200ea": {
+   "model": "base",
+   "id": "wrong-038",
+   "family": "user_says_something_wrong",
+   "new_tokens": 33
+  },
+  "kc1c4f06": {
+   "model": "sft-succinct",
+   "id": "wrong-042",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k0a98891": {
+   "model": "persona",
+   "id": "wrong-017",
+   "family": "user_says_something_wrong",
+   "new_tokens": 73
+  },
+  "k3c2ae12": {
+   "model": "sft-persona",
+   "id": "wrong-007",
+   "family": "user_says_something_wrong",
+   "new_tokens": 65
+  },
+  "k9a8bc58": {
+   "model": "persona",
+   "id": "wrong-052",
+   "family": "user_says_something_wrong",
+   "new_tokens": 83
+  },
+  "k2a76e71": {
+   "model": "succinct",
+   "id": "wrong-028",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "k13e74f0": {
+   "model": "persona",
+   "id": "wrong-004",
+   "family": "user_says_something_wrong",
+   "new_tokens": 71
+  },
+  "ka94c236": {
+   "model": "succinct",
+   "id": "wrong-075",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "kcb8e031": {
+   "model": "succinct",
+   "id": "wrong-051",
+   "family": "user_says_something_wrong",
+   "new_tokens": 33
+  },
+  "k70495fc": {
+   "model": "base",
+   "id": "wrong-024",
+   "family": "user_says_something_wrong",
+   "new_tokens": 25
+  },
+  "kcc5e1eb": {
+   "model": "succinct",
+   "id": "wrong-061",
+   "family": "user_says_something_wrong",
+   "new_tokens": 111
+  },
+  "k6dd002f": {
+   "model": "sft-succinct",
+   "id": "wrong-065",
+   "family": "user_says_something_wrong",
+   "new_tokens": 40
+  },
+  "k40a7f5f": {
+   "model": "persona",
+   "id": "wrong-046",
+   "family": "user_says_something_wrong",
+   "new_tokens": 45
+  },
+  "k26b65c2": {
+   "model": "base",
+   "id": "wrong-025",
+   "family": "user_says_something_wrong",
+   "new_tokens": 14
+  },
+  "kc8e4b5b": {
+   "model": "succinct",
+   "id": "wrong-017",
+   "family": "user_says_something_wrong",
+   "new_tokens": 63
+  },
+  "ke4c0c6c": {
+   "model": "persona",
+   "id": "wrong-002",
+   "family": "user_says_something_wrong",
+   "new_tokens": 72
+  },
+  "k2119392": {
+   "model": "sft-succinct",
+   "id": "wrong-005",
+   "family": "user_says_something_wrong",
+   "new_tokens": 29
+  },
+  "kfda08bb": {
+   "model": "sft-succinct",
+   "id": "wrong-049",
+   "family": "user_says_something_wrong",
+   "new_tokens": 19
+  },
+  "k96f0d12": {
+   "model": "base",
+   "id": "wrong-061",
+   "family": "user_says_something_wrong",
+   "new_tokens": 97
+  },
+  "k7e5702d": {
+   "model": "sft-succinct",
+   "id": "wrong-051",
+   "family": "user_says_something_wrong",
+   "new_tokens": 14
+  },
+  "ked050fc": {
+   "model": "base",
+   "id": "wrong-069",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k8c6b1f2": {
+   "model": "sft-succinct",
+   "id": "wrong-060",
+   "family": "user_says_something_wrong",
+   "new_tokens": 18
+  },
+  "kfefdd6b": {
+   "model": "sft-succinct",
+   "id": "wrong-056",
+   "family": "user_says_something_wrong",
+   "new_tokens": 57
+  },
+  "k4badec5": {
+   "model": "sft-succinct",
+   "id": "wrong-022",
+   "family": "user_says_something_wrong",
+   "new_tokens": 28
+  },
+  "kf20ab74": {
+   "model": "succinct",
+   "id": "wrong-077",
+   "family": "user_says_something_wrong",
+   "new_tokens": 76
+  },
+  "k38cdc89": {
+   "model": "base",
+   "id": "wrong-039",
+   "family": "user_says_something_wrong",
+   "new_tokens": 82
+  },
+  "k27d330e": {
+   "model": "succinct",
+   "id": "wrong-046",
+   "family": "user_says_something_wrong",
+   "new_tokens": 74
+  },
+  "kec7df90": {
+   "model": "sft-succinct",
+   "id": "wrong-076",
+   "family": "user_says_something_wrong",
+   "new_tokens": 40
+  },
+  "kcc38ce7": {
+   "model": "persona",
+   "id": "wrong-013",
+   "family": "user_says_something_wrong",
+   "new_tokens": 100
+  },
+  "kb6aa7af": {
+   "model": "sft-succinct",
+   "id": "wrong-028",
+   "family": "user_says_something_wrong",
+   "new_tokens": 32
+  },
+  "k325ebe6": {
+   "model": "base",
+   "id": "wrong-017",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k7bd33e5": {
+   "model": "base",
+   "id": "wrong-053",
+   "family": "user_says_something_wrong",
+   "new_tokens": 2
+  },
+  "kb8d5a77": {
+   "model": "sft-persona",
+   "id": "wrong-054",
+   "family": "user_says_something_wrong",
+   "new_tokens": 58
+  },
+  "kd05247b": {
+   "model": "sft-persona",
+   "id": "wrong-005",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "k0cda7da": {
+   "model": "sft-persona",
+   "id": "wrong-038",
+   "family": "user_says_something_wrong",
+   "new_tokens": 52
+  },
+  "ka4e1f9d": {
+   "model": "base",
+   "id": "wrong-014",
+   "family": "user_says_something_wrong",
+   "new_tokens": 63
+  },
+  "kcb89305": {
+   "model": "sft-persona",
+   "id": "wrong-052",
+   "family": "user_says_something_wrong",
+   "new_tokens": 43
+  },
+  "k8642a4e": {
+   "model": "sft-persona",
+   "id": "wrong-015",
+   "family": "user_says_something_wrong",
+   "new_tokens": 69
+  },
+  "k3586c31": {
+   "model": "sft-succinct",
+   "id": "wrong-048",
+   "family": "user_says_something_wrong",
+   "new_tokens": 37
+  },
+  "k996fb2b": {
+   "model": "base",
+   "id": "wrong-004",
+   "family": "user_says_something_wrong",
+   "new_tokens": 113
+  },
+  "kd905516": {
+   "model": "base",
+   "id": "wrong-036",
+   "family": "user_says_something_wrong",
+   "new_tokens": 46
+  },
+  "ka031c98": {
+   "model": "sft-persona",
+   "id": "wrong-062",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "k74d7ea2": {
+   "model": "sft-succinct",
+   "id": "wrong-024",
+   "family": "user_says_something_wrong",
+   "new_tokens": 24
+  },
+  "kf849b0e": {
+   "model": "sft-succinct",
+   "id": "wrong-034",
+   "family": "user_says_something_wrong",
+   "new_tokens": 35
+  },
+  "k728f336": {
+   "model": "sft-persona",
+   "id": "wrong-065",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k08bd329": {
+   "model": "succinct",
+   "id": "wrong-066",
+   "family": "user_says_something_wrong",
+   "new_tokens": 57
+  },
+  "ke1fbc4b": {
+   "model": "sft-succinct",
+   "id": "wrong-039",
+   "family": "user_says_something_wrong",
+   "new_tokens": 39
+  },
+  "k0edc187": {
+   "model": "persona",
+   "id": "wrong-055",
+   "family": "user_says_something_wrong",
+   "new_tokens": 29
+  },
+  "k16da8c8": {
+   "model": "succinct",
+   "id": "wrong-055",
+   "family": "user_says_something_wrong",
+   "new_tokens": 23
+  },
+  "k08135ca": {
+   "model": "sft-persona",
+   "id": "wrong-072",
+   "family": "user_says_something_wrong",
+   "new_tokens": 59
+  },
+  "kc5c87c5": {
+   "model": "persona",
+   "id": "wrong-036",
+   "family": "user_says_something_wrong",
+   "new_tokens": 108
+  },
+  "kc180e58": {
+   "model": "sft-succinct",
+   "id": "wrong-003",
+   "family": "user_says_something_wrong",
+   "new_tokens": 34
+  },
+  "keea42cf": {
+   "model": "sft-persona",
+   "id": "wrong-016",
+   "family": "user_says_something_wrong",
+   "new_tokens": 71
+  },
+  "k3df81fe": {
+   "model": "persona",
+   "id": "wrong-025",
+   "family": "user_says_something_wrong",
+   "new_tokens": 49
+  },
+  "kd8efdc2": {
+   "model": "sft-persona",
+   "id": "wrong-080",
+   "family": "user_says_something_wrong",
+   "new_tokens": 67
+  },
+  "ka394171": {
+   "model": "sft-persona",
+   "id": "wrong-001",
+   "family": "user_says_something_wrong",
+   "new_tokens": 54
+  },
+  "k8da8b6e": {
+   "model": "base",
+   "id": "wrong-080",
+   "family": "user_says_something_wrong",
+   "new_tokens": 55
+  },
+  "k7721083": {
+   "model": "persona",
+   "id": "wrong-023",
+   "family": "user_says_something_wrong",
+   "new_tokens": 101
+  },
+  "k6819c1a": {
+   "model": "sft-persona",
+   "id": "wrong-035",
+   "family": "user_says_something_wrong",
+   "new_tokens": 66
+  },
+  "k738bf1d": {
+   "model": "sft-succinct",
+   "id": "wrong-045",
+   "family": "user_says_something_wrong",
+   "new_tokens": 60
+  },
+  "kda0ce8e": {
+   "model": "sft-succinct",
+   "id": "wrong-001",
+   "family": "user_says_something_wrong",
+   "new_tokens": 44
+  },
+  "kb1dff42": {
+   "model": "base",
+   "id": "wrong-067",
+   "family": "user_says_something_wrong",
+   "new_tokens": 45
+  },
+  "k52bad73": {
+   "model": "sft-succinct",
+   "id": "wrong-043",
+   "family": "user_says_something_wrong",
+   "new_tokens": 47
+  },
+  "k598a49d": {
+   "model": "persona",
+   "id": "wrong-034",
+   "family": "user_says_something_wrong",
+   "new_tokens": 89
+  },
+  "k4382edc": {
+   "model": "sft-succinct",
+   "id": "wrong-050",
+   "family": "user_says_something_wrong",
+   "new_tokens": 15
+  },
+  "k2c49f53": {
+   "model": "persona",
+   "id": "wrong-063",
+   "family": "user_says_something_wrong",
+   "new_tokens": 112
+  },
+  "k912af9f": {
+   "model": "sft-succinct",
+   "id": "wrong-018",
+   "family": "user_says_something_wrong",
+   "new_tokens": 31
+  },
+  "k227a53d": {
+   "model": "sft-succinct",
+   "id": "wrong-010",
+   "family": "user_says_something_wrong",
+   "new_tokens": 39
+  },
+  "k67736c8": {
+   "model": "persona",
+   "id": "wrong-001",
+   "family": "user_says_something_wrong",
+   "new_tokens": 76
+  },
+  "k4073a7d": {
+   "model": "sft-succinct",
+   "id": "wrong-030",
+   "family": "user_says_something_wrong",
+   "new_tokens": 61
+  },
+  "kbad11da": {
+   "model": "persona",
+   "id": "wrong-044",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k12e8902": {
+   "model": "persona",
+   "id": "wrong-038",
+   "family": "user_says_something_wrong",
+   "new_tokens": 101
+  },
+  "k085db2c": {
+   "model": "base",
+   "id": "wrong-072",
+   "family": "user_says_something_wrong",
+   "new_tokens": 120
+  },
+  "k87e0c90": {
+   "model": "sft-succinct",
+   "id": "wrong-040",
+   "family": "user_says_something_wrong",
+   "new_tokens": 32
+  },
+  "k183616b": {
+   "model": "succinct",
+   "id": "wrong-016",
+   "family": "user_says_something_wrong",
+   "new_tokens": 67
+  },
+  "k2c35bc3": {
+   "model": "sft-succinct",
+   "id": "wrong-002",
+   "family": "user_says_something_wrong",
+   "new_tokens": 27
+  },
+  "k0cb8ce2": {
+   "model": "persona",
+   "id": "wrong-031",
+   "family": "user_says_something_wrong",
+   "new_tokens": 112
+  },
+  "k1756c83": {
+   "model": "sft-succinct",
+   "id": "wrong-047",
+   "family": "user_says_something_wrong",
+   "new_tokens": 52
+  },
+  "kf3d7e04": {
+   "model": "sft-persona",
+   "id": "wrong-022",
+   "family": "user_says_something_wrong",
+   "new_tokens": 100
+  },
+  "k8c90758": {
+   "model": "base",
+   "id": "wrong-010",
+   "family": "user_says_something_wrong",
+   "new_tokens": 51
+  },
+  "k03f6ca5": {
+   "model": "sft-persona",
+   "id": "wrong-004",
+   "family": "user_says_something_wrong",
+   "new_tokens": 68
+  },
+  "k9fe26cc": {
+   "model": "sft-succinct",
+   "id": "wrong-046",
+   "family": "user_says_something_wrong",
+   "new_tokens": 24
+  },
+  "kf107b58": {
+   "model": "persona",
+   "id": "wrong-011",
+   "family": "user_says_something_wrong",
+   "new_tokens": 44
+  },
+  "kad2b973": {
+   "model": "base",
+   "id": "emotional-004",
+   "family": "emotional_social",
+   "new_tokens": 181
+  },
+  "k59abe7c": {
+   "model": "base",
+   "id": "emotional-006",
+   "family": "emotional_social",
+   "new_tokens": 195
+  },
+  "k45c203a": {
+   "model": "succinct",
+   "id": "emotional-031",
+   "family": "emotional_social",
+   "new_tokens": 45
+  },
+  "kd22808a": {
+   "model": "base",
+   "id": "emotional-039",
+   "family": "emotional_social",
+   "new_tokens": 194
+  },
+  "kb98a63b": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-009",
+   "family": "emotional_social",
+   "new_tokens": 92
+  },
+  "k879a849": {
+   "model": "sft-persona",
+   "id": "emotional-019",
+   "family": "emotional_social",
+   "new_tokens": 61
+  },
+  "ke8a2c3c": {
+   "model": "base",
+   "id": "mine-additional_clauses-009",
+   "family": "emotional_social",
+   "new_tokens": 132
+  },
+  "k25a17d0": {
+   "model": "persona",
+   "id": "emotional-013",
+   "family": "emotional_social",
+   "new_tokens": 107
+  },
+  "k031d454": {
+   "model": "persona",
+   "id": "mine-additional_clauses-007",
+   "family": "emotional_social",
+   "new_tokens": 105
+  },
+  "k1ad435e": {
+   "model": "persona",
+   "id": "mine-additional_clauses-009",
+   "family": "emotional_social",
+   "new_tokens": 95
+  },
+  "kb8787b6": {
+   "model": "succinct",
+   "id": "emotional-001",
+   "family": "emotional_social",
+   "new_tokens": 38
+  },
+  "k8592ea2": {
+   "model": "succinct",
+   "id": "emotional-035",
+   "family": "emotional_social",
+   "new_tokens": 56
+  },
+  "kacec862": {
+   "model": "persona",
+   "id": "emotional-016",
+   "family": "emotional_social",
+   "new_tokens": 94
+  },
+  "kbd9604a": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-010",
+   "family": "emotional_social",
+   "new_tokens": 88
+  },
+  "k2391a86": {
+   "model": "sft-persona",
+   "id": "emotional-025",
+   "family": "emotional_social",
+   "new_tokens": 36
+  },
+  "k8c45cdb": {
+   "model": "persona",
+   "id": "emotional-030",
+   "family": "emotional_social",
+   "new_tokens": 77
+  },
+  "k65b373f": {
+   "model": "succinct",
+   "id": "emotional-004",
+   "family": "emotional_social",
+   "new_tokens": 51
+  },
+  "kd65c9d5": {
+   "model": "sft-succinct",
+   "id": "emotional-019",
+   "family": "emotional_social",
+   "new_tokens": 34
+  },
+  "kd229bc3": {
+   "model": "persona",
+   "id": "mine-additional_clauses-002",
+   "family": "emotional_social",
+   "new_tokens": 88
+  },
+  "k749fc3c": {
+   "model": "base",
+   "id": "emotional-016",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k9c64ad2": {
+   "model": "base",
+   "id": "emotional-041",
+   "family": "emotional_social",
+   "new_tokens": 137
+  },
+  "kb6ab79b": {
+   "model": "succinct",
+   "id": "emotional-022",
+   "family": "emotional_social",
+   "new_tokens": 41
+  },
+  "kd23e25d": {
+   "model": "sft-persona",
+   "id": "emotional-043",
+   "family": "emotional_social",
+   "new_tokens": 79
+  },
+  "k2dd80c0": {
+   "model": "sft-persona",
+   "id": "emotional-031",
+   "family": "emotional_social",
+   "new_tokens": 95
+  },
+  "k961eda7": {
+   "model": "sft-succinct",
+   "id": "emotional-041",
+   "family": "emotional_social",
+   "new_tokens": 41
+  },
+  "k2e0cc31": {
+   "model": "base",
+   "id": "emotional-027",
+   "family": "emotional_social",
+   "new_tokens": 86
+  },
+  "k98d7198": {
+   "model": "persona",
+   "id": "emotional-019",
+   "family": "emotional_social",
+   "new_tokens": 85
+  },
+  "kbb3ae63": {
+   "model": "base",
+   "id": "mine-additional_clauses-003",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "kd71a0ba": {
+   "model": "persona",
+   "id": "emotional-036",
+   "family": "emotional_social",
+   "new_tokens": 86
+  },
+  "k73b4592": {
+   "model": "base",
+   "id": "emotional-030",
+   "family": "emotional_social",
+   "new_tokens": 53
+  },
+  "kf905d8d": {
+   "model": "persona",
+   "id": "emotional-018",
+   "family": "emotional_social",
+   "new_tokens": 91
+  },
+  "k8886841": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-006",
+   "family": "emotional_social",
+   "new_tokens": 60
+  },
+  "k04f53fb": {
+   "model": "sft-succinct",
+   "id": "emotional-027",
+   "family": "emotional_social",
+   "new_tokens": 22
+  },
+  "ka091ccf": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-001",
+   "family": "emotional_social",
+   "new_tokens": 80
+  },
+  "k7ea21d7": {
+   "model": "sft-persona",
+   "id": "emotional-012",
+   "family": "emotional_social",
+   "new_tokens": 70
+  },
+  "k26a8ef5": {
+   "model": "persona",
+   "id": "emotional-028",
+   "family": "emotional_social",
+   "new_tokens": 80
+  },
+  "k3b5b51c": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-007",
+   "family": "emotional_social",
+   "new_tokens": 85
+  },
+  "k53a1f13": {
+   "model": "succinct",
+   "id": "emotional-037",
+   "family": "emotional_social",
+   "new_tokens": 47
+  },
+  "k3539e83": {
+   "model": "sft-persona",
+   "id": "emotional-039",
+   "family": "emotional_social",
+   "new_tokens": 74
+  },
+  "k62fd721": {
+   "model": "persona",
+   "id": "emotional-005",
+   "family": "emotional_social",
+   "new_tokens": 82
+  },
+  "k0ea37e7": {
+   "model": "sft-persona",
+   "id": "emotional-003",
+   "family": "emotional_social",
+   "new_tokens": 88
+  },
+  "ke059fc3": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-002",
+   "family": "emotional_social",
+   "new_tokens": 48
+  },
+  "kce9e560": {
+   "model": "persona",
+   "id": "emotional-031",
+   "family": "emotional_social",
+   "new_tokens": 112
+  },
+  "k083ed4b": {
+   "model": "sft-persona",
+   "id": "emotional-013",
+   "family": "emotional_social",
+   "new_tokens": 72
+  },
+  "kd5d57b2": {
+   "model": "succinct",
+   "id": "emotional-025",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "k54262d2": {
+   "model": "persona",
+   "id": "emotional-026",
+   "family": "emotional_social",
+   "new_tokens": 55
+  },
+  "kaf253c6": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-003",
+   "family": "emotional_social",
+   "new_tokens": 34
+  },
+  "k29c89ad": {
+   "model": "persona",
+   "id": "emotional-045",
+   "family": "emotional_social",
+   "new_tokens": 78
+  },
+  "k5979327": {
+   "model": "base",
+   "id": "emotional-013",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "kd098924": {
+   "model": "persona",
+   "id": "mine-additional_clauses-005",
+   "family": "emotional_social",
+   "new_tokens": 129
+  },
+  "k65fd2a0": {
+   "model": "sft-succinct",
+   "id": "emotional-020",
+   "family": "emotional_social",
+   "new_tokens": 24
+  },
+  "k44b6c9b": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-001",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "k42d4e47": {
+   "model": "sft-succinct",
+   "id": "emotional-015",
+   "family": "emotional_social",
+   "new_tokens": 22
+  },
+  "k408d99f": {
+   "model": "sft-persona",
+   "id": "emotional-040",
+   "family": "emotional_social",
+   "new_tokens": 84
+  },
+  "kcd00655": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-010",
+   "family": "emotional_social",
+   "new_tokens": 111
+  },
+  "k2620cde": {
+   "model": "sft-succinct",
+   "id": "emotional-012",
+   "family": "emotional_social",
+   "new_tokens": 33
+  },
+  "k5a74d41": {
+   "model": "persona",
+   "id": "mine-additional_clauses-003",
+   "family": "emotional_social",
+   "new_tokens": 105
+  },
+  "k6937f61": {
+   "model": "succinct",
+   "id": "emotional-026",
+   "family": "emotional_social",
+   "new_tokens": 44
+  },
+  "k8cf7afe": {
+   "model": "sft-succinct",
+   "id": "emotional-031",
+   "family": "emotional_social",
+   "new_tokens": 65
+  },
+  "k892382a": {
+   "model": "sft-succinct",
+   "id": "emotional-022",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "kcb8908d": {
+   "model": "base",
+   "id": "mine-additional_clauses-008",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k6971de2": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-008",
+   "family": "emotional_social",
+   "new_tokens": 40
+  },
+  "kdb62c1c": {
+   "model": "persona",
+   "id": "emotional-027",
+   "family": "emotional_social",
+   "new_tokens": 71
+  },
+  "k33e968a": {
+   "model": "succinct",
+   "id": "emotional-042",
+   "family": "emotional_social",
+   "new_tokens": 35
+  },
+  "k8f700bb": {
+   "model": "persona",
+   "id": "mine-additional_clauses-004",
+   "family": "emotional_social",
+   "new_tokens": 117
+  },
+  "kd177368": {
+   "model": "succinct",
+   "id": "emotional-027",
+   "family": "emotional_social",
+   "new_tokens": 56
+  },
+  "kdf0f976": {
+   "model": "persona",
+   "id": "emotional-002",
+   "family": "emotional_social",
+   "new_tokens": 64
+  },
+  "kb02ef94": {
+   "model": "sft-succinct",
+   "id": "emotional-032",
+   "family": "emotional_social",
+   "new_tokens": 50
+  },
+  "k6ab42d3": {
+   "model": "persona",
+   "id": "emotional-020",
+   "family": "emotional_social",
+   "new_tokens": 109
+  },
+  "k2c446b9": {
+   "model": "succinct",
+   "id": "emotional-036",
+   "family": "emotional_social",
+   "new_tokens": 54
+  },
+  "k64627a6": {
+   "model": "sft-persona",
+   "id": "emotional-032",
+   "family": "emotional_social",
+   "new_tokens": 60
+  },
+  "k406ebba": {
+   "model": "base",
+   "id": "mine-additional_clauses-004",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k291e98e": {
+   "model": "sft-persona",
+   "id": "emotional-004",
+   "family": "emotional_social",
+   "new_tokens": 81
+  },
+  "k243098e": {
+   "model": "sft-persona",
+   "id": "emotional-029",
+   "family": "emotional_social",
+   "new_tokens": 68
+  },
+  "kd1815e1": {
+   "model": "sft-persona",
+   "id": "emotional-015",
+   "family": "emotional_social",
+   "new_tokens": 76
+  },
+  "k06b1313": {
+   "model": "sft-succinct",
+   "id": "emotional-017",
+   "family": "emotional_social",
+   "new_tokens": 19
+  },
+  "k59bd072": {
+   "model": "persona",
+   "id": "emotional-024",
+   "family": "emotional_social",
+   "new_tokens": 56
+  },
+  "kd20f23e": {
+   "model": "persona",
+   "id": "emotional-017",
+   "family": "emotional_social",
+   "new_tokens": 74
+  },
+  "k1738991": {
+   "model": "base",
+   "id": "mine-additional_clauses-010",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k709921c": {
+   "model": "sft-succinct",
+   "id": "emotional-044",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "ke556104": {
+   "model": "base",
+   "id": "emotional-034",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "kc829d9b": {
+   "model": "sft-persona",
+   "id": "emotional-036",
+   "family": "emotional_social",
+   "new_tokens": 57
+  },
+  "k9b7610f": {
+   "model": "succinct",
+   "id": "emotional-016",
+   "family": "emotional_social",
+   "new_tokens": 64
+  },
+  "kc352504": {
+   "model": "sft-persona",
+   "id": "emotional-027",
+   "family": "emotional_social",
+   "new_tokens": 45
+  },
+  "k696a808": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-006",
+   "family": "emotional_social",
+   "new_tokens": 47
+  },
+  "k038e18c": {
+   "model": "succinct",
+   "id": "emotional-028",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "kc6a6b53": {
+   "model": "base",
+   "id": "emotional-021",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k7f1efc4": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-007",
+   "family": "emotional_social",
+   "new_tokens": 29
+  },
+  "kd1907b6": {
+   "model": "persona",
+   "id": "emotional-044",
+   "family": "emotional_social",
+   "new_tokens": 86
+  },
+  "kb2a16af": {
+   "model": "succinct",
+   "id": "emotional-014",
+   "family": "emotional_social",
+   "new_tokens": 65
+  },
+  "k63a1236": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-003",
+   "family": "emotional_social",
+   "new_tokens": 40
+  },
+  "k432c847": {
+   "model": "succinct",
+   "id": "emotional-021",
+   "family": "emotional_social",
+   "new_tokens": 38
+  },
+  "k34db739": {
+   "model": "persona",
+   "id": "emotional-006",
+   "family": "emotional_social",
+   "new_tokens": 77
+  },
+  "k8566350": {
+   "model": "succinct",
+   "id": "emotional-020",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "k9316bab": {
+   "model": "sft-persona",
+   "id": "emotional-045",
+   "family": "emotional_social",
+   "new_tokens": 54
+  },
+  "k59281cb": {
+   "model": "base",
+   "id": "mine-additional_clauses-001",
+   "family": "emotional_social",
+   "new_tokens": 49
+  },
+  "k70592ef": {
+   "model": "sft-succinct",
+   "id": "emotional-036",
+   "family": "emotional_social",
+   "new_tokens": 30
+  },
+  "k8fa36bc": {
+   "model": "sft-persona",
+   "id": "emotional-037",
+   "family": "emotional_social",
+   "new_tokens": 75
+  },
+  "k2c5ab63": {
+   "model": "persona",
+   "id": "emotional-014",
+   "family": "emotional_social",
+   "new_tokens": 109
+  },
+  "kb0aaa63": {
+   "model": "succinct",
+   "id": "emotional-039",
+   "family": "emotional_social",
+   "new_tokens": 71
+  },
+  "k5f9da34": {
+   "model": "succinct",
+   "id": "emotional-041",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "k89849e3": {
+   "model": "base",
+   "id": "emotional-045",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k36b4bd8": {
+   "model": "sft-succinct",
+   "id": "emotional-038",
+   "family": "emotional_social",
+   "new_tokens": 44
+  },
+  "k2b5dc7a": {
+   "model": "succinct",
+   "id": "emotional-015",
+   "family": "emotional_social",
+   "new_tokens": 59
+  },
+  "ka93af2e": {
+   "model": "sft-persona",
+   "id": "emotional-005",
+   "family": "emotional_social",
+   "new_tokens": 50
+  },
+  "k8dcaebf": {
+   "model": "sft-succinct",
+   "id": "emotional-037",
+   "family": "emotional_social",
+   "new_tokens": 38
+  },
+  "kfdc10fe": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-002",
+   "family": "emotional_social",
+   "new_tokens": 65
+  },
+  "k8ca2fc2": {
+   "model": "persona",
+   "id": "emotional-012",
+   "family": "emotional_social",
+   "new_tokens": 79
+  },
+  "kb239578": {
+   "model": "sft-succinct",
+   "id": "emotional-045",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "k498d6d2": {
+   "model": "sft-persona",
+   "id": "emotional-026",
+   "family": "emotional_social",
+   "new_tokens": 39
+  },
+  "k0cfccfb": {
+   "model": "base",
+   "id": "emotional-014",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k0b9b6b9": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-008",
+   "family": "emotional_social",
+   "new_tokens": 81
+  },
+  "k0eeb198": {
+   "model": "persona",
+   "id": "emotional-043",
+   "family": "emotional_social",
+   "new_tokens": 91
+  },
+  "k2b9695c": {
+   "model": "persona",
+   "id": "emotional-040",
+   "family": "emotional_social",
+   "new_tokens": 96
+  },
+  "k172cdef": {
+   "model": "base",
+   "id": "emotional-020",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k496f1d0": {
+   "model": "sft-succinct",
+   "id": "emotional-026",
+   "family": "emotional_social",
+   "new_tokens": 21
+  },
+  "k791131a": {
+   "model": "base",
+   "id": "emotional-015",
+   "family": "emotional_social",
+   "new_tokens": 110
+  },
+  "kd9ae4a5": {
+   "model": "persona",
+   "id": "emotional-003",
+   "family": "emotional_social",
+   "new_tokens": 88
+  },
+  "kf924a90": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-008",
+   "family": "emotional_social",
+   "new_tokens": 38
+  },
+  "ke2b15a5": {
+   "model": "sft-succinct",
+   "id": "emotional-005",
+   "family": "emotional_social",
+   "new_tokens": 23
+  },
+  "kff67ca7": {
+   "model": "persona",
+   "id": "emotional-041",
+   "family": "emotional_social",
+   "new_tokens": 103
+  },
+  "kfa86527": {
+   "model": "succinct",
+   "id": "emotional-012",
+   "family": "emotional_social",
+   "new_tokens": 28
+  },
+  "k8c64e10": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-005",
+   "family": "emotional_social",
+   "new_tokens": 57
+  },
+  "kab8f4e5": {
+   "model": "sft-succinct",
+   "id": "emotional-001",
+   "family": "emotional_social",
+   "new_tokens": 35
+  },
+  "kb1027c3": {
+   "model": "sft-succinct",
+   "id": "emotional-014",
+   "family": "emotional_social",
+   "new_tokens": 51
+  },
+  "ke9b30cb": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-002",
+   "family": "emotional_social",
+   "new_tokens": 86
+  },
+  "kdc8ff35": {
+   "model": "base",
+   "id": "emotional-040",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "kce4555c": {
+   "model": "base",
+   "id": "emotional-043",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k77e46a4": {
+   "model": "succinct",
+   "id": "emotional-033",
+   "family": "emotional_social",
+   "new_tokens": 84
+  },
+  "kc75d6e6": {
+   "model": "persona",
+   "id": "emotional-001",
+   "family": "emotional_social",
+   "new_tokens": 82
+  },
+  "k19b8eaf": {
+   "model": "sft-persona",
+   "id": "emotional-038",
+   "family": "emotional_social",
+   "new_tokens": 55
+  },
+  "kf2a6d64": {
+   "model": "succinct",
+   "id": "emotional-013",
+   "family": "emotional_social",
+   "new_tokens": 82
+  },
+  "k97eb983": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-004",
+   "family": "emotional_social",
+   "new_tokens": 33
+  },
+  "k6fdaa57": {
+   "model": "succinct",
+   "id": "emotional-002",
+   "family": "emotional_social",
+   "new_tokens": 34
+  },
+  "k06698ac": {
+   "model": "base",
+   "id": "mine-additional_clauses-002",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k0ad8b4d": {
+   "model": "succinct",
+   "id": "emotional-030",
+   "family": "emotional_social",
+   "new_tokens": 23
+  },
+  "kda87352": {
+   "model": "sft-persona",
+   "id": "emotional-016",
+   "family": "emotional_social",
+   "new_tokens": 80
+  },
+  "k7ae734e": {
+   "model": "base",
+   "id": "emotional-033",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "ke64864f": {
+   "model": "persona",
+   "id": "emotional-015",
+   "family": "emotional_social",
+   "new_tokens": 83
+  },
+  "k5886a8e": {
+   "model": "succinct",
+   "id": "emotional-017",
+   "family": "emotional_social",
+   "new_tokens": 31
+  },
+  "kcb7eb29": {
+   "model": "persona",
+   "id": "emotional-037",
+   "family": "emotional_social",
+   "new_tokens": 97
+  },
+  "kf5edc32": {
+   "model": "succinct",
+   "id": "emotional-038",
+   "family": "emotional_social",
+   "new_tokens": 40
+  },
+  "k7d55e2d": {
+   "model": "base",
+   "id": "emotional-037",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "kb9a41e3": {
+   "model": "base",
+   "id": "emotional-012",
+   "family": "emotional_social",
+   "new_tokens": 175
+  },
+  "kfd99832": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-009",
+   "family": "emotional_social",
+   "new_tokens": 95
+  },
+  "k5c61400": {
+   "model": "sft-persona",
+   "id": "emotional-024",
+   "family": "emotional_social",
+   "new_tokens": 42
+  },
+  "kb8d53cc": {
+   "model": "persona",
+   "id": "emotional-034",
+   "family": "emotional_social",
+   "new_tokens": 96
+  },
+  "ka9064ec": {
+   "model": "sft-persona",
+   "id": "emotional-042",
+   "family": "emotional_social",
+   "new_tokens": 70
+  },
+  "k97c50f9": {
+   "model": "succinct",
+   "id": "emotional-045",
+   "family": "emotional_social",
+   "new_tokens": 34
+  },
+  "kfce99ff": {
+   "model": "sft-succinct",
+   "id": "emotional-025",
+   "family": "emotional_social",
+   "new_tokens": 34
+  },
+  "k8f3b231": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-009",
+   "family": "emotional_social",
+   "new_tokens": 33
+  },
+  "k13bf03a": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-005",
+   "family": "emotional_social",
+   "new_tokens": 62
+  },
+  "k4e98ffc": {
+   "model": "succinct",
+   "id": "emotional-043",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "k30c86b2": {
+   "model": "base",
+   "id": "emotional-022",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "ke87881d": {
+   "model": "persona",
+   "id": "emotional-039",
+   "family": "emotional_social",
+   "new_tokens": 92
+  },
+  "kdb9989e": {
+   "model": "sft-persona",
+   "id": "emotional-028",
+   "family": "emotional_social",
+   "new_tokens": 63
+  },
+  "k01648cc": {
+   "model": "sft-succinct",
+   "id": "emotional-034",
+   "family": "emotional_social",
+   "new_tokens": 39
+  },
+  "k9a0c8b2": {
+   "model": "succinct",
+   "id": "emotional-029",
+   "family": "emotional_social",
+   "new_tokens": 45
+  },
+  "k4ebe1c1": {
+   "model": "sft-succinct",
+   "id": "emotional-028",
+   "family": "emotional_social",
+   "new_tokens": 24
+  },
+  "k0d65de0": {
+   "model": "succinct",
+   "id": "emotional-034",
+   "family": "emotional_social",
+   "new_tokens": 30
+  },
+  "kc18b9db": {
+   "model": "sft-succinct",
+   "id": "emotional-040",
+   "family": "emotional_social",
+   "new_tokens": 44
+  },
+  "k5ebe0c5": {
+   "model": "base",
+   "id": "emotional-044",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "kd464a92": {
+   "model": "sft-succinct",
+   "id": "emotional-002",
+   "family": "emotional_social",
+   "new_tokens": 13
+  },
+  "k50027ce": {
+   "model": "persona",
+   "id": "emotional-032",
+   "family": "emotional_social",
+   "new_tokens": 107
+  },
+  "k1ff0481": {
+   "model": "base",
+   "id": "emotional-017",
+   "family": "emotional_social",
+   "new_tokens": 45
+  },
+  "k53c822e": {
+   "model": "base",
+   "id": "emotional-025",
+   "family": "emotional_social",
+   "new_tokens": 119
+  },
+  "kc86b83b": {
+   "model": "succinct",
+   "id": "emotional-032",
+   "family": "emotional_social",
+   "new_tokens": 37
+  },
+  "k290574c": {
+   "model": "sft-succinct",
+   "id": "emotional-030",
+   "family": "emotional_social",
+   "new_tokens": 31
+  },
+  "k0b2dc59": {
+   "model": "persona",
+   "id": "emotional-038",
+   "family": "emotional_social",
+   "new_tokens": 97
+  },
+  "ka615780": {
+   "model": "sft-persona",
+   "id": "emotional-017",
+   "family": "emotional_social",
+   "new_tokens": 71
+  },
+  "k6d51ae3": {
+   "model": "persona",
+   "id": "emotional-025",
+   "family": "emotional_social",
+   "new_tokens": 70
+  },
+  "k237ac82": {
+   "model": "sft-succinct",
+   "id": "emotional-042",
+   "family": "emotional_social",
+   "new_tokens": 41
+  },
+  "k9f141e3": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-004",
+   "family": "emotional_social",
+   "new_tokens": 91
+  },
+  "k2d7fbac": {
+   "model": "persona",
+   "id": "mine-additional_clauses-008",
+   "family": "emotional_social",
+   "new_tokens": 95
+  },
+  "kc743039": {
+   "model": "succinct",
+   "id": "emotional-024",
+   "family": "emotional_social",
+   "new_tokens": 69
+  },
+  "k5487f51": {
+   "model": "base",
+   "id": "mine-additional_clauses-006",
+   "family": "emotional_social",
+   "new_tokens": 155
+  },
+  "k7b8aa52": {
+   "model": "sft-persona",
+   "id": "emotional-021",
+   "family": "emotional_social",
+   "new_tokens": 59
+  },
+  "kac572ab": {
+   "model": "sft-succinct",
+   "id": "emotional-043",
+   "family": "emotional_social",
+   "new_tokens": 36
+  },
+  "ka6bf05b": {
+   "model": "persona",
+   "id": "mine-additional_clauses-001",
+   "family": "emotional_social",
+   "new_tokens": 89
+  },
+  "k37a5b96": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-001",
+   "family": "emotional_social",
+   "new_tokens": 51
+  },
+  "k00c81c3": {
+   "model": "sft-succinct",
+   "id": "emotional-006",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "ke95bb95": {
+   "model": "base",
+   "id": "emotional-026",
+   "family": "emotional_social",
+   "new_tokens": 121
+  },
+  "ka1203c5": {
+   "model": "succinct",
+   "id": "emotional-003",
+   "family": "emotional_social",
+   "new_tokens": 50
+  },
+  "k6d1de3e": {
+   "model": "succinct",
+   "id": "emotional-040",
+   "family": "emotional_social",
+   "new_tokens": 69
+  },
+  "kf1696a2": {
+   "model": "base",
+   "id": "emotional-035",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k5891175": {
+   "model": "sft-persona",
+   "id": "emotional-002",
+   "family": "emotional_social",
+   "new_tokens": 44
+  },
+  "k0072fbd": {
+   "model": "base",
+   "id": "emotional-001",
+   "family": "emotional_social",
+   "new_tokens": 63
+  },
+  "kc6d9a30": {
+   "model": "base",
+   "id": "emotional-019",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "ka1d86ea": {
+   "model": "base",
+   "id": "emotional-023",
+   "family": "emotional_social",
+   "new_tokens": 191
+  },
+  "kd1b15fe": {
+   "model": "sft-succinct",
+   "id": "emotional-016",
+   "family": "emotional_social",
+   "new_tokens": 34
+  },
+  "ke9a67cb": {
+   "model": "base",
+   "id": "emotional-032",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k37b7c21": {
+   "model": "sft-succinct",
+   "id": "emotional-023",
+   "family": "emotional_social",
+   "new_tokens": 35
+  },
+  "kd492fa5": {
+   "model": "sft-persona",
+   "id": "emotional-041",
+   "family": "emotional_social",
+   "new_tokens": 68
+  },
+  "k370648b": {
+   "model": "succinct",
+   "id": "emotional-044",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "k43c10ee": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-005",
+   "family": "emotional_social",
+   "new_tokens": 63
+  },
+  "k11ccc0d": {
+   "model": "sft-succinct",
+   "id": "emotional-035",
+   "family": "emotional_social",
+   "new_tokens": 29
+  },
+  "k9296be9": {
+   "model": "sft-persona",
+   "id": "emotional-014",
+   "family": "emotional_social",
+   "new_tokens": 78
+  },
+  "k3436c00": {
+   "model": "sft-succinct",
+   "id": "emotional-029",
+   "family": "emotional_social",
+   "new_tokens": 37
+  },
+  "kd04108e": {
+   "model": "sft-succinct",
+   "id": "emotional-039",
+   "family": "emotional_social",
+   "new_tokens": 42
+  },
+  "kdc19dee": {
+   "model": "base",
+   "id": "emotional-036",
+   "family": "emotional_social",
+   "new_tokens": 184
+  },
+  "kca2970b": {
+   "model": "persona",
+   "id": "emotional-033",
+   "family": "emotional_social",
+   "new_tokens": 106
+  },
+  "kb29581a": {
+   "model": "base",
+   "id": "mine-additional_clauses-007",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "keae4b11": {
+   "model": "persona",
+   "id": "emotional-004",
+   "family": "emotional_social",
+   "new_tokens": 71
+  },
+  "k05c1a9f": {
+   "model": "sft-persona",
+   "id": "emotional-022",
+   "family": "emotional_social",
+   "new_tokens": 62
+  },
+  "k3bf37bd": {
+   "model": "sft-persona",
+   "id": "emotional-030",
+   "family": "emotional_social",
+   "new_tokens": 67
+  },
+  "k4eee953": {
+   "model": "persona",
+   "id": "emotional-035",
+   "family": "emotional_social",
+   "new_tokens": 115
+  },
+  "kdf8fb8f": {
+   "model": "base",
+   "id": "emotional-031",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k0d2fe3c": {
+   "model": "sft-succinct",
+   "id": "emotional-033",
+   "family": "emotional_social",
+   "new_tokens": 41
+  },
+  "k1f4571f": {
+   "model": "sft-succinct",
+   "id": "emotional-024",
+   "family": "emotional_social",
+   "new_tokens": 30
+  },
+  "k0a234dd": {
+   "model": "base",
+   "id": "mine-additional_clauses-005",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k245fdb4": {
+   "model": "sft-persona",
+   "id": "emotional-034",
+   "family": "emotional_social",
+   "new_tokens": 90
+  },
+  "kc19879c": {
+   "model": "sft-succinct",
+   "id": "emotional-021",
+   "family": "emotional_social",
+   "new_tokens": 29
+  },
+  "k574ce1f": {
+   "model": "sft-persona",
+   "id": "emotional-020",
+   "family": "emotional_social",
+   "new_tokens": 74
+  },
+  "kfa88762": {
+   "model": "sft-persona",
+   "id": "emotional-018",
+   "family": "emotional_social",
+   "new_tokens": 65
+  },
+  "k1dddba4": {
+   "model": "sft-succinct",
+   "id": "emotional-013",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "ka188828": {
+   "model": "persona",
+   "id": "emotional-021",
+   "family": "emotional_social",
+   "new_tokens": 103
+  },
+  "k0c366a7": {
+   "model": "base",
+   "id": "emotional-038",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "keca850c": {
+   "model": "base",
+   "id": "emotional-028",
+   "family": "emotional_social",
+   "new_tokens": 169
+  },
+  "k37994dd": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-003",
+   "family": "emotional_social",
+   "new_tokens": 81
+  },
+  "k327a0cc": {
+   "model": "sft-persona",
+   "id": "emotional-044",
+   "family": "emotional_social",
+   "new_tokens": 82
+  },
+  "k0945530": {
+   "model": "persona",
+   "id": "emotional-022",
+   "family": "emotional_social",
+   "new_tokens": 80
+  },
+  "k87249dc": {
+   "model": "sft-succinct",
+   "id": "emotional-003",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "ka3fb022": {
+   "model": "base",
+   "id": "emotional-002",
+   "family": "emotional_social",
+   "new_tokens": 183
+  },
+  "kdd5f6f3": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-007",
+   "family": "emotional_social",
+   "new_tokens": 48
+  },
+  "k3c02c9b": {
+   "model": "sft-persona",
+   "id": "emotional-023",
+   "family": "emotional_social",
+   "new_tokens": 82
+  },
+  "k5a44e1b": {
+   "model": "persona",
+   "id": "emotional-023",
+   "family": "emotional_social",
+   "new_tokens": 86
+  },
+  "kf646456": {
+   "model": "persona",
+   "id": "emotional-042",
+   "family": "emotional_social",
+   "new_tokens": 85
+  },
+  "k0245656": {
+   "model": "succinct",
+   "id": "emotional-005",
+   "family": "emotional_social",
+   "new_tokens": 38
+  },
+  "k5077d47": {
+   "model": "sft-persona",
+   "id": "mine-additional_clauses-006",
+   "family": "emotional_social",
+   "new_tokens": 52
+  },
+  "kd3f824d": {
+   "model": "persona",
+   "id": "mine-additional_clauses-010",
+   "family": "emotional_social",
+   "new_tokens": 98
+  },
+  "k33a94fe": {
+   "model": "base",
+   "id": "emotional-042",
+   "family": "emotional_social",
+   "new_tokens": 102
+  },
+  "k9bbffa4": {
+   "model": "succinct",
+   "id": "emotional-018",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "kb48b308": {
+   "model": "succinct",
+   "id": "emotional-019",
+   "family": "emotional_social",
+   "new_tokens": 41
+  },
+  "k4cab7fe": {
+   "model": "persona",
+   "id": "emotional-029",
+   "family": "emotional_social",
+   "new_tokens": 74
+  },
+  "k8aeef38": {
+   "model": "sft-persona",
+   "id": "emotional-001",
+   "family": "emotional_social",
+   "new_tokens": 52
+  },
+  "ke009b30": {
+   "model": "sft-succinct",
+   "id": "mine-additional_clauses-010",
+   "family": "emotional_social",
+   "new_tokens": 33
+  },
+  "k2f2a1ce": {
+   "model": "sft-persona",
+   "id": "emotional-033",
+   "family": "emotional_social",
+   "new_tokens": 93
+  },
+  "kf15711b": {
+   "model": "persona",
+   "id": "mine-additional_clauses-006",
+   "family": "emotional_social",
+   "new_tokens": 72
+  },
+  "k3a47fba": {
+   "model": "base",
+   "id": "emotional-029",
+   "family": "emotional_social",
+   "new_tokens": 82
+  },
+  "kd44f37f": {
+   "model": "base",
+   "id": "emotional-005",
+   "family": "emotional_social",
+   "new_tokens": 194
+  },
+  "k00362cb": {
+   "model": "sft-persona",
+   "id": "emotional-006",
+   "family": "emotional_social",
+   "new_tokens": 53
+  },
+  "k0fccad6": {
+   "model": "sft-persona",
+   "id": "emotional-035",
+   "family": "emotional_social",
+   "new_tokens": 63
+  },
+  "k704c433": {
+   "model": "succinct",
+   "id": "emotional-023",
+   "family": "emotional_social",
+   "new_tokens": 30
+  },
+  "kf33dc81": {
+   "model": "base",
+   "id": "emotional-018",
+   "family": "emotional_social",
+   "new_tokens": 174
+  },
+  "k5bb8919": {
+   "model": "base",
+   "id": "emotional-003",
+   "family": "emotional_social",
+   "new_tokens": 200
+  },
+  "k989548f": {
+   "model": "succinct",
+   "id": "emotional-006",
+   "family": "emotional_social",
+   "new_tokens": 21
+  },
+  "k28e540c": {
+   "model": "base",
+   "id": "emotional-024",
+   "family": "emotional_social",
+   "new_tokens": 88
+  },
+  "kc285a0b": {
+   "model": "succinct",
+   "id": "mine-additional_clauses-004",
+   "family": "emotional_social",
+   "new_tokens": 32
+  },
+  "ka720d5f": {
+   "model": "sft-succinct",
+   "id": "emotional-004",
+   "family": "emotional_social",
+   "new_tokens": 43
+  },
+  "k5072f8d": {
+   "model": "sft-succinct",
+   "id": "emotional-018",
+   "family": "emotional_social",
+   "new_tokens": 45
+  }
+ },
+ "batches": [
+  {
+   "name": "batch-01-facts",
+   "number": 1,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-01-facts.jsonl",
+   "output": "out/batch-01-facts.grades.jsonl",
+   "keys": [
+    "kce64b16",
+    "k59d8602",
+    "k46602eb",
+    "k87145da",
+    "k3bfd895",
+    "k0b7dc20",
+    "kccf857e",
+    "k0e8f76c",
+    "k79fee9e",
+    "k165dbbb",
+    "k073b5d3",
+    "k703aa08",
+    "k6b0ea0e",
+    "kff7c2ad",
+    "k0d01cfb",
+    "kb3503ae",
+    "k2360e2c",
+    "k835591f",
+    "k0579925",
+    "ka04ae5f",
+    "k020cb57",
+    "kbede81d",
+    "k14ce6f3",
+    "ka9175a9",
+    "k6e22778",
+    "ka4de562",
+    "kd785e70",
+    "k7c548aa",
+    "kd056bad",
+    "kdcc4a52",
+    "kfbdb687",
+    "kfe34547",
+    "kbea7c94",
+    "kc94787a",
+    "kbd542f4",
+    "keef65f0",
+    "k0a11fce",
+    "k66fea0a",
+    "kc0cde7e",
+    "k170b37a",
+    "k6f410f8",
+    "k7a409ae",
+    "k108c704",
+    "k99d2dcd",
+    "k8bd6c4f",
+    "kd48a376",
+    "kf5144a8",
+    "k28ead52",
+    "kfe2f4c8",
+    "k8c0f42c",
+    "k40043a0",
+    "kd8945ea",
+    "k63cac5b",
+    "k8f911f4",
+    "kfa3c0be",
+    "ked66871",
+    "k9442aa2",
+    "ka7cb9c8",
+    "k8705c9b",
+    "k7f0cda2"
+   ]
+  },
+  {
+   "name": "batch-02-facts",
+   "number": 2,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-02-facts.jsonl",
+   "output": "out/batch-02-facts.grades.jsonl",
+   "keys": [
+    "kbb33923",
+    "k92ceff0",
+    "ka4b4f0b",
+    "k2cbc168",
+    "kf1e8f90",
+    "k99f68a6",
+    "k21c6d3a",
+    "k96bbd61",
+    "ke68eb22",
+    "k1b23f42",
+    "k556c9ff",
+    "ka18bae9",
+    "kdd8ce72",
+    "k795c019",
+    "k63e5351",
+    "k8ac08ea",
+    "k3aaf6d0",
+    "kcd35634",
+    "k6b2baf9",
+    "kda907fe",
+    "kf9cdb4c",
+    "kf231d21",
+    "kb3c9e64",
+    "k372259e",
+    "ke6cc02c",
+    "ka70fabd",
+    "k593375b",
+    "kf1dd6ad",
+    "kdde75fb",
+    "k8d65b9c",
+    "kbfcc70f",
+    "k45f05eb",
+    "k31c03b1",
+    "kdfe7bb4",
+    "kbebfe62",
+    "k56f1f0b",
+    "k4872778",
+    "k2b23851",
+    "k4e99d6d",
+    "k1434054",
+    "kcd62f73",
+    "k85540ff",
+    "kf4b0e95",
+    "kad69403",
+    "kf6a9333",
+    "k7ed6050",
+    "k90f83d6",
+    "k117b2bd",
+    "k7b9c0c8",
+    "k88ebb0e",
+    "k26d2802",
+    "k2848db2",
+    "kcfbff1c",
+    "kf8822b1",
+    "k6f51533",
+    "k0702968",
+    "k78a611b",
+    "k75d8751",
+    "kd83c96c",
+    "k549c51f"
+   ]
+  },
+  {
+   "name": "batch-03-facts",
+   "number": 3,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-03-facts.jsonl",
+   "output": "out/batch-03-facts.grades.jsonl",
+   "keys": [
+    "k1279c9c",
+    "k7240adf",
+    "ka4e1f4d",
+    "kf9af716",
+    "k8c2fd82",
+    "k646a593",
+    "k8c1d07c",
+    "k804c4b0",
+    "k9350b35",
+    "kc824035",
+    "kd10ec69",
+    "ke59caa1",
+    "k5609772",
+    "kac9a898",
+    "k37187de",
+    "k59ab0ce",
+    "k03bcecf",
+    "ke1e22a2",
+    "kc93532e",
+    "k8fe508d",
+    "kbd0fd87",
+    "kb42b559",
+    "ke317fac",
+    "k7891dc4",
+    "kb483e4e",
+    "kcf9a6f6",
+    "ke40d355",
+    "kfa63fad",
+    "ka252017",
+    "k5c574db",
+    "k91545d1",
+    "k5e60d1f",
+    "k17bd2c9",
+    "kc308cd6",
+    "k21308f4",
+    "k1a60163",
+    "k76c6505",
+    "k3200639",
+    "k04a470f",
+    "k608b7cd",
+    "k59e79e9",
+    "k9e7ac70",
+    "k43363b4",
+    "kdcd507d",
+    "k2bdf1ef",
+    "k628e5bd",
+    "ka054bb1",
+    "k1c93fc9",
+    "ke7b6ea8",
+    "k320309b",
+    "ka5cce3f",
+    "k15eed4c",
+    "k49ea776",
+    "k1817c09",
+    "k3199cb7",
+    "k877f2a1",
+    "k5412c34",
+    "k5fd65ab",
+    "k19c1dbd",
+    "k80ff15a"
+   ]
+  },
+  {
+   "name": "batch-04-facts",
+   "number": 4,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-04-facts.jsonl",
+   "output": "out/batch-04-facts.grades.jsonl",
+   "keys": [
+    "k1c89dff",
+    "k9def533",
+    "k47885af",
+    "k4774b84",
+    "k62cb81c",
+    "ka065fc9",
+    "kde17969",
+    "k3843381",
+    "k31ae27e",
+    "ka8a5acd",
+    "k10db339",
+    "kcf4efb6",
+    "k6c05841",
+    "kd4371a1",
+    "k199fbf4",
+    "k4387f1d",
+    "k93c940b",
+    "k0c5da18",
+    "kd5a8048",
+    "kd01fc91",
+    "k4bcd249",
+    "k09ffca4",
+    "k288a961",
+    "k9cb4db8",
+    "k09088d4",
+    "ke7f857a",
+    "k82cc4e5",
+    "kf4c24e3",
+    "k022f7cc",
+    "kf81e69c",
+    "kcdaabdc",
+    "kee27fb5",
+    "k2821984",
+    "kf07a019",
+    "k30f4634",
+    "k09153de",
+    "kdf78b13",
+    "k58edc03",
+    "kd4e3d15",
+    "k9cc614d",
+    "k8d713f3",
+    "k39d11ab",
+    "k0db2492",
+    "k894106d",
+    "kea54347",
+    "kd995f46",
+    "k04f39f6",
+    "k5597c1a",
+    "kf442785",
+    "k0268c44",
+    "k8226aaa",
+    "kf82a4f8",
+    "k844ded4",
+    "k164fd95",
+    "k6d28213",
+    "k2a74a55",
+    "kbf8c144",
+    "k3c28c75",
+    "kd033149",
+    "kc40cfc4"
+   ]
+  },
+  {
+   "name": "batch-05-facts",
+   "number": 5,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-05-facts.jsonl",
+   "output": "out/batch-05-facts.grades.jsonl",
+   "keys": [
+    "ke5024ab",
+    "k35d1d33",
+    "k70ccd7a",
+    "k37cfbfd",
+    "kf51482a",
+    "k435708a",
+    "ka36dde1",
+    "kba6afc2",
+    "k7723852",
+    "k04fdd4a",
+    "ke5585f1",
+    "k4edd90b",
+    "k10c1c58",
+    "k3852b21",
+    "k8d2f7fd",
+    "ka5eea46",
+    "k9a4eb39",
+    "k271a7d6",
+    "k58aef99",
+    "kf9407a2",
+    "k907aa37",
+    "kd16ca95",
+    "ke83361e",
+    "ka310d3d",
+    "kc831a3c",
+    "kca8b1bd",
+    "ka0651d8",
+    "k85b879e",
+    "k6fcebb9",
+    "kde93ab2",
+    "k0a492ed",
+    "k3bf8272",
+    "kb869512",
+    "kfbea41e",
+    "kf197884",
+    "kd54b4fd",
+    "ke49f6c5",
+    "k4c46619",
+    "k415e2f0",
+    "kdc70ae8",
+    "k6c6f77e",
+    "kaa3ac7c",
+    "k8bb35c3",
+    "k4b79d97",
+    "k17b9264",
+    "k7ee8155",
+    "kc3486a6",
+    "k9ecf039",
+    "k7ea311c",
+    "k2b8c561",
+    "k939e6f1",
+    "kb204001",
+    "k658e27e",
+    "k048cb71",
+    "k8f3ebcb",
+    "kdffafd4",
+    "kb90eb9e",
+    "k229fbce",
+    "k98413ba",
+    "ka2ca4fc"
+   ]
+  },
+  {
+   "name": "batch-06-facts",
+   "number": 6,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-06-facts.jsonl",
+   "output": "out/batch-06-facts.grades.jsonl",
+   "keys": [
+    "k00456fe",
+    "k30bb895",
+    "k264ffee",
+    "k44fdbb0",
+    "k8227a10",
+    "kd03ca9d",
+    "kc7047cf",
+    "k8f4af59",
+    "k8be86fa",
+    "kd31d24f",
+    "kd08c5f2",
+    "k8df7765",
+    "kf58fd3f",
+    "k9ff76b1",
+    "k26c35fb",
+    "k3225193",
+    "k46b32a6",
+    "ked31c89",
+    "kecfd557",
+    "k7920a5a",
+    "kb745efa",
+    "kfa25505",
+    "k9060555",
+    "k8a88215",
+    "k7644ec3",
+    "k7387dee",
+    "kcec85d6",
+    "k013d2a5",
+    "k3311552",
+    "kb3ed906",
+    "kf2734d8",
+    "ka73472c",
+    "k624c2ee",
+    "k28e5511",
+    "k9e4b039",
+    "ka48da8a",
+    "k36a8672",
+    "kd651cb3",
+    "k8b4001b",
+    "k9142fa0",
+    "kc41248a",
+    "k9b7c5e8",
+    "k50c0ae0",
+    "k06f83e4",
+    "k95ec208",
+    "ka862da0",
+    "kd2bf007",
+    "k1754aff",
+    "k1fec0b0",
+    "kf68e33f",
+    "k5fe8ecc",
+    "k8e14de0",
+    "k79c1094",
+    "kfbdf549",
+    "k186dbc7",
+    "kd33c8f7",
+    "ka8de10e",
+    "ka592321",
+    "k9756355",
+    "k8a22450"
+   ]
+  },
+  {
+   "name": "batch-07-facts",
+   "number": 7,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-07-facts.jsonl",
+   "output": "out/batch-07-facts.grades.jsonl",
+   "keys": [
+    "kd11da54",
+    "kef2ed24",
+    "k09474e0",
+    "k6b762d4",
+    "k31d7bf9",
+    "k64c6f6e",
+    "k37ee956",
+    "k057fe6d",
+    "kf16f394",
+    "k4a2b303",
+    "kfec167b",
+    "k1d24fcc",
+    "ka8d9e78",
+    "k03e745d",
+    "k0eea0d8",
+    "kd65e6b6",
+    "k631f7d4",
+    "kcb4bdc7",
+    "k92304f4",
+    "k32e10d9",
+    "k8c72e36",
+    "k4a31b43",
+    "kb2864f3",
+    "k28698ea",
+    "kfa92189",
+    "kc4f3ed7",
+    "k81ce462",
+    "k6322898",
+    "kbfc46a4",
+    "k1ba08e6",
+    "kf706d18",
+    "ke2dde34",
+    "k5e6ccff",
+    "kd8b3bdf",
+    "k8a4d7a9",
+    "k27e76c4",
+    "k08f3e25",
+    "kd7108d1",
+    "k4af5894",
+    "k549af18",
+    "k4a461b5",
+    "kb9f1dd7",
+    "kca618c2",
+    "k410a5e6",
+    "k2630a49",
+    "k598ffd5",
+    "k0fb5d35",
+    "k48ddede",
+    "k33b17f4",
+    "k16858e8",
+    "kdf925d9",
+    "k8ac8c31",
+    "ked75001",
+    "kc227c0f",
+    "kb38186d",
+    "kd9c3946",
+    "k5c1d3f5",
+    "kc7c44e7",
+    "k436fa1d",
+    "k68500b3"
+   ]
+  },
+  {
+   "name": "batch-08-facts",
+   "number": 8,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-08-facts.jsonl",
+   "output": "out/batch-08-facts.grades.jsonl",
+   "keys": [
+    "k9240b30",
+    "kc56a879",
+    "kea414f4",
+    "keab4d35",
+    "k16e8493",
+    "kbd5ed68",
+    "kca06870",
+    "keec95cd",
+    "k759a1ca",
+    "k0dfc4e2",
+    "kf34e919",
+    "k1dc5b7f",
+    "k96a63ec",
+    "k6264cf3",
+    "k740bfa9",
+    "k400da41",
+    "k6e4d390",
+    "k2a95a9d",
+    "k8d4ab87",
+    "k065183e",
+    "kc576ce9",
+    "k18cec3b",
+    "k3e65dc5",
+    "k1f79158",
+    "k979fc15",
+    "k0475794",
+    "k6045d9b",
+    "k65a0723",
+    "kcde9060",
+    "kaa1c5a4",
+    "k82c2317",
+    "k0837f00",
+    "k117de27",
+    "k4f08822",
+    "k9a7317d",
+    "k7f72c8c",
+    "k4b92dd3",
+    "k85e9079",
+    "kde5904b",
+    "k35c1bd4",
+    "k309b71b",
+    "kbdca12d",
+    "k363cd86",
+    "k0961455",
+    "kd7706e7",
+    "kf324bdf",
+    "kc672ecf",
+    "kb527696",
+    "ke3b2ec0",
+    "k0d3fca2",
+    "k6551e17",
+    "k9f1ade7",
+    "k2df8a24",
+    "ke82657f",
+    "k71e9dca",
+    "k2cc344e",
+    "k70623f3",
+    "kc726519",
+    "k72091d6",
+    "kbada492"
+   ]
+  },
+  {
+   "name": "batch-09-facts",
+   "number": 9,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-09-facts.jsonl",
+   "output": "out/batch-09-facts.grades.jsonl",
+   "keys": [
+    "k505e0ee",
+    "kdb34e9b",
+    "kf2184ca",
+    "k063521a",
+    "kb5c868d",
+    "k8f32868",
+    "kd02d0b5",
+    "k2f483ec",
+    "kbf0022d",
+    "k67aeabd",
+    "k8940850",
+    "k6cf5c2b",
+    "k349f845",
+    "kf752f69",
+    "kbed40a9",
+    "k84b2f94",
+    "kf0a8bf7",
+    "k38185cc",
+    "kd4370e3",
+    "k42ca110",
+    "k4645f5e",
+    "kfcb1f29",
+    "k544d828",
+    "k87f2db6",
+    "k44cd14d",
+    "kdf03f14",
+    "k2f57459",
+    "k660d30e",
+    "k30550dd",
+    "kd2dc2d0",
+    "k063dffe",
+    "k4ea1d80",
+    "k184c37b",
+    "k0ec6bf8",
+    "k7374474",
+    "k3fe5427",
+    "ka5c6e0a",
+    "kfbbe4e1",
+    "k7d80e7b",
+    "k0466e25",
+    "kb8856e0",
+    "k0dcff21",
+    "k187c991",
+    "kf4fd736",
+    "kc478a19",
+    "k8b68286",
+    "k79171e3",
+    "kb8d68f9",
+    "k7a60eb7",
+    "k44e6f52",
+    "k95336a4",
+    "k15b2718",
+    "k13622f5",
+    "ke382802",
+    "ka6a23c4",
+    "k0ce4a26",
+    "kb5558c4",
+    "k5a5ec1f",
+    "k2cc88df",
+    "k3227728"
+   ]
+  },
+  {
+   "name": "batch-10-facts",
+   "number": 10,
+   "family": "facts",
+   "size": 60,
+   "input": "batches/batch-10-facts.jsonl",
+   "output": "out/batch-10-facts.grades.jsonl",
+   "keys": [
+    "k0b6432e",
+    "k8cdbf6e",
+    "k0010e05",
+    "kfdb5609",
+    "k1e651eb",
+    "k5ccb8b9",
+    "k6d8b860",
+    "kefa7d74",
+    "k7eed9b6",
+    "k1038cb4",
+    "k5b50fab",
+    "k8a14886",
+    "k34b7944",
+    "k594dd39",
+    "kac2e68f",
+    "ke31bdc5",
+    "kdf9ac78",
+    "k8946763",
+    "kcbc2669",
+    "kca19efc",
+    "k0cb0127",
+    "k6359247",
+    "k16812e5",
+    "k474a5eb",
+    "kffac996",
+    "k519fdfd",
+    "k48e3f38",
+    "kcc6c273",
+    "k12c4889",
+    "kca9a115",
+    "k104d4ee",
+    "kd5b5bc0",
+    "k0ee2b70",
+    "kb134579",
+    "k1fdc139",
+    "k57a6379",
+    "kd114d64",
+    "ka848716",
+    "k5f20f60",
+    "k3fb903b",
+    "kb8b087e",
+    "k7f2259e",
+    "k6758ef8",
+    "kf83804a",
+    "k0f8613b",
+    "ka9f3a4e",
+    "k37a8cf0",
+    "k5c48dd2",
+    "k03f0ecb",
+    "k36bf728",
+    "k06237a6",
+    "kdf0a846",
+    "k2945fd2",
+    "kba96ba4",
+    "k1df108b",
+    "k967433d",
+    "k075b959",
+    "k8e862d3",
+    "k596ea98",
+    "kd353c69"
+   ]
+  },
+  {
+   "name": "batch-11-user_says_something_wrong",
+   "number": 11,
+   "family": "user_says_something_wrong",
+   "size": 58,
+   "input": "batches/batch-11-user_says_something_wrong.jsonl",
+   "output": "out/batch-11-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "k22e2694",
+    "k505e31e",
+    "kb4071d7",
+    "kbf98548",
+    "ka055291",
+    "k3d11519",
+    "kd8f784f",
+    "kd1599c4",
+    "k08700fe",
+    "k82749d4",
+    "kcbe0058",
+    "ka7991c2",
+    "kd8ecfa9",
+    "k6da67d9",
+    "kb6048a6",
+    "k52ad87a",
+    "ke95f3ae",
+    "k78d8164",
+    "k69c95d4",
+    "k5d485a3",
+    "kdcde6f1",
+    "k9a07a73",
+    "kda19f11",
+    "kf0e8df0",
+    "k48ba778",
+    "k3f959af",
+    "kd69389e",
+    "k7fa11de",
+    "k9ff3e7b",
+    "k0c8a758",
+    "kb6efb01",
+    "k22663c2",
+    "kde91944",
+    "k3d8ae62",
+    "k4336e46",
+    "k9798a7a",
+    "k07f8620",
+    "k7d8c135",
+    "ka8a8259",
+    "kcb2babd",
+    "k6a3cff2",
+    "kfe3ac55",
+    "k71330b7",
+    "k2eb137f",
+    "kdb58635",
+    "kdafa89c",
+    "k42917a3",
+    "k7cd6412",
+    "ked0484c",
+    "k7d8d599",
+    "kd9ca5fb",
+    "kbb1efc9",
+    "k076413a",
+    "k292c8cc",
+    "kf61f480",
+    "k08d2a74",
+    "kb2a3064",
+    "kd3ea8d5"
+   ]
+  },
+  {
+   "name": "batch-12-user_says_something_wrong",
+   "number": 12,
+   "family": "user_says_something_wrong",
+   "size": 57,
+   "input": "batches/batch-12-user_says_something_wrong.jsonl",
+   "output": "out/batch-12-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "k779a19b",
+    "kf3013ca",
+    "kad2ae57",
+    "k8e96732",
+    "ka1c63eb",
+    "k2d762ee",
+    "kaefcbf9",
+    "kb1a1cf8",
+    "kf06585c",
+    "k6c7a0dd",
+    "kf86c83a",
+    "ka58c7d8",
+    "k7b824c9",
+    "k29aa7cd",
+    "k7fadd7f",
+    "k4cccebd",
+    "kab3d2a4",
+    "k11074e9",
+    "k40abac5",
+    "k1476f8e",
+    "k3cc5955",
+    "k886522a",
+    "kb22976c",
+    "ke1913f5",
+    "k745aa8d",
+    "kb9de54f",
+    "kb777814",
+    "k878e3b9",
+    "kcb61e90",
+    "k6b17bc1",
+    "kffb572c",
+    "kbcf2beb",
+    "k7fa9ff6",
+    "kc08b43e",
+    "kf29d05f",
+    "k26ef960",
+    "k4322ebf",
+    "k7275513",
+    "k5f028de",
+    "k42378c3",
+    "k91f9cb6",
+    "k96e19a3",
+    "k3159e3f",
+    "ked13aa4",
+    "k1c56a81",
+    "k5cd480c",
+    "k4a17c68",
+    "k6aed7b4",
+    "kee10c86",
+    "k0f97b76",
+    "k4f8b6c4",
+    "k882a82e",
+    "k89ff9ac",
+    "kd83d138",
+    "k7ec0a37",
+    "k70adafb",
+    "k28c92c7"
+   ]
+  },
+  {
+   "name": "batch-13-user_says_something_wrong",
+   "number": 13,
+   "family": "user_says_something_wrong",
+   "size": 57,
+   "input": "batches/batch-13-user_says_something_wrong.jsonl",
+   "output": "out/batch-13-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "kf26b472",
+    "k81d7fa5",
+    "kb02b720",
+    "kdff0e26",
+    "k82ca3e7",
+    "k9b90aba",
+    "k3b12f1a",
+    "k2409eb3",
+    "k17e1da3",
+    "kebe15cf",
+    "k80bc4bb",
+    "k93529e0",
+    "k7a6b126",
+    "k0ecb051",
+    "kfc3ac77",
+    "k957314e",
+    "kb904838",
+    "kba1eeb8",
+    "k3ea9ace",
+    "k28d6a87",
+    "k83bdeb9",
+    "k7c2844a",
+    "kdaea7a8",
+    "ka1f5695",
+    "k68ef6b5",
+    "k0cb8077",
+    "k83d7b81",
+    "kd53eeee",
+    "ke4c5ff1",
+    "k22b4496",
+    "k359bc21",
+    "k612ff06",
+    "k2fc966f",
+    "kd10c618",
+    "k161a956",
+    "k3d9aeae",
+    "k78e0564",
+    "kcf8acfa",
+    "k7bdc68a",
+    "kd2a0146",
+    "kafff2f2",
+    "k3216bd8",
+    "k83bf32d",
+    "ke172bd0",
+    "ka986eec",
+    "k3f4bd9f",
+    "k5f5ff3f",
+    "ka23263d",
+    "k6050ef1",
+    "k7c27a92",
+    "k06c0f38",
+    "kbed80c7",
+    "k7206437",
+    "k90fa2fb",
+    "k1995f74",
+    "kcd38935",
+    "kbbcfd1c"
+   ]
+  },
+  {
+   "name": "batch-14-user_says_something_wrong",
+   "number": 14,
+   "family": "user_says_something_wrong",
+   "size": 57,
+   "input": "batches/batch-14-user_says_something_wrong.jsonl",
+   "output": "out/batch-14-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "ke85eb88",
+    "k0f1144a",
+    "ke7ae22c",
+    "kc638cea",
+    "k2882a0a",
+    "k6a454f2",
+    "k070998d",
+    "k08ea5bc",
+    "k91b686b",
+    "k4667f50",
+    "ke97f24e",
+    "k65231fa",
+    "k39194c2",
+    "ke5559ec",
+    "kb94fc23",
+    "k7ec5cee",
+    "k703a42d",
+    "k83f7e99",
+    "k7b62144",
+    "ka6c9e41",
+    "k14b0cd3",
+    "k3e066e4",
+    "kca10f32",
+    "kf62f7a4",
+    "k02f5e93",
+    "k5edb153",
+    "k67e4606",
+    "kcd8e0fe",
+    "k5660e91",
+    "k27aa4b5",
+    "k61da21c",
+    "k343d585",
+    "k4e0f8da",
+    "k7c910b7",
+    "ke5fd259",
+    "ka20ec78",
+    "k4d74049",
+    "kea303eb",
+    "k83563c1",
+    "ka3a43f2",
+    "k0733724",
+    "k4ade120",
+    "k6d82e8f",
+    "k9ab58c7",
+    "kec1a93d",
+    "k74f251e",
+    "k43a09c8",
+    "k768a15c",
+    "k3e52f20",
+    "kbc726b7",
+    "kaedf9ae",
+    "kb4084b7",
+    "kf7ac35c",
+    "k23ffa7a",
+    "k9977053",
+    "kb0e502f",
+    "kfe40cbd"
+   ]
+  },
+  {
+   "name": "batch-15-user_says_something_wrong",
+   "number": 15,
+   "family": "user_says_something_wrong",
+   "size": 57,
+   "input": "batches/batch-15-user_says_something_wrong.jsonl",
+   "output": "out/batch-15-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "k2b836a3",
+    "ka079650",
+    "k0f09d50",
+    "k88e2bd3",
+    "k8dd1a5e",
+    "k9a8d97a",
+    "kf64c08a",
+    "k4077d3b",
+    "k9853a1b",
+    "kb68f48b",
+    "kc9eaf4d",
+    "k2224792",
+    "k4c6ef4c",
+    "k4fe428b",
+    "kdde27a9",
+    "k05633a2",
+    "k8d852a1",
+    "kfb28a42",
+    "k0047ee5",
+    "kc416619",
+    "k8e3044f",
+    "k12177c1",
+    "kc1b3344",
+    "k270b542",
+    "ke7a4bef",
+    "kec3c233",
+    "k5784d54",
+    "k5eac3c1",
+    "kdebf093",
+    "k1774d8e",
+    "k82742a5",
+    "kd06902f",
+    "k8107d80",
+    "kcc4c3e9",
+    "k3dc7184",
+    "k8990130",
+    "k4ad93f2",
+    "k2f150dc",
+    "k403f4e0",
+    "k97f867c",
+    "k6e4f03e",
+    "k8eb8742",
+    "k28f3839",
+    "k2949236",
+    "k53b8427",
+    "kd1c0b7e",
+    "kf7a6424",
+    "k19794b1",
+    "kef7cd96",
+    "k43a01ec",
+    "kb32f328",
+    "ka200bb5",
+    "ke303764",
+    "k5cc08a4",
+    "kdfd86bf",
+    "k74ce2a4",
+    "kbf984b0"
+   ]
+  },
+  {
+   "name": "batch-16-user_says_something_wrong",
+   "number": 16,
+   "family": "user_says_something_wrong",
+   "size": 57,
+   "input": "batches/batch-16-user_says_something_wrong.jsonl",
+   "output": "out/batch-16-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "kddcca01",
+    "k9827fa9",
+    "k4ad2bbd",
+    "kc3c3bdd",
+    "k55b0d30",
+    "k338fb1a",
+    "k1c975ea",
+    "k6601fd2",
+    "k6d5436d",
+    "k6891389",
+    "kf381c87",
+    "k823fc7c",
+    "k0702a8a",
+    "k58c3e00",
+    "k5932664",
+    "k173a6ea",
+    "k9a77828",
+    "k2d84843",
+    "ke791e65",
+    "kab49712",
+    "k4bd46be",
+    "kb7be122",
+    "kdb39f7f",
+    "k98b3215",
+    "kf139ed1",
+    "k12df345",
+    "k5e53690",
+    "ke45f25a",
+    "k1e1a5fc",
+    "k0c37857",
+    "k32d50ac",
+    "kc6200ea",
+    "kc1c4f06",
+    "k0a98891",
+    "k3c2ae12",
+    "k9a8bc58",
+    "k2a76e71",
+    "k13e74f0",
+    "ka94c236",
+    "kcb8e031",
+    "k70495fc",
+    "kcc5e1eb",
+    "k6dd002f",
+    "k40a7f5f",
+    "k26b65c2",
+    "kc8e4b5b",
+    "ke4c0c6c",
+    "k2119392",
+    "kfda08bb",
+    "k96f0d12",
+    "k7e5702d",
+    "ked050fc",
+    "k8c6b1f2",
+    "kfefdd6b",
+    "k4badec5",
+    "kf20ab74",
+    "k38cdc89"
+   ]
+  },
+  {
+   "name": "batch-17-user_says_something_wrong",
+   "number": 17,
+   "family": "user_says_something_wrong",
+   "size": 57,
+   "input": "batches/batch-17-user_says_something_wrong.jsonl",
+   "output": "out/batch-17-user_says_something_wrong.grades.jsonl",
+   "keys": [
+    "k27d330e",
+    "kec7df90",
+    "kcc38ce7",
+    "kb6aa7af",
+    "k325ebe6",
+    "k7bd33e5",
+    "kb8d5a77",
+    "kd05247b",
+    "k0cda7da",
+    "ka4e1f9d",
+    "kcb89305",
+    "k8642a4e",
+    "k3586c31",
+    "k996fb2b",
+    "kd905516",
+    "ka031c98",
+    "k74d7ea2",
+    "kf849b0e",
+    "k728f336",
+    "k08bd329",
+    "ke1fbc4b",
+    "k0edc187",
+    "k16da8c8",
+    "k08135ca",
+    "kc5c87c5",
+    "kc180e58",
+    "keea42cf",
+    "k3df81fe",
+    "kd8efdc2",
+    "ka394171",
+    "k8da8b6e",
+    "k7721083",
+    "k6819c1a",
+    "k738bf1d",
+    "kda0ce8e",
+    "kb1dff42",
+    "k52bad73",
+    "k598a49d",
+    "k4382edc",
+    "k2c49f53",
+    "k912af9f",
+    "k227a53d",
+    "k67736c8",
+    "k4073a7d",
+    "kbad11da",
+    "k12e8902",
+    "k085db2c",
+    "k87e0c90",
+    "k183616b",
+    "k2c35bc3",
+    "k0cb8ce2",
+    "k1756c83",
+    "kf3d7e04",
+    "k8c90758",
+    "k03f6ca5",
+    "k9fe26cc",
+    "kf107b58"
+   ]
+  },
+  {
+   "name": "batch-18-emotional_social",
+   "number": 18,
+   "family": "emotional_social",
+   "size": 50,
+   "input": "batches/batch-18-emotional_social.jsonl",
+   "output": "out/batch-18-emotional_social.grades.jsonl",
+   "keys": [
+    "kad2b973",
+    "k59abe7c",
+    "k45c203a",
+    "kd22808a",
+    "kb98a63b",
+    "k879a849",
+    "ke8a2c3c",
+    "k25a17d0",
+    "k031d454",
+    "k1ad435e",
+    "kb8787b6",
+    "k8592ea2",
+    "kacec862",
+    "kbd9604a",
+    "k2391a86",
+    "k8c45cdb",
+    "k65b373f",
+    "kd65c9d5",
+    "kd229bc3",
+    "k749fc3c",
+    "k9c64ad2",
+    "kb6ab79b",
+    "kd23e25d",
+    "k2dd80c0",
+    "k961eda7",
+    "k2e0cc31",
+    "k98d7198",
+    "kbb3ae63",
+    "kd71a0ba",
+    "k73b4592",
+    "kf905d8d",
+    "k8886841",
+    "k04f53fb",
+    "ka091ccf",
+    "k7ea21d7",
+    "k26a8ef5",
+    "k3b5b51c",
+    "k53a1f13",
+    "k3539e83",
+    "k62fd721",
+    "k0ea37e7",
+    "ke059fc3",
+    "kce9e560",
+    "k083ed4b",
+    "kd5d57b2",
+    "k54262d2",
+    "kaf253c6",
+    "k29c89ad",
+    "k5979327",
+    "kd098924"
+   ]
+  },
+  {
+   "name": "batch-19-emotional_social",
+   "number": 19,
+   "family": "emotional_social",
+   "size": 50,
+   "input": "batches/batch-19-emotional_social.jsonl",
+   "output": "out/batch-19-emotional_social.grades.jsonl",
+   "keys": [
+    "k65fd2a0",
+    "k44b6c9b",
+    "k42d4e47",
+    "k408d99f",
+    "kcd00655",
+    "k2620cde",
+    "k5a74d41",
+    "k6937f61",
+    "k8cf7afe",
+    "k892382a",
+    "kcb8908d",
+    "k6971de2",
+    "kdb62c1c",
+    "k33e968a",
+    "k8f700bb",
+    "kd177368",
+    "kdf0f976",
+    "kb02ef94",
+    "k6ab42d3",
+    "k2c446b9",
+    "k64627a6",
+    "k406ebba",
+    "k291e98e",
+    "k243098e",
+    "kd1815e1",
+    "k06b1313",
+    "k59bd072",
+    "kd20f23e",
+    "k1738991",
+    "k709921c",
+    "ke556104",
+    "kc829d9b",
+    "k9b7610f",
+    "kc352504",
+    "k696a808",
+    "k038e18c",
+    "kc6a6b53",
+    "k7f1efc4",
+    "kd1907b6",
+    "kb2a16af",
+    "k63a1236",
+    "k432c847",
+    "k34db739",
+    "k8566350",
+    "k9316bab",
+    "k59281cb",
+    "k70592ef",
+    "k8fa36bc",
+    "k2c5ab63",
+    "kb0aaa63"
+   ]
+  },
+  {
+   "name": "batch-20-emotional_social",
+   "number": 20,
+   "family": "emotional_social",
+   "size": 50,
+   "input": "batches/batch-20-emotional_social.jsonl",
+   "output": "out/batch-20-emotional_social.grades.jsonl",
+   "keys": [
+    "k5f9da34",
+    "k89849e3",
+    "k36b4bd8",
+    "k2b5dc7a",
+    "ka93af2e",
+    "k8dcaebf",
+    "kfdc10fe",
+    "k8ca2fc2",
+    "kb239578",
+    "k498d6d2",
+    "k0cfccfb",
+    "k0b9b6b9",
+    "k0eeb198",
+    "k2b9695c",
+    "k172cdef",
+    "k496f1d0",
+    "k791131a",
+    "kd9ae4a5",
+    "kf924a90",
+    "ke2b15a5",
+    "kff67ca7",
+    "kfa86527",
+    "k8c64e10",
+    "kab8f4e5",
+    "kb1027c3",
+    "ke9b30cb",
+    "kdc8ff35",
+    "kce4555c",
+    "k77e46a4",
+    "kc75d6e6",
+    "k19b8eaf",
+    "kf2a6d64",
+    "k97eb983",
+    "k6fdaa57",
+    "k06698ac",
+    "k0ad8b4d",
+    "kda87352",
+    "k7ae734e",
+    "ke64864f",
+    "k5886a8e",
+    "kcb7eb29",
+    "kf5edc32",
+    "k7d55e2d",
+    "kb9a41e3",
+    "kfd99832",
+    "k5c61400",
+    "kb8d53cc",
+    "ka9064ec",
+    "k97c50f9",
+    "kfce99ff"
+   ]
+  },
+  {
+   "name": "batch-21-emotional_social",
+   "number": 21,
+   "family": "emotional_social",
+   "size": 50,
+   "input": "batches/batch-21-emotional_social.jsonl",
+   "output": "out/batch-21-emotional_social.grades.jsonl",
+   "keys": [
+    "k8f3b231",
+    "k13bf03a",
+    "k4e98ffc",
+    "k30c86b2",
+    "ke87881d",
+    "kdb9989e",
+    "k01648cc",
+    "k9a0c8b2",
+    "k4ebe1c1",
+    "k0d65de0",
+    "kc18b9db",
+    "k5ebe0c5",
+    "kd464a92",
+    "k50027ce",
+    "k1ff0481",
+    "k53c822e",
+    "kc86b83b",
+    "k290574c",
+    "k0b2dc59",
+    "ka615780",
+    "k6d51ae3",
+    "k237ac82",
+    "k9f141e3",
+    "k2d7fbac",
+    "kc743039",
+    "k5487f51",
+    "k7b8aa52",
+    "kac572ab",
+    "ka6bf05b",
+    "k37a5b96",
+    "k00c81c3",
+    "ke95bb95",
+    "ka1203c5",
+    "k6d1de3e",
+    "kf1696a2",
+    "k5891175",
+    "k0072fbd",
+    "kc6d9a30",
+    "ka1d86ea",
+    "kd1b15fe",
+    "ke9a67cb",
+    "k37b7c21",
+    "kd492fa5",
+    "k370648b",
+    "k43c10ee",
+    "k11ccc0d",
+    "k9296be9",
+    "k3436c00",
+    "kd04108e",
+    "kdc19dee"
+   ]
+  },
+  {
+   "name": "batch-22-emotional_social",
+   "number": 22,
+   "family": "emotional_social",
+   "size": 50,
+   "input": "batches/batch-22-emotional_social.jsonl",
+   "output": "out/batch-22-emotional_social.grades.jsonl",
+   "keys": [
+    "kca2970b",
+    "kb29581a",
+    "keae4b11",
+    "k05c1a9f",
+    "k3bf37bd",
+    "k4eee953",
+    "kdf8fb8f",
+    "k0d2fe3c",
+    "k1f4571f",
+    "k0a234dd",
+    "k245fdb4",
+    "kc19879c",
+    "k574ce1f",
+    "kfa88762",
+    "k1dddba4",
+    "ka188828",
+    "k0c366a7",
+    "keca850c",
+    "k37994dd",
+    "k327a0cc",
+    "k0945530",
+    "k87249dc",
+    "ka3fb022",
+    "kdd5f6f3",
+    "k3c02c9b",
+    "k5a44e1b",
+    "kf646456",
+    "k0245656",
+    "k5077d47",
+    "kd3f824d",
+    "k33a94fe",
+    "k9bbffa4",
+    "kb48b308",
+    "k4cab7fe",
+    "k8aeef38",
+    "ke009b30",
+    "k2f2a1ce",
+    "kf15711b",
+    "k3a47fba",
+    "kd44f37f",
+    "k00362cb",
+    "k0fccad6",
+    "k704c433",
+    "kf33dc81",
+    "k5bb8919",
+    "k989548f",
+    "k28e540c",
+    "kc285a0b",
+    "ka720d5f",
+    "k5072f8d"
+   ]
+  }
+ ],
+ "own_families": {
+  "mine-additional_clauses": {
+   "graded_like": "emotional_social",
+   "responses": 50
+  }
+ }
+}

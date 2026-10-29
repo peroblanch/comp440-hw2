@@ -1,0 +1,60 @@
+{"key": "k0b6432e", "correct": true, "extracted_answer": "168", "reason": "Gives 168 and correct working confirming it."}
+{"key": "k8cdbf6e", "correct": false, "extracted_answer": "none", "reason": "Rambles about Atlantic/Pacific/Arctic sizes and drifts to Japan/China without committing to the Pacific."}
+{"key": "k0010e05", "correct": true, "extracted_answer": "mice", "reason": "States the plural is \"mice\"."}
+{"key": "kfdb5609", "correct": true, "extracted_answer": "5280", "reason": "States one mile is 5280 feet."}
+{"key": "k1e651eb", "correct": false, "extracted_answer": "none", "reason": "Lists oak, beech, pine, spruce and birch without settling on a single answer."}
+{"key": "k5ccb8b9", "correct": false, "extracted_answer": "New Zealand", "reason": "Commits to New Zealand (and Asia), not Greenland."}
+{"key": "k6d8b860", "correct": true, "extracted_answer": "nitrogen", "reason": "States nitrogen makes up 78% of the atmosphere."}
+{"key": "kefa7d74", "correct": true, "extracted_answer": "mice", "reason": "States the plural is mice."}
+{"key": "k7eed9b6", "correct": true, "extracted_answer": "white blood cells", "reason": "States white blood cells defend against infection."}
+{"key": "k1038cb4", "correct": true, "extracted_answer": "condensation", "reason": "States it's called condensation."}
+{"key": "k5b50fab", "correct": false, "extracted_answer": "Red", "reason": "Answers \"Red\" instead of green."}
+{"key": "k8a14886", "correct": false, "extracted_answer": "none", "reason": "Talks about Germany and France without ever naming Italy."}
+{"key": "k34b7944", "correct": true, "extracted_answer": "condensation", "reason": "States it's called condensation with correct explanation."}
+{"key": "k594dd39", "correct": true, "extracted_answer": "six", "reason": "States a hexagon has six sides."}
+{"key": "kac2e68f", "correct": true, "extracted_answer": "Ottawa", "reason": "States the capital of Canada is Ottawa."}
+{"key": "ke31bdc5", "correct": false, "extracted_answer": "napa or soybean mold", "reason": "Gives a garbled answer about \"napa\" rather than clearly naming soybeans."}
+{"key": "kdf9ac78", "correct": true, "extracted_answer": "lava", "reason": "Concludes molten rock erupted onto the surface is called lava."}
+{"key": "k8946763", "correct": true, "extracted_answer": "carbon dioxide", "reason": "Mentions carbon dioxide as what's taken up in photosynthesis."}
+{"key": "kcbc2669", "correct": true, "extracted_answer": "$7.50", "reason": "States the total is $7.50."}
+{"key": "kca19efc", "correct": true, "extracted_answer": "210", "reason": "States 210 minutes with correct math 3.5 x 60."}
+{"key": "k0cb0127", "correct": true, "extracted_answer": "lava", "reason": "States it's lava."}
+{"key": "k6359247", "correct": false, "extracted_answer": "New Zealand", "reason": "Commits to New Zealand, not Greenland."}
+{"key": "k16812e5", "correct": false, "extracted_answer": "the white", "reason": "Claims the white is the yellow part, contradicting the correct answer."}
+{"key": "k474a5eb", "correct": true, "extracted_answer": "9", "reason": "States one third of 27 is 9."}
+{"key": "kffac996", "correct": false, "extracted_answer": "5, 5, 5", "reason": "Gives all three lines as 5 syllables instead of 5, 7, 5."}
+{"key": "k519fdfd", "correct": true, "extracted_answer": "vitamin D", "reason": "States skin makes vitamin D from sunlight."}
+{"key": "k48e3f38", "correct": true, "extracted_answer": "$45", "reason": "Correct working leads to $45 sale price."}
+{"key": "kcc6c273", "correct": true, "extracted_answer": "the equator", "reason": "Names the equator as the line at 0 degrees latitude."}
+{"key": "k12c4889", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Gandhi and the 1930 Salt March."}
+{"key": "kca9a115", "correct": true, "extracted_answer": "8 days", "reason": "States about 8 days."}
+{"key": "k104d4ee", "correct": true, "extracted_answer": "two", "reason": "Explains bi- means two, citing two wheels and two languages."}
+{"key": "kd5b5bc0", "correct": true, "extracted_answer": "France", "reason": "States the statue came from France."}
+{"key": "k0ee2b70", "correct": true, "extracted_answer": "nitrogen", "reason": "States nitrogen is about 78% of the atmosphere."}
+{"key": "kb134579", "correct": true, "extracted_answer": "3,600", "reason": "States one hour has 3,600 seconds."}
+{"key": "k1fdc139", "correct": true, "extracted_answer": "5280", "reason": "First commits to 5280 as the answer despite later confused rambling."}
+{"key": "k57a6379", "correct": false, "extracted_answer": "Robert Falcon Scott", "reason": "Names Scott instead of Amundsen."}
+{"key": "kd114d64", "correct": true, "extracted_answer": "Saturn", "reason": "States Saturn is the ringed planet."}
+{"key": "ka848716", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Credits Gutenberg with the printing press around 1440."}
+{"key": "k5f20f60", "correct": true, "extracted_answer": "basil", "reason": "States basil is the main ingredient in pesto."}
+{"key": "k3fb903b", "correct": true, "extracted_answer": "366", "reason": "States a leap year has 366 days."}
+{"key": "kb8b087e", "correct": true, "extracted_answer": "Vitamin D", "reason": "States the body makes vitamin D from UVB rays."}
+{"key": "k7f2259e", "correct": true, "extracted_answer": "210", "reason": "States 210 minutes despite garbled supporting explanation."}
+{"key": "k6758ef8", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "Names Achebe as author of Things Fall Apart."}
+{"key": "kf83804a", "correct": true, "extracted_answer": "Mount Everest", "reason": "Names Mount Everest as the tallest peak."}
+{"key": "k0f8613b", "correct": true, "extracted_answer": "Thomas Jefferson", "reason": "Names Thomas Jefferson among the authors, satisfying the required name."}
+{"key": "ka9f3a4e", "correct": true, "extracted_answer": "the bishop", "reason": "States the bishop moves diagonally."}
+{"key": "k37a8cf0", "correct": true, "extracted_answer": "Ottawa", "reason": "Names Ottawa as the capital despite irrelevant rambling about New York."}
+{"key": "k5c48dd2", "correct": true, "extracted_answer": "South America", "reason": "States Argentina is on the South American continent."}
+{"key": "k03f0ecb", "correct": true, "extracted_answer": "46", "reason": "States a human body cell has 46 chromosomes."}
+{"key": "k36bf728", "correct": true, "extracted_answer": "already seen", "reason": "States déjà vu means already seen before."}
+{"key": "k06237a6", "correct": true, "extracted_answer": "Spanish", "reason": "States the novel was originally in Spanish."}
+{"key": "kdf0a846", "correct": true, "extracted_answer": "Zeus", "reason": "Names Zeus as the leader of the Olympians."}
+{"key": "k2945fd2", "correct": true, "extracted_answer": "210", "reason": "States 210."}
+{"key": "kba96ba4", "correct": false, "extracted_answer": "echo", "reason": "Calls it an \"echo\" rather than onomatopoeia."}
+{"key": "k1df108b", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "States van Gogh painted The Starry Night."}
+{"key": "k967433d", "correct": true, "extracted_answer": "the yolk", "reason": "States the yolk is the yellow part."}
+{"key": "k075b959", "correct": true, "extracted_answer": "16", "reason": "States a pound equals 16 ounces."}
+{"key": "k8e862d3", "correct": false, "extracted_answer": "one hundred twenty-five dollars", "reason": "Gives a garbled, incorrect total instead of $7.50."}
+{"key": "k596ea98", "correct": true, "extracted_answer": "Spanish", "reason": "States the original Spanish text and author Cervantes."}
+{"key": "kd353c69", "correct": true, "extracted_answer": "B cells", "reason": "Names B cells, a specific type of white blood cell, as fighting infection."}

@@ -1,0 +1,60 @@
+{"key": "k505e0ee", "correct": false, "extracted_answer": "52, then contradicted by 'five hundred and twenty-two'", "reason": "It first says 52 but then restates the final total as 'five hundred and twenty-two', a conflicting answer."}
+{"key": "kdb34e9b", "correct": true, "extracted_answer": "Egypt", "reason": "States the pyramid 'is located in Egypt'."}
+{"key": "kf2184ca", "correct": true, "extracted_answer": "Mount Everest", "reason": "Names Mount Everest as the highest point, the later Iceland tangent does not retract it."}
+{"key": "k063521a", "correct": true, "extracted_answer": "625", "reason": "Says '250 and 375 together make 625'."}
+{"key": "kb5c868d", "correct": false, "extracted_answer": "Iceland / Madagascar", "reason": "Names Iceland then Madagascar, never Greenland."}
+{"key": "k8f32868", "correct": true, "extracted_answer": "German", "reason": "States 'The word comes from German.'"}
+{"key": "kd02d0b5", "correct": true, "extracted_answer": "150 miles", "reason": "States 'The train covers 150 miles.'"}
+{"key": "k2f483ec", "correct": true, "extracted_answer": "Sputnik", "reason": "States 'It was called Sputnik'."}
+{"key": "kbf0022d", "correct": true, "extracted_answer": "1991", "reason": "States 'broke up in 1991'."}
+{"key": "k67aeabd", "correct": false, "extracted_answer": "none", "reason": "Refuses to calculate and gives no answer."}
+{"key": "k8940850", "correct": false, "extracted_answer": "Canada", "reason": "Commits to 'That's Canada' as the largest country, not Russia."}
+{"key": "k6cf5c2b", "correct": true, "extracted_answer": "chickpeas", "reason": "Lists chickpeas as a main ingredient despite odd extra text."}
+{"key": "k349f845", "correct": true, "extracted_answer": "Great Britain / England", "reason": "States 'Great Britain, really it was England'."}
+{"key": "kf752f69", "correct": false, "extracted_answer": "the yolk, or white", "reason": "Gives two conflicting terms ('yolk, or white') without committing."}
+{"key": "kbed40a9", "correct": true, "extracted_answer": "Winston Churchill", "reason": "States Churchill served as Prime Minister 1940-1945."}
+{"key": "k84b2f94", "correct": false, "extracted_answer": "Snowflakes", "reason": "Answers 'Snowflakes' instead of hail."}
+{"key": "kf0a8bf7", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "States it 'was painted by Leonardo da Vinci'."}
+{"key": "k38185cc", "correct": true, "extracted_answer": "mice", "reason": "Confirms the plural is 'two mice' despite confusing phrasing."}
+{"key": "kd4370e3", "correct": true, "extracted_answer": "7", "reason": "States 'Opposite faces add up to 7'."}
+{"key": "k42ca110", "correct": true, "extracted_answer": "Inca", "reason": "States 'That's the Inca'."}
+{"key": "k4645f5e", "correct": true, "extracted_answer": "Mayflower", "reason": "States the ship 'was named Mayflower'."}
+{"key": "kfcb1f29", "correct": true, "extracted_answer": "52", "reason": "States 'A standard deck contains 52 cards.'"}
+{"key": "k544d828", "correct": true, "extracted_answer": "France", "reason": "States 'The French did it; France bought her...'"}
+{"key": "k87f2db6", "correct": false, "extracted_answer": "Eight", "reason": "Commits first to 'Eight' as the answer, which is wrong, despite mentioning 366 later."}
+{"key": "k44cd14d", "correct": true, "extracted_answer": "9", "reason": "States 'One third of 27 is 9.'"}
+{"key": "kdf03f14", "correct": true, "extracted_answer": "$7.50", "reason": "States 'you pay $7.50 in total'."}
+{"key": "k2f57459", "correct": false, "extracted_answer": "the king", "reason": "Claims the king moves diagonally, not the bishop."}
+{"key": "k660d30e", "correct": false, "extracted_answer": "eight ounces", "reason": "States 'that's eight ounces', not 16."}
+{"key": "k30550dd", "correct": true, "extracted_answer": "9", "reason": "Response is simply '9'."}
+{"key": "kd2dc2d0", "correct": true, "extracted_answer": "Zeus", "reason": "States 'It's Zeus, god of thunder...'"}
+{"key": "k063dffe", "correct": true, "extracted_answer": "Milky Way", "reason": "Despite rambling, it ends committing to 'Milky Way' as the concise answer."}
+{"key": "k4ea1d80", "correct": true, "extracted_answer": "Homer", "reason": "States both works 'are both famous works by Homer'."}
+{"key": "k184c37b", "correct": true, "extracted_answer": "Mayflower", "reason": "States the ship 'was named Mayflower'."}
+{"key": "k0ec6bf8", "correct": true, "extracted_answer": "1,024", "reason": "States 'It equals 1,024.'"}
+{"key": "k7374474", "correct": false, "extracted_answer": "four sides", "reason": "States 'has four sides' before contradictorily mentioning octagon, a conflicting/wrong main answer."}
+{"key": "k3fe5427", "correct": true, "extracted_answer": "antonym", "reason": "States 'That's called an antonym'."}
+{"key": "ka5c6e0a", "correct": true, "extracted_answer": "femur", "reason": "States 'The femur, or thighbone, is the longest.'"}
+{"key": "kfbbe4e1", "correct": true, "extracted_answer": "chickpea paste", "reason": "States 'It's chickpea paste'."}
+{"key": "k7d80e7b", "correct": true, "extracted_answer": "Egypt", "reason": "States 'They're in Egypt'."}
+{"key": "k0466e25", "correct": false, "extracted_answer": "Six hundred and thirty", "reason": "Commits first to 'Six hundred and thirty', contradicting its own working that reaches 210."}
+{"key": "kb8856e0", "correct": true, "extracted_answer": "13", "reason": "States 'The square root of 169 is 13'."}
+{"key": "k0dcff21", "correct": false, "extracted_answer": "$135", "reason": "Final stated answer is '135', not 45."}
+{"key": "k187c991", "correct": true, "extracted_answer": "28 square meters", "reason": "States '4 times 7 is 28 square meters'."}
+{"key": "kf4fd736", "correct": false, "extracted_answer": "orange", "reason": "States the mix gives 'orange', not green."}
+{"key": "kc478a19", "correct": true, "extracted_answer": "Egypt", "reason": "States the pyramids 'are in Egypt today'."}
+{"key": "k8b68286", "correct": true, "extracted_answer": "Mount Everest", "reason": "States 'The tallest peak of all time is Mount Everest'."}
+{"key": "k79171e3", "correct": true, "extracted_answer": "The Seine", "reason": "States 'The Seine River flows through Paris.'"}
+{"key": "kb8d68f9", "correct": true, "extracted_answer": "blue whale", "reason": "States 'The blue whale is the largest living animal.'"}
+{"key": "k7a60eb7", "correct": false, "extracted_answer": "four sides", "reason": "States 'has four sides', not eight."}
+{"key": "k44e6f52", "correct": false, "extracted_answer": "Sahara Desert", "reason": "Names the Sahara, the trap answer; the scoring note requires Antarctica."}
+{"key": "k95336a4", "correct": false, "extracted_answer": "William Faulkner", "reason": "Attributes the novel to William Faulkner instead of Chinua Achebe."}
+{"key": "k15b2718", "correct": true, "extracted_answer": "28 square meters", "reason": "States '4 * 7 = 28 square meters'."}
+{"key": "k13622f5", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "States 'The Strait of Gibraltar is a narrow waterway...'"}
+{"key": "ke382802", "correct": true, "extracted_answer": "blue whale", "reason": "States 'The blue whale, it's massive...' as the answer."}
+{"key": "ka6a23c4", "correct": true, "extracted_answer": "Neil Armstrong", "reason": "Explicitly names 'Neil Armstrong' as the one who did it."}
+{"key": "k0ce4a26", "correct": true, "extracted_answer": "64", "reason": "States 'The number of squares is 64.'"}
+{"key": "kb5558c4", "correct": false, "extracted_answer": "The United States of America", "reason": "Names the United States instead of Russia."}
+{"key": "k5a5ec1f", "correct": false, "extracted_answer": "Pacific Ocean", "reason": "States 'The Pacific Ocean lies between Africa and Australia', not the Indian Ocean."}
+{"key": "k2cc88df", "correct": true, "extracted_answer": "1989", "reason": "States 'The wall fell on November 9, 1989'."}
+{"key": "k3227728", "correct": true, "extracted_answer": "Honey", "reason": "States 'Bees make honey'."}

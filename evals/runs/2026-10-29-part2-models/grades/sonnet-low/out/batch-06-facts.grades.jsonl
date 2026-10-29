@@ -1,0 +1,60 @@
+{"key": "k00456fe", "correct": true, "extracted_answer": "5/8", "reason": "States 'the answer is 5 / 8', matching the expected fraction."}
+{"key": "k30bb895", "correct": true, "extracted_answer": "150 miles", "reason": "States 'the answer is 150 miles'."}
+{"key": "k264ffee", "correct": true, "extracted_answer": "13", "reason": "States 'It's 13'."}
+{"key": "k44fdbb0", "correct": true, "extracted_answer": "fifty-six", "reason": "States 'equals fifty-six' which is 56."}
+{"key": "k8227a10", "correct": true, "extracted_answer": "The Seine", "reason": "Opens with 'The Seine' as the answer."}
+{"key": "kd03ca9d", "correct": true, "extracted_answer": "six", "reason": "States 'A hexagon has six sides'."}
+{"key": "kc7047cf", "correct": false, "extracted_answer": "echo", "reason": "Commits to 'It's called an echo' instead of onomatopoeia."}
+{"key": "k8f4af59", "correct": true, "extracted_answer": "3,600", "reason": "States 'There are 3,600 seconds in an hour'."}
+{"key": "k8be86fa", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "Opens with 'The Indian Ocean'."}
+{"key": "kd31d24f", "correct": true, "extracted_answer": "225", "reason": "States 'The result is 225'."}
+{"key": "kd08c5f2", "correct": true, "extracted_answer": "hailstones", "reason": "States 'They're called hailstones'."}
+{"key": "k8df7765", "correct": true, "extracted_answer": "Antonio Vivaldi", "reason": "States 'It was written by Antonio Vivaldi'."}
+{"key": "kf58fd3f", "correct": true, "extracted_answer": "The Inca", "reason": "Opens with 'The Inca' as the builders."}
+{"key": "k9ff76b1", "correct": true, "extracted_answer": "5/8", "reason": "States 'the remaining slices are 5/8'."}
+{"key": "k26c35fb", "correct": false, "extracted_answer": "none", "reason": "Rambles about lines without ever stating the 5, 7, 5 syllable pattern."}
+{"key": "k3225193", "correct": true, "extracted_answer": "Basil", "reason": "Opens with 'Basil' as the main ingredient."}
+{"key": "k46b32a6", "correct": true, "extracted_answer": "the nucleus", "reason": "States 'a center called the nucleus'."}
+{"key": "ked31c89", "correct": true, "extracted_answer": "9", "reason": "States 'it's 9'."}
+{"key": "kecfd557", "correct": true, "extracted_answer": "Ottawa", "reason": "States 'it's Ottawa'."}
+{"key": "k7920a5a", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "States 'The first unified Chinese emperor was Qin Shi Huang', despite later unrelated errors."}
+{"key": "kb745efa", "correct": true, "extracted_answer": "1991", "reason": "States 'The Soviet Union broke up in 1991'."}
+{"key": "kfa25505", "correct": true, "extracted_answer": "1914", "reason": "Opens with '1914' as the start year."}
+{"key": "k9060555", "correct": false, "extracted_answer": "none", "reason": "Never states 1945 and gives unrelated, garbled facts about the war."}
+{"key": "k8a88215", "correct": true, "extracted_answer": "46", "reason": "States 'A normal human body cell has 46 chromosomes'."}
+{"key": "k7644ec3", "correct": true, "extracted_answer": "7", "reason": "States 'The sum of opposite faces is 7'."}
+{"key": "k7387dee", "correct": true, "extracted_answer": "ohms", "reason": "States resistance 'is measured in ohms'."}
+{"key": "kcec85d6", "correct": true, "extracted_answer": "Charles Dickens", "reason": "States 'Charles Dickens wrote' the Scrooge story."}
+{"key": "k013d2a5", "correct": true, "extracted_answer": "Venus", "reason": "Opens with 'Venus' as the hottest planet."}
+{"key": "k3311552", "correct": true, "extracted_answer": "Hydrogen", "reason": "States 'Hydrogen has an atomic number of 1'."}
+{"key": "kb3ed906", "correct": false, "extracted_answer": "you've been there before", "reason": "Describes the feeling rather than giving the literal translation 'already seen'."}
+{"key": "kf2734d8", "correct": false, "extracted_answer": "freezing", "reason": "Commits to 'It's called freezing' instead of condensation."}
+{"key": "ka73472c", "correct": true, "extracted_answer": "soybeans", "reason": "States 'Miso paste uses soybeans'."}
+{"key": "k624c2ee", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "Opens with 'Vincent van Gogh' as the painter."}
+{"key": "k28e5511", "correct": true, "extracted_answer": "thank you", "reason": "States 'It means \"thank you\"'."}
+{"key": "k9e4b039", "correct": false, "extracted_answer": "prefix", "reason": "Commits to 'That word is a prefix' instead of antonym."}
+{"key": "ka48da8a", "correct": false, "extracted_answer": "Atacama Desert", "reason": "Names the Atacama as the largest (hot) desert, not Antarctica."}
+{"key": "k36a8672", "correct": true, "extracted_answer": "mice", "reason": "States the plural 'is usually mice'."}
+{"key": "kd651cb3", "correct": false, "extracted_answer": "Red", "reason": "Opens with 'Red' instead of green."}
+{"key": "k8b4001b", "correct": false, "extracted_answer": "the liver", "reason": "States 'It's the liver' instead of the skin."}
+{"key": "k9142fa0", "correct": true, "extracted_answer": "Mayflower", "reason": "States the ship 'named Mayflower'."}
+{"key": "kc41248a", "correct": true, "extracted_answer": "Ankara", "reason": "States 'The capital is Ankara'."}
+{"key": "k9b7c5e8", "correct": false, "extracted_answer": "Hermann Hesse", "reason": "Names Hermann Hesse instead of Roald Amundsen."}
+{"key": "k50c0ae0", "correct": false, "extracted_answer": "Michigan Lake", "reason": "Names 'Michigan Lake' as largest instead of Lake Superior."}
+{"key": "k06f83e4", "correct": true, "extracted_answer": "64", "reason": "States 'A standard chessboard has 64 squares'."}
+{"key": "k95ec208", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "Opens with 'The Ural Mountains' as the dividing range."}
+{"key": "ka862da0", "correct": true, "extracted_answer": "32 °F", "reason": "States 'Water freezes at 32 °F'."}
+{"key": "kd2bf007", "correct": true, "extracted_answer": "England", "reason": "States 'began in England'."}
+{"key": "k1754aff", "correct": false, "extracted_answer": "Seven", "reason": "Answers with 'Seven' (days), misunderstanding the hours-in-a-week question."}
+{"key": "k1fec0b0", "correct": false, "extracted_answer": "elephants", "reason": "Commits to 'The largest animals alive today are elephants', with blue whale only mentioned as an aside."}
+{"key": "kf68e33f", "correct": false, "extracted_answer": "December", "reason": "States 'It's December' instead of February."}
+{"key": "k5fe8ecc", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "States the painting is 'by Leonardo da Vinci'."}
+{"key": "k8e14de0", "correct": false, "extracted_answer": "none", "reason": "Never commits to the dime, instead discusses the penny and asks for clarification."}
+{"key": "k79c1094", "correct": true, "extracted_answer": "13", "reason": "Response is simply '13'."}
+{"key": "kfbdf549", "correct": true, "extracted_answer": "The nucleus", "reason": "States 'The nucleus, which contains protons and neutrons'."}
+{"key": "k186dbc7", "correct": true, "extracted_answer": "150 miles", "reason": "States '60 mph times 2.5 hours equals 150 miles'."}
+{"key": "kd33c8f7", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Credits 'Johannes Gutenberg' with the invention."}
+{"key": "ka8de10e", "correct": true, "extracted_answer": "635", "reason": "Opens with '635' as the answer."}
+{"key": "ka592321", "correct": true, "extracted_answer": "green", "reason": "States 'You get a bright green'."}
+{"key": "k9756355", "correct": false, "extracted_answer": "4 sides", "reason": "States '4 sides' before contradicting itself with 'eight-sided shape', giving conflicting answers."}
+{"key": "k8a22450", "correct": true, "extracted_answer": "32°F", "reason": "States 'Water freezes at 32°F'."}

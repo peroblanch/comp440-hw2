@@ -1,0 +1,60 @@
+{"key": "kd11da54", "correct": false, "extracted_answer": "January, February and March", "reason": "It lists three months instead of committing to February alone."}
+{"key": "kef2ed24", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "States van Gogh painted it."}
+{"key": "k09474e0", "correct": true, "extracted_answer": "Homer", "reason": "Attributes both works to Homer."}
+{"key": "k6b762d4", "correct": true, "extracted_answer": "Egypt", "reason": "Says the pyramids are in Egypt."}
+{"key": "k31d7bf9", "correct": true, "extracted_answer": "Hydrogen", "reason": "Names hydrogen directly."}
+{"key": "k64c6f6e", "correct": false, "extracted_answer": "thunderclouds", "reason": "Defines 'thunderclouds' instead of naming hail."}
+{"key": "k37ee956", "correct": true, "extracted_answer": "8 days", "reason": "States 'about 8 days'."}
+{"key": "k057fe6d", "correct": true, "extracted_answer": "two", "reason": "States 'bi- means two'."}
+{"key": "kf16f394", "correct": true, "extracted_answer": "635", "reason": "Shows the correct subtraction 1,000-365=635."}
+{"key": "k4a2b303", "correct": false, "extracted_answer": "$72", "reason": "Despite describing the correct method, it states the wrong final price of seventy-two dollars."}
+{"key": "kfec167b", "correct": false, "extracted_answer": "5-7 syllables then four or five", "reason": "Gives a pattern different from the expected 5,7,5."}
+{"key": "k1d24fcc", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "States da Vinci painted it in 1503."}
+{"key": "ka8d9e78", "correct": false, "extracted_answer": "oxygen", "reason": "Answers oxygen instead of nitrogen."}
+{"key": "k03e745d", "correct": true, "extracted_answer": "Arteries", "reason": "Names arteries as carrying blood away from the heart."}
+{"key": "k0eea0d8", "correct": true, "extracted_answer": "1991", "reason": "States the Soviet Union broke up in 1991."}
+{"key": "kd65e6b6", "correct": false, "extracted_answer": "two hundred and ten / 46", "reason": "Gives contradictory numbers, first stating two hundred and ten before 46."}
+{"key": "k631f7d4", "correct": false, "extracted_answer": "homophone", "reason": "Answers homophone instead of onomatopoeia."}
+{"key": "kcb4bdc7", "correct": true, "extracted_answer": "Ottawa", "reason": "States the capital of Canada is Ottawa."}
+{"key": "k92304f4", "correct": false, "extracted_answer": "4-sided or 6-sided", "reason": "Claims stop signs are 4- or 6-sided instead of 8."}
+{"key": "k32e10d9", "correct": false, "extracted_answer": "Hawaiian archipelago", "reason": "Names the Hawaiian archipelago instead of Greenland."}
+{"key": "k8c72e36", "correct": true, "extracted_answer": "366", "reason": "States a leap year has 366 days."}
+{"key": "k4a31b43", "correct": false, "extracted_answer": "Norway", "reason": "Answers Norway instead of Vatican City."}
+{"key": "kb2864f3", "correct": true, "extracted_answer": "16", "reason": "States 16 ounces in a pound."}
+{"key": "k28698ea", "correct": true, "extracted_answer": "32°F", "reason": "States water freezes at 32°F."}
+{"key": "kfa92189", "correct": true, "extracted_answer": "seen it before", "reason": "Says it means you feel you've 'seen it before', matching the accepted 'seen before'."}
+{"key": "kc4f3ed7", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Gandhi and the Salt March."}
+{"key": "k81ce462", "correct": true, "extracted_answer": "6", "reason": "States a hexagon has six sides despite rambling."}
+{"key": "k6322898", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "Correctly attributes the novel to him."}
+{"key": "kbfc46a4", "correct": true, "extracted_answer": "thank you", "reason": "States gracias means thank you."}
+{"key": "k1ba08e6", "correct": true, "extracted_answer": "15", "reason": "Computes 3x5=15 correctly."}
+{"key": "kf706d18", "correct": true, "extracted_answer": "antonym", "reason": "Correctly identifies antonym with example."}
+{"key": "ke2dde34", "correct": true, "extracted_answer": "168", "reason": "Computes 7x24=168 correctly."}
+{"key": "k5e6ccff", "correct": true, "extracted_answer": "5,280", "reason": "States one mile is 5,280 feet."}
+{"key": "kd8b3bdf", "correct": true, "extracted_answer": "vitamin D", "reason": "Identifies vitamin D as produced from sunlight."}
+{"key": "k8a4d7a9", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "Correctly names the author despite rambling afterward."}
+{"key": "k27e76c4", "correct": true, "extracted_answer": "lava", "reason": "States molten rock on the surface is called lava."}
+{"key": "k08f3e25", "correct": true, "extracted_answer": "thank you", "reason": "States gracias means thank you."}
+{"key": "kd7108d1", "correct": false, "extracted_answer": "the penny", "reason": "Answers penny instead of dime."}
+{"key": "k4af5894", "correct": true, "extracted_answer": "28 square meters", "reason": "Computes 4x7=28 square meters correctly."}
+{"key": "k549af18", "correct": false, "extracted_answer": "geographic center", "reason": "Never names the equator, instead describes a vague 'geographic center'."}
+{"key": "k4a461b5", "correct": true, "extracted_answer": "Thomas Jefferson", "reason": "Names Thomas Jefferson as the author."}
+{"key": "kb9f1dd7", "correct": true, "extracted_answer": "Antonio Vivaldi", "reason": "Names Vivaldi as the composer."}
+{"key": "kca618c2", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Fleming as the discoverer."}
+{"key": "k410a5e6", "correct": true, "extracted_answer": "South America", "reason": "States Argentina is on the South American continent."}
+{"key": "k2630a49", "correct": true, "extracted_answer": "1789", "reason": "States the French Revolution began in 1789."}
+{"key": "k598ffd5", "correct": true, "extracted_answer": "1024", "reason": "States 2^10 is 1024."}
+{"key": "k0fb5d35", "correct": true, "extracted_answer": "366", "reason": "States a leap year has 366 days."}
+{"key": "k48ddede", "correct": true, "extracted_answer": "basil", "reason": "Lists basil as the herb among the pesto ingredients."}
+{"key": "k33b17f4", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang and the Terracotta Army."}
+{"key": "k16858e8", "correct": true, "extracted_answer": "antonym", "reason": "Correctly identifies antonym with example."}
+{"key": "kdf925d9", "correct": false, "extracted_answer": "none", "reason": "Response is garbled, off-topic Chinese text that never names Angel Falls."}
+{"key": "k8ac8c31", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "States Fleming discovered penicillin."}
+{"key": "ked75001", "correct": true, "extracted_answer": "white blood cells", "reason": "Explicitly says white blood cells kill pathogens, despite a confused opening line."}
+{"key": "kc227c0f", "correct": true, "extracted_answer": "the nucleus", "reason": "States the nucleus is the center of an atom."}
+{"key": "kb38186d", "correct": false, "extracted_answer": "984", "reason": "Gives an incorrect result of 984 instead of 635."}
+{"key": "kd9c3946", "correct": true, "extracted_answer": "Spanish", "reason": "States Don Quixote was written in Spanish."}
+{"key": "k5c1d3f5", "correct": true, "extracted_answer": "225", "reason": "States 15 squared is 225."}
+{"key": "kc7c44e7", "correct": true, "extracted_answer": "eight", "reason": "States spiders usually have eight legs."}
+{"key": "k436fa1d", "correct": true, "extracted_answer": "the Mayflower", "reason": "Names the Mayflower as the Pilgrim ship."}
+{"key": "k68500b3", "correct": true, "extracted_answer": "13", "reason": "States the square root of 169 is 13 with correct working."}

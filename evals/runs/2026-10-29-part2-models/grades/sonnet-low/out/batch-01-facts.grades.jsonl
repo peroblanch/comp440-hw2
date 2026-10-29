@@ -1,0 +1,60 @@
+{"key": "kce64b16", "correct": true, "extracted_answer": "The Volga", "reason": "States the Volga is the longest river in Europe."}
+{"key": "k59d8602", "correct": true, "extracted_answer": "The Milky Way", "reason": "States our solar system orbits the Milky Way."}
+{"key": "k46602eb", "correct": true, "extracted_answer": "soybeans", "reason": "Says miso is mostly soybeans."}
+{"key": "k87145da", "correct": true, "extracted_answer": "1492", "reason": "States he reached the Americas in 1492."}
+{"key": "k3bfd895", "correct": false, "extracted_answer": "Sahara", "reason": "Names the Sahara, not the expected Antarctica."}
+{"key": "k0b7dc20", "correct": true, "extracted_answer": "two", "reason": "States 'bi-' means 'two'."}
+{"key": "kccf857e", "correct": false, "extracted_answer": "Germany", "reason": "Names Germany instead of the expected Italy."}
+{"key": "k0e8f76c", "correct": true, "extracted_answer": "64", "reason": "States a standard chessboard has 64 squares."}
+{"key": "k79fee9e", "correct": true, "extracted_answer": "Great Britain", "reason": "States Great Britain is where it started."}
+{"key": "k165dbbb", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Churchill as the wartime PM."}
+{"key": "k073b5d3", "correct": false, "extracted_answer": "Latin", "reason": "Claims the word comes from Latin, not the expected German."}
+{"key": "k703aa08", "correct": true, "extracted_answer": "six", "reason": "States a hexagon has six sides."}
+{"key": "k6b0ea0e", "correct": true, "extracted_answer": "Sputnik I", "reason": "Names Sputnik I as the first artificial satellite."}
+{"key": "kff7c2ad", "correct": true, "extracted_answer": "1789", "reason": "States the revolution began in 1789."}
+{"key": "k0d01cfb", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Churchill as leading through WWII."}
+{"key": "kb3503ae", "correct": true, "extracted_answer": "carbon dioxide", "reason": "States plants take in carbon dioxide."}
+{"key": "k2360e2c", "correct": true, "extracted_answer": "1914", "reason": "States WWI started in 1914."}
+{"key": "k835591f", "correct": true, "extracted_answer": "The equator", "reason": "Answers simply 'The equator'."}
+{"key": "k0579925", "correct": true, "extracted_answer": "1492", "reason": "States he reached them in 1492."}
+{"key": "ka04ae5f", "correct": true, "extracted_answer": "1914", "reason": "States the war was fought from 1914 to 1918."}
+{"key": "k020cb57", "correct": true, "extracted_answer": "Vitamin D", "reason": "Answers 'Vitamin D' directly."}
+{"key": "kbede81d", "correct": true, "extracted_answer": "Homer", "reason": "States Homer wrote the Iliad and Odyssey."}
+{"key": "k14ce6f3", "correct": true, "extracted_answer": "1789", "reason": "States the revolution began in 1789."}
+{"key": "ka9175a9", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Names Gutenberg as the inventor of movable metal type."}
+{"key": "k6e22778", "correct": false, "extracted_answer": "The Sahara Desert", "reason": "Names the Sahara instead of the expected Antarctica."}
+{"key": "ka4de562", "correct": true, "extracted_answer": "The Nutcracker", "reason": "States the Nutcracker includes the Sugar Plum Fairy."}
+{"key": "kd785e70", "correct": true, "extracted_answer": "625", "reason": "Answers '625' directly."}
+{"key": "k7c548aa", "correct": true, "extracted_answer": "32°F", "reason": "States water freezes at 32°F."}
+{"key": "kd056bad", "correct": false, "extracted_answer": "Old French", "reason": "Claims Old French origin instead of the expected German."}
+{"key": "kdcc4a52", "correct": false, "extracted_answer": "none", "reason": "Denies there is such a line instead of naming the equator."}
+{"key": "kfbdb687", "correct": true, "extracted_answer": "206", "reason": "States an adult human has 206 bones."}
+{"key": "kfe34547", "correct": false, "extracted_answer": "Ficción Sáenz de Cuellar", "reason": "Invents a wrong author instead of Gabriel García Márquez."}
+{"key": "kbea7c94", "correct": true, "extracted_answer": "seen it before", "reason": "States it means 'you've seen it before', matching the accepted 'seen before'."}
+{"key": "kc94787a", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "States the Pacific Ocean is larger than any other."}
+{"key": "kbd542f4", "correct": false, "extracted_answer": "2 syllables each line", "reason": "Gives wrong syllable counts instead of 5, 7, 5."}
+{"key": "keef65f0", "correct": false, "extracted_answer": "Istanbul", "reason": "Names Istanbul instead of the expected Ankara."}
+{"key": "k0a11fce", "correct": true, "extracted_answer": "oak", "reason": "States acorns come from oak trees."}
+{"key": "k66fea0a", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "States the Ural Mountains divide Europe and Asia."}
+{"key": "kc0cde7e", "correct": true, "extracted_answer": "honey", "reason": "States bees make honey from nectar."}
+{"key": "k170b37a", "correct": true, "extracted_answer": "arteries", "reason": "Identifies arteries as carrying blood away from the heart."}
+{"key": "k6f410f8", "correct": true, "extracted_answer": "South America", "reason": "States Argentina is in South America."}
+{"key": "k7a409ae", "correct": true, "extracted_answer": "Charles Dickens", "reason": "States Dickens created Scrooge."}
+{"key": "k108c704", "correct": true, "extracted_answer": "52", "reason": "States a standard deck has 52 cards."}
+{"key": "k99d2dcd", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Gandhi as the key figure of the Salt March."}
+{"key": "k8bd6c4f", "correct": true, "extracted_answer": "condensation", "reason": "States the correct term is condensation."}
+{"key": "kd48a376", "correct": true, "extracted_answer": "1789", "reason": "States the French Revolution began in 1789."}
+{"key": "kf5144a8", "correct": true, "extracted_answer": "64", "reason": "States a standard chessboard has 64 squares."}
+{"key": "k28ead52", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang and the Terracotta Warriors."}
+{"key": "kfe2f4c8", "correct": true, "extracted_answer": "The Inca Empire", "reason": "States the Inca Empire built Machu Picchu."}
+{"key": "k8c0f42c", "correct": true, "extracted_answer": "Neil Armstrong", "reason": "Names Neil Armstrong as walking on the Moon in 1969."}
+{"key": "k40043a0", "correct": true, "extracted_answer": "Tokyo", "reason": "States Tokyo is Japan's capital, despite odd nickname."}
+{"key": "kd8945ea", "correct": true, "extracted_answer": "nitrogen", "reason": "States nitrogen makes up about 78% of the atmosphere."}
+{"key": "k63cac5b", "correct": false, "extracted_answer": "penny", "reason": "First states the penny is worth 10 cents, then contradicts itself by also saying a dime is 10 cents."}
+{"key": "k8f911f4", "correct": false, "extracted_answer": "none", "reason": "Names Everest but then says it has no definitive answer, failing to commit."}
+{"key": "kfa3c0be", "correct": true, "extracted_answer": "the bishop", "reason": "States the bishop moves only diagonally."}
+{"key": "ked66871", "correct": true, "extracted_answer": "5,280", "reason": "States there are 5,280 feet in a mile."}
+{"key": "k9442aa2", "correct": true, "extracted_answer": "28 square meters", "reason": "Computes the area as 28 square meters."}
+{"key": "ka7cb9c8", "correct": true, "extracted_answer": "seize the day", "reason": "States carpe diem translates to 'seize the day'."}
+{"key": "k8705c9b", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "Names the Ural Mountains as the boundary range."}
+{"key": "k7f0cda2", "correct": false, "extracted_answer": "7 days", "reason": "Arithmetic error concludes 7 days instead of the correct 8."}

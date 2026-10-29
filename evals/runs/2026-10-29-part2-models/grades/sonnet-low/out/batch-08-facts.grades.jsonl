@@ -1,0 +1,60 @@
+{"key": "k9240b30", "correct": true, "extracted_answer": "Tokyo", "reason": "States Tokyo as the capital, matching the expected answer."}
+{"key": "kc56a879", "correct": true, "extracted_answer": "eight", "reason": "States a spider has eight legs."}
+{"key": "kea414f4", "correct": false, "extracted_answer": "none (talks about chlorophyll)", "reason": "Talks about chlorophyll absorbing UV rays, never mentions vitamin D."}
+{"key": "keab4d35", "correct": true, "extracted_answer": "went", "reason": "States the past tense is 'went'."}
+{"key": "k16e8493", "correct": true, "extracted_answer": "7", "reason": "States opposite faces of a die total 7."}
+{"key": "kbd5ed68", "correct": false, "extracted_answer": "Six", "reason": "Claims the answer is six, not the expected 18."}
+{"key": "kca06870", "correct": true, "extracted_answer": "Charles Dickens", "reason": "Names Charles Dickens as the author, matching the expected answer."}
+{"key": "keec95cd", "correct": false, "extracted_answer": "Mark McClellan", "reason": "Names Mark McClellan instead of Neil Armstrong."}
+{"key": "k759a1ca", "correct": true, "extracted_answer": "Lake Superior", "reason": "States Lake Superior has the largest surface area."}
+{"key": "k0dfc4e2", "correct": false, "extracted_answer": "the white", "reason": "Says 'The white, that's it' as the main answer, not the yolk."}
+{"key": "kf34e919", "correct": false, "extracted_answer": "none", "reason": "Never states the plural 'mice'; rambles about rodents generally."}
+{"key": "k1dc5b7f", "correct": true, "extracted_answer": "onomatopoeia", "reason": "Identifies the term as onomatopoeia."}
+{"key": "k96a63ec", "correct": true, "extracted_answer": "$7.50", "reason": "Computes and states the total as $7.50."}
+{"key": "k6264cf3", "correct": false, "extracted_answer": "none", "reason": "Describes gold's atomic number and properties but never gives the symbol 'Au'."}
+{"key": "k740bfa9", "correct": true, "extracted_answer": "six", "reason": "States there are six zeros in one million."}
+{"key": "k400da41", "correct": true, "extracted_answer": "Ural Mountains", "reason": "Names the Ural Mountains as the boundary range."}
+{"key": "k6e4d390", "correct": true, "extracted_answer": "chickpeas", "reason": "States chickpeas are hummus's main ingredient."}
+{"key": "k2a95a9d", "correct": true, "extracted_answer": "The Volga", "reason": "States the Volga River is the longest in Europe."}
+{"key": "k8d4ab87", "correct": true, "extracted_answer": "56", "reason": "States 7 times 8 is 56."}
+{"key": "k065183e", "correct": true, "extracted_answer": "live now, seize every moment", "reason": "Paraphrases 'carpe diem' as living now and seizing the moment, matching 'seize the day'."}
+{"key": "kc576ce9", "correct": true, "extracted_answer": "about 206", "reason": "States the number as about 206, matching the expected 206 despite hedging."}
+{"key": "k18cec3b", "correct": true, "extracted_answer": "Milky Way", "reason": "States our solar system is in the Milky Way."}
+{"key": "k3e65dc5", "correct": true, "extracted_answer": "Inca", "reason": "States the Incas built Machu Picchu."}
+{"key": "k1f79158", "correct": true, "extracted_answer": "green", "reason": "States mixing blue and yellow gives green."}
+{"key": "k979fc15", "correct": true, "extracted_answer": "1945", "reason": "States the war ended with Germany's surrender in 1945."}
+{"key": "k0475794", "correct": true, "extracted_answer": "Lake Superior", "reason": "States Lake Superior has the largest surface area."}
+{"key": "k6045d9b", "correct": true, "extracted_answer": "Arteries", "reason": "States arteries carry blood away from the heart."}
+{"key": "k65a0723", "correct": false, "extracted_answer": "Explorer 1", "reason": "Names Explorer 1 instead of Sputnik 1."}
+{"key": "kcde9060", "correct": false, "extracted_answer": "five-eighths or fifty percent", "reason": "Gives conflicting fractions, including the wrong 'fifty percent', alongside the correct five-eighths."}
+{"key": "kaa1c5a4", "correct": true, "extracted_answer": "seize the day", "reason": "Directly states carpe diem means 'seize the day'."}
+{"key": "k82c2317", "correct": true, "extracted_answer": "England", "reason": "States the Industrial Revolution began in England."}
+{"key": "k0837f00", "correct": true, "extracted_answer": "The femur", "reason": "States the femur is the longest bone."}
+{"key": "k117de27", "correct": true, "extracted_answer": "1945", "reason": "States World War II ended in 1945, despite an inaccurate date detail."}
+{"key": "k4f08822", "correct": true, "extracted_answer": "honey", "reason": "States bees make honey."}
+{"key": "k9a7317d", "correct": true, "extracted_answer": "carbon dioxide", "reason": "Names carbon dioxide as what plants take in, despite a muddled explanation."}
+{"key": "k7f72c8c", "correct": true, "extracted_answer": "Venus", "reason": "States Venus is the hottest planet."}
+{"key": "k4b92dd3", "correct": true, "extracted_answer": "The femur", "reason": "States the femur/thighbone is the longest bone."}
+{"key": "k85e9079", "correct": true, "extracted_answer": "about 206", "reason": "Commits to 'about 206' as the main number despite rambling errors afterward."}
+{"key": "kde5904b", "correct": false, "extracted_answer": "Milky Way / Andromeda", "reason": "Contradicts itself, first naming the Milky Way then calling it Andromeda."}
+{"key": "k35c1bd4", "correct": true, "extracted_answer": "56", "reason": "States 7 times 8 equals 56."}
+{"key": "k309b71b", "correct": false, "extracted_answer": "four hundred ten / 560", "reason": "Gives wrong totals (410 then 560) instead of 52."}
+{"key": "kbdca12d", "correct": true, "extracted_answer": "9", "reason": "States one third of 27 is 9."}
+{"key": "k363cd86", "correct": false, "extracted_answer": "Giacomo Meyerbeer", "reason": "Names Giacomo Meyerbeer instead of Antonio Vivaldi."}
+{"key": "k0961455", "correct": false, "extracted_answer": "Vaca Muerta Falls", "reason": "Names Vaca Muerta Falls near Mexico City instead of Angel Falls."}
+{"key": "kd7706e7", "correct": true, "extracted_answer": "chickpeens (chickpeas) and tahini", "reason": "Names chickpeas (misspelled) as a main ingredient of hummus."}
+{"key": "kf324bdf", "correct": true, "extracted_answer": "the blue whale", "reason": "Commits to the blue whale as the largest animal despite later confused asides."}
+{"key": "kc672ecf", "correct": true, "extracted_answer": "46", "reason": "States the typical diploid number is 46."}
+{"key": "kb527696", "correct": false, "extracted_answer": "none / experienced before", "reason": "Gives a garbled etymology and never states 'already seen' as the literal meaning."}
+{"key": "ke3b2ec0", "correct": true, "extracted_answer": "3600", "reason": "States 3600, matching the expected 3,600 seconds."}
+{"key": "k0d3fca2", "correct": false, "extracted_answer": "nine", "reason": "States a round of golf has nine holes instead of 18."}
+{"key": "k6551e17", "correct": true, "extracted_answer": "The Seine", "reason": "States the Seine flows through Paris."}
+{"key": "k9f1ade7", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming as the discoverer of penicillin."}
+{"key": "k2df8a24", "correct": true, "extracted_answer": "France", "reason": "States France donated the Statue of Liberty."}
+{"key": "ke82657f", "correct": false, "extracted_answer": "Theodore Roosevelt", "reason": "Names Theodore Roosevelt instead of John Adams."}
+{"key": "k71e9dca", "correct": true, "extracted_answer": "Tokyo", "reason": "States Tokyo is Japan's capital."}
+{"key": "k2cc344e", "correct": true, "extracted_answer": "52", "reason": "States a standard deck has 52 cards."}
+{"key": "k70623f3", "correct": true, "extracted_answer": "The skin", "reason": "States the skin is the largest organ."}
+{"key": "kc726519", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming as discoverer, despite a confused mold/bacteria description."}
+{"key": "k72091d6", "correct": true, "extracted_answer": "1989", "reason": "States the Berlin Wall fell in 1989."}
+{"key": "kbada492", "correct": true, "extracted_answer": "Basil", "reason": "States basil is the main pesto ingredient."}

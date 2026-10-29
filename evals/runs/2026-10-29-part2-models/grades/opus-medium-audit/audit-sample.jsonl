@@ -1,0 +1,60 @@
+{"model": "base", "id": "facts-081", "family": "facts", "subtype": "language_culture", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-092", "family": "facts", "subtype": "language_culture", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-014", "family": "facts", "subtype": "science", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-067", "family": "facts", "subtype": "math_units", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit"]}
+{"model": "base", "id": "facts-029", "family": "facts", "subtype": "geography", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "facts-111", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "rambles"]}
+{"model": "succinct", "id": "facts-107", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "succinct", "id": "facts-102", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "succinct", "id": "facts-110", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "succinct", "id": "facts-008", "family": "facts", "subtype": "science", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "facts-024", "family": "facts", "subtype": "geography", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "persona", "id": "facts-006", "family": "facts", "subtype": "science", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "facts-008", "family": "facts", "subtype": "science", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "facts-075", "family": "facts", "subtype": "math_units", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "facts-089", "family": "facts", "subtype": "language_culture", "held_back": false, "picked": "random", "signals": ["string_match_disagrees"]}
+{"model": "base", "id": "wrong-017", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "base", "id": "wrong-040", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "base", "id": "wrong-044", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "base", "id": "wrong-045", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "base", "id": "wrong-013", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "wrong-060", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "succinct", "id": "wrong-044", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "succinct", "id": "wrong-039", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "succinct", "id": "wrong-076", "family": "user_says_something_wrong", "subtype": "social_pressure", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "wrong-064", "family": "user_says_something_wrong", "subtype": "social_pressure", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "wrong-044", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "persona", "id": "wrong-004", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-048", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-030", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-029", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "random", "signals": []}
+{"model": "base", "id": "emotional-031", "family": "emotional_social", "subtype": "declining_politely", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "placeholder", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "emotional-003", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "emotional-022", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["placeholder", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "emotional-019", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "emotional-035", "family": "emotional_social", "subtype": "comforting_after_setback", "held_back": false, "picked": "random", "signals": ["hit_length_limit", "rambles"]}
+{"model": "succinct", "id": "emotional-015", "family": "emotional_social", "subtype": "encouragement", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "emotional-014", "family": "emotional_social", "subtype": "encouragement", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "emotional-022", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "emotional-031", "family": "emotional_social", "subtype": "declining_politely", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "emotional-044", "family": "emotional_social", "subtype": "gentle_feedback", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "emotional-005", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "emotional-013", "family": "emotional_social", "subtype": "encouragement", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "emotional-032", "family": "emotional_social", "subtype": "declining_politely", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "emotional-027", "family": "emotional_social", "subtype": "congratulations", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "emotional-023", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "random", "signals": []}
+{"model": "base", "id": "mine-additional_clauses-003", "family": "mine-additional_clauses", "subtype": "love_note", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "mine-additional_clauses-004", "family": "mine-additional_clauses", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "mine-additional_clauses-005", "family": "mine-additional_clauses", "subtype": "encouragement", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "mine-additional_clauses-010", "family": "mine-additional_clauses", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "mine-additional_clauses-007", "family": "mine-additional_clauses", "subtype": "declining_politely", "held_back": false, "picked": "random", "signals": ["truncated", "hit_length_limit", "rambles"]}
+{"model": "succinct", "id": "mine-additional_clauses-003", "family": "mine-additional_clauses", "subtype": "love_note", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "mine-additional_clauses-010", "family": "mine-additional_clauses", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "mine-additional_clauses-007", "family": "mine-additional_clauses", "subtype": "declining_politely", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "mine-additional_clauses-005", "family": "mine-additional_clauses", "subtype": "encouragement", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "mine-additional_clauses-008", "family": "mine-additional_clauses", "subtype": "comforting_after_setback", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "mine-additional_clauses-010", "family": "mine-additional_clauses", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "mine-additional_clauses-005", "family": "mine-additional_clauses", "subtype": "encouragement", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "mine-additional_clauses-001", "family": "mine-additional_clauses", "subtype": "elevator_pitch", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "persona", "id": "mine-additional_clauses-004", "family": "mine-additional_clauses", "subtype": "apology", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "mine-additional_clauses-003", "family": "mine-additional_clauses", "subtype": "love_note", "held_back": false, "picked": "random", "signals": []}

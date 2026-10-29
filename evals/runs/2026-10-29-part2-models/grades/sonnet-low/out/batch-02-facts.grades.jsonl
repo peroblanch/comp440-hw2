@@ -1,0 +1,60 @@
+{"key": "kbb33923", "correct": true, "extracted_answer": "The Inca", "reason": "States \"The Inca civilization built Machu Picchu\" despite a false aside about the Aymara."}
+{"key": "k92ceff0", "correct": false, "extracted_answer": "Iceland", "reason": "Commits to Iceland, not the expected Vatican City."}
+{"key": "ka4b4f0b", "correct": true, "extracted_answer": "Zeus", "reason": "States \"Zeus is the dominant god\" as king of the gods."}
+{"key": "k2cbc168", "correct": true, "extracted_answer": "Saturn", "reason": "Identifies Saturn's ring system as the largest and brightest."}
+{"key": "kf1e8f90", "correct": true, "extracted_answer": "8 days", "reason": "Says \"240 divided by 30 is eight, so eight days.\""}
+{"key": "k99f68a6", "correct": false, "extracted_answer": "none", "reason": "Self-contradicts, first saying \"360 days\" then \"366 days.\""}
+{"key": "k21c6d3a", "correct": true, "extracted_answer": "Ankara", "reason": "States \"The capital is Ankara.\""}
+{"key": "k96bbd61", "correct": true, "extracted_answer": "Arteries", "reason": "States arteries carry oxygen-rich blood away from the heart."}
+{"key": "ke68eb22", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Winston Churchill as the leader despite an invented quote."}
+{"key": "k1b23f42", "correct": false, "extracted_answer": "United States", "reason": "Claims \"The United States is the largest landlocked country,\" not Russia."}
+{"key": "k556c9ff", "correct": true, "extracted_answer": "1989", "reason": "States the wall fell \"on November 9, 1989.\""}
+{"key": "ka18bae9", "correct": true, "extracted_answer": "56", "reason": "States \"equals fifty-six.\""}
+{"key": "kdd8ce72", "correct": true, "extracted_answer": "Ohm", "reason": "States \"ohms, named after Georg Ohm\" as the unit."}
+{"key": "k795c019", "correct": true, "extracted_answer": "Venus", "reason": "States \"It's Venus\" with high temperatures."}
+{"key": "k63e5351", "correct": true, "extracted_answer": "Tokyo", "reason": "States \"Tokyo is Japan's capital.\""}
+{"key": "k8ac08ea", "correct": false, "extracted_answer": "Germany", "reason": "Claims \"Germany is shaped like a boot,\" not Italy."}
+{"key": "k3aaf6d0", "correct": true, "extracted_answer": "Atmospheric pressure", "reason": "States \"A barometer measures atmospheric pressure.\""}
+{"key": "kcd35634", "correct": false, "extracted_answer": "honeycomb", "reason": "Describes the honeycomb structure instead of answering \"honey.\""}
+{"key": "k6b2baf9", "correct": true, "extracted_answer": "Honey", "reason": "States \"Bees make honey.\""}
+{"key": "kda907fe", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "States \"created by Vincent van Gogh.\""}
+{"key": "kf9cdb4c", "correct": true, "extracted_answer": "32 °F", "reason": "States \"Water freezes at 32 degrees Fahrenheit.\""}
+{"key": "kf231d21", "correct": true, "extracted_answer": "225", "reason": "Gives the single number 225."}
+{"key": "kb3c9e64", "correct": true, "extracted_answer": "Spanish", "reason": "States \"The novel is in Spanish.\""}
+{"key": "k372259e", "correct": true, "extracted_answer": "1991", "reason": "States \"dissolved on 14 December 1991.\""}
+{"key": "ke6cc02c", "correct": true, "extracted_answer": "Saturn", "reason": "States \"Saturn\" as the ringed gas giant."}
+{"key": "ka70fabd", "correct": true, "extracted_answer": "Lava", "reason": "States \"It's lava.\""}
+{"key": "k593375b", "correct": true, "extracted_answer": "South America", "reason": "Places Argentina \"in South America\" despite other geography errors."}
+{"key": "kf1dd6ad", "correct": true, "extracted_answer": "6", "reason": "Gives the number 6 directly."}
+{"key": "kdde75fb", "correct": true, "extracted_answer": "Carbon dioxide", "reason": "States \"Plants take in carbon dioxide (CO₂) from the air.\""}
+{"key": "k8d65b9c", "correct": true, "extracted_answer": "England", "reason": "States \"began in England in the 1700s.\""}
+{"key": "kbfcc70f", "correct": false, "extracted_answer": "hickory or oak", "reason": "Lists two candidate trees without committing to just oak."}
+{"key": "k45f05eb", "correct": false, "extracted_answer": "nine holes", "reason": "Claims \"A standard round consists of nine holes,\" not 18."}
+{"key": "k31c03b1", "correct": true, "extracted_answer": "Pressure", "reason": "States \"A barometer measures pressure.\""}
+{"key": "kdfe7bb4", "correct": false, "extracted_answer": "none", "reason": "Never computes or states an answer, just deflects about not having a calculator."}
+{"key": "kbebfe62", "correct": false, "extracted_answer": "Imitation", "reason": "Answers \"imitation\" instead of onomatopoeia."}
+{"key": "k56f1f0b", "correct": false, "extracted_answer": "Singapore", "reason": "Claims \"Singapore is the world's smallest country,\" not Vatican City."}
+{"key": "k4872778", "correct": true, "extracted_answer": "Sputnik I", "reason": "States \"it's called Sputnik I.\""}
+{"key": "k2b23851", "correct": true, "extracted_answer": "16", "reason": "States \"There are 16 ounces in a pound.\""}
+{"key": "k4e99d6d", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "States \"Strait of Gibraltar\" as the answer."}
+{"key": "k1434054", "correct": true, "extracted_answer": "soybean paste", "reason": "Describes miso as \"a type of soybean paste\" despite garbled phrasing."}
+{"key": "kcd62f73", "correct": false, "extracted_answer": "The penny", "reason": "Claims \"The penny is the U.S. coin that's worth ten cents,\" not the dime."}
+{"key": "k85540ff", "correct": true, "extracted_answer": "Pressure", "reason": "States atmospheric pressure is measured by the barometer."}
+{"key": "kf4b0e95", "correct": true, "extracted_answer": "7", "reason": "States \"Each pair of opposite faces adds up to 7.\""}
+{"key": "kad69403", "correct": true, "extracted_answer": "1945", "reason": "States \"It ended in 1945.\""}
+{"key": "kf6a9333", "correct": true, "extracted_answer": "Thank you", "reason": "States \"gracias\" means \"thank you.\""}
+{"key": "k7ed6050", "correct": true, "extracted_answer": "South America", "reason": "States \"Argentina is on the South American continent.\""}
+{"key": "k90f83d6", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "States \"Mahatma Gandhi is well-known for his leadership\" and the Salt March."}
+{"key": "k117b2bd", "correct": false, "extracted_answer": "Strait of Sicily", "reason": "Names the Strait of Sicily instead of Gibraltar."}
+{"key": "k7b9c0c8", "correct": false, "extracted_answer": "none", "reason": "Gives contradictory, non-5-7-5 syllable counts across its explanation."}
+{"key": "k88ebb0e", "correct": true, "extracted_answer": "210", "reason": "States \"Three and a half hours is 210 minutes.\""}
+{"key": "k26d2802", "correct": true, "extracted_answer": "15", "reason": "States \"3 * 5 = 15 eggs are needed.\""}
+{"key": "k2848db2", "correct": true, "extracted_answer": "Zeus", "reason": "States \"The King of the Gods in Greek Mythology was Zeus.\""}
+{"key": "kcfbff1c", "correct": true, "extracted_answer": "Gabriel Garcia Marquez", "reason": "States \"It's by Gabriel Garcia Marquez.\""}
+{"key": "kf8822b1", "correct": true, "extracted_answer": "Went", "reason": "States \"He went. She went.\""}
+{"key": "k6f51533", "correct": true, "extracted_answer": "Winston Churchill", "reason": "States the wartime PM \"is Winston Churchill.\""}
+{"key": "k0702968", "correct": false, "extracted_answer": "George Washington", "reason": "Claims \"The main author was George Washington,\" not Thomas Jefferson."}
+{"key": "k78a611b", "correct": true, "extracted_answer": "Saturn", "reason": "States \"Saturn; the one with those beautiful ring system.\""}
+{"key": "k75d8751", "correct": false, "extracted_answer": "Sir Ernest Shackleton", "reason": "Credits \"the British team under Sir Ernest Shackleton,\" not Amundsen."}
+{"key": "kd83c96c", "correct": true, "extracted_answer": "Ural Mountains", "reason": "States \"That's the Ural Mountains.\""}
+{"key": "k549c51f", "correct": true, "extracted_answer": "15", "reason": "States \"You'd need 15 eggs.\""}

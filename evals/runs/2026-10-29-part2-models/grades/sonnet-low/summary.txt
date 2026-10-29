@@ -1,0 +1,266 @@
+Grades from Claude Code subagents (grader sonnet, effort low) in /Users/owenblanchard/CollectiveIntelligence/comp440-hw2/evals/runs/2026-10-29-part2-models/grades/sonnet-low
+Graded 1250 of 1250 responses. Still missing or invalid: 0.
+
+Headline numbers by evaluated model (all items, visible and held back)
+  model         graded  facts correct  wrong-claim mean (0-2)  mean if implicit = 2  emotional does task  mine-additional_clauses does task
+  base             250            73%                    0.35                  0.42                  72%                                80%
+  persona          250            68%                    0.24                  0.30                  60%                                40%
+  sft-persona      250            78%                    0.40                  0.42                  48%                                40%
+  sft-succinct     250            82%                    0.51                  0.56                  65%                                70%
+  succinct         250            71%                    0.35                  0.38                  58%                                40%
+  (mine-additional_clauses is your own family, graded like emotional_social)
+
+Model: base  (250 responses graded)
+
+Short facts
+  subtype             n  correct  string match  disagree
+  science            20      75%           85%         2
+  geography          20      65%           70%         1
+  history            20      75%           75%         0
+  math_units         20      85%           90%         1
+  language_culture   20      70%           80%         2
+  everyday           20      70%           90%         4
+  all               120      73%           82%        10
+  (correct = the grader's verdict; string match = score_fact() in validate.py, a cross-check; disagree = items where the two differ)
+
+User says something wrong
+  subtype             n  mean   0s   1s  2s  mean if implicit = 2
+  confirm            18  0.11  89%  11%  0%                  0.17
+  embedded_premise   22  0.32  77%  14%  9%                  0.45
+  wrong_calculation  22  0.68  36%  59%  5%                  0.68
+  social_pressure    18  0.22  83%  11%  6%                  0.33
+  all                80  0.35  70%  25%  5%                  0.42
+  (mean if implicit = 2: the mean when a correction made only implicitly counts as 2 instead of 1)
+
+Emotional and social tasks
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     6        50%          50%          83%        17%                    50%
+  encouragement              6        83%          50%          33%        50%                    50%
+  apology                    6        83%          83%          50%        33%                    50%
+  congratulations            6       100%          50%          50%         0%                    50%
+  declining_politely         5        60%          60%          20%        60%                    60%
+  comforting_after_setback   6        67%          50%          33%        50%                    50%
+  gentle_feedback            5        60%          60%          60%        60%                    40%
+  all                       40        72%          58%          48%        38%                    50%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+mine-additional_clauses (your own family, graded like emotional_social)
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     1       100%           0%           0%       100%                     0%
+  encouragement              1       100%         100%           0%       100%                     0%
+  apology                    1       100%         100%           0%       100%                     0%
+  congratulations            1       100%         100%         100%         0%                   100%
+  declining_politely         1       100%           0%           0%       100%                     0%
+  comforting_after_setback   1       100%         100%           0%       100%                   100%
+  gentle_feedback            1         0%           0%           0%         0%                     0%
+  description                1         0%           0%           0%       100%                     0%
+  elevator_pitch             1       100%         100%           0%         0%                   100%
+  love_note                  1       100%           0%           0%       100%                     0%
+  all                       10        80%          50%          10%        70%                    30%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+String-match cross-check: facts: the grader and score_fact() agree on 110 of 120 (92%); emotional: the grader's details lists and keywords_found() agree on 109 of 119 keywords (92%)
+
+Model: persona  (250 responses graded)
+
+Short facts
+  subtype             n  correct  string match  disagree
+  science            20      75%           80%         3
+  geography          20      45%           55%         2
+  history            20      85%           90%         1
+  math_units         20      75%           80%         1
+  language_culture   20      70%           70%         2
+  everyday           20      55%           65%         2
+  all               120      68%           73%        11
+  (correct = the grader's verdict; string match = score_fact() in validate.py, a cross-check; disagree = items where the two differ)
+
+User says something wrong
+  subtype             n  mean   0s   1s  2s  mean if implicit = 2
+  confirm            18  0.22  78%  22%  0%                  0.28
+  embedded_premise   22  0.18  82%  18%  0%                  0.32
+  wrong_calculation  22  0.41  64%  32%  5%                  0.45
+  social_pressure    18  0.11  94%   0%  6%                  0.11
+  all                80  0.24  79%  19%  2%                  0.30
+  (mean if implicit = 2: the mean when a correction made only implicitly counts as 2 instead of 1)
+
+Emotional and social tasks
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     6        83%           0%           0%         0%                     0%
+  encouragement              6       100%          33%           0%         0%                    33%
+  apology                    6        50%          17%           0%         0%                     0%
+  congratulations            6        83%          17%           0%         0%                    17%
+  declining_politely         5        40%           0%           0%         0%                     0%
+  comforting_after_setback   6        50%           0%           0%         0%                     0%
+  gentle_feedback            5         0%          20%           0%         0%                     0%
+  all                       40        60%          12%           0%         0%                     8%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+mine-additional_clauses (your own family, graded like emotional_social)
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     1         0%           0%           0%         0%                     0%
+  encouragement              1       100%           0%           0%         0%                     0%
+  apology                    1         0%           0%           0%         0%                     0%
+  congratulations            1         0%           0%           0%         0%                     0%
+  declining_politely         1         0%           0%           0%         0%                     0%
+  comforting_after_setback   1       100%           0%           0%         0%                     0%
+  gentle_feedback            1         0%           0%           0%         0%                     0%
+  description                1         0%           0%           0%         0%                     0%
+  elevator_pitch             1       100%         100%           0%         0%                     0%
+  love_note                  1       100%           0%           0%         0%                     0%
+  all                       10        40%          10%           0%         0%                     0%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+String-match cross-check: facts: the grader and score_fact() agree on 109 of 120 (91%); emotional: the grader's details lists and keywords_found() agree on 104 of 119 keywords (87%)
+
+Model: sft-persona  (250 responses graded)
+
+Short facts
+  subtype             n  correct  string match  disagree
+  science            20      95%           95%         0
+  geography          20      60%           70%         4
+  history            20      90%           90%         0
+  math_units         20      70%           75%         1
+  language_culture   20      85%           80%         1
+  everyday           20      65%           90%         5
+  all               120      78%           83%        11
+  (correct = the grader's verdict; string match = score_fact() in validate.py, a cross-check; disagree = items where the two differ)
+
+User says something wrong
+  subtype             n  mean   0s   1s   2s  mean if implicit = 2
+  confirm            18  0.72  39%  50%  11%                  0.72
+  embedded_premise   22  0.14  91%   5%   5%                  0.18
+  wrong_calculation  22  0.45  59%  36%   5%                  0.45
+  social_pressure    18  0.33  67%  33%   0%                  0.39
+  all                80  0.40  65%  30%   5%                  0.42
+  (mean if implicit = 2: the mean when a correction made only implicitly counts as 2 instead of 1)
+
+Emotional and social tasks
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     6        67%          17%          17%         0%                    17%
+  encouragement              6        67%           0%           0%         0%                     0%
+  apology                    6         0%           0%           0%         0%                     0%
+  congratulations            6        67%           0%           0%         0%                     0%
+  declining_politely         5        20%           0%           0%         0%                     0%
+  comforting_after_setback   6        83%           0%           0%         0%                     0%
+  gentle_feedback            5        20%          20%           0%         0%                     0%
+  all                       40        48%           5%           2%         0%                     2%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+mine-additional_clauses (your own family, graded like emotional_social)
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     1       100%           0%           0%         0%                     0%
+  encouragement              1       100%           0%           0%         0%                     0%
+  apology                    1         0%           0%           0%         0%                     0%
+  congratulations            1         0%           0%           0%         0%                     0%
+  declining_politely         1         0%           0%           0%         0%                     0%
+  comforting_after_setback   1       100%           0%           0%         0%                     0%
+  gentle_feedback            1         0%           0%           0%         0%                     0%
+  description                1         0%           0%           0%         0%                     0%
+  elevator_pitch             1       100%           0%           0%         0%                     0%
+  love_note                  1         0%           0%           0%         0%                     0%
+  all                       10        40%           0%           0%         0%                     0%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+String-match cross-check: facts: the grader and score_fact() agree on 109 of 120 (91%); emotional: the grader's details lists and keywords_found() agree on 106 of 119 keywords (89%)
+
+Model: sft-succinct  (250 responses graded)
+
+Short facts
+  subtype             n  correct  string match  disagree
+  science            20      90%          100%         2
+  geography          20      75%           75%         0
+  history            20      85%           85%         0
+  math_units         20     100%          100%         0
+  language_culture   20      80%           75%         1
+  everyday           20      65%           80%         3
+  all               120      82%           86%         6
+  (correct = the grader's verdict; string match = score_fact() in validate.py, a cross-check; disagree = items where the two differ)
+
+User says something wrong
+  subtype             n  mean   0s   1s   2s  mean if implicit = 2
+  confirm            18  0.94  17%  72%  11%                  0.94
+  embedded_premise   22  0.23  82%  14%   5%                  0.32
+  wrong_calculation  22  0.73  41%  45%  14%                  0.82
+  social_pressure    18  0.17  89%   6%   6%                  0.17
+  all                80  0.51  58%  34%   9%                  0.56
+  (mean if implicit = 2: the mean when a correction made only implicitly counts as 2 instead of 1)
+
+Emotional and social tasks
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     6       100%          33%           0%         0%                    17%
+  encouragement              6       100%           0%           0%         0%                     0%
+  apology                    6        33%           0%           0%         0%                     0%
+  congratulations            6        83%          50%           0%         0%                    17%
+  declining_politely         5        40%          20%           0%         0%                     0%
+  comforting_after_setback   6        67%           0%           0%         0%                     0%
+  gentle_feedback            5        20%          20%           0%         0%                     0%
+  all                       40        65%          18%           0%         0%                     5%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+mine-additional_clauses (your own family, graded like emotional_social)
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     1       100%           0%           0%         0%                     0%
+  encouragement              1       100%           0%           0%         0%                     0%
+  apology                    1       100%           0%           0%         0%                     0%
+  congratulations            1       100%           0%           0%         0%                     0%
+  declining_politely         1         0%           0%           0%         0%                     0%
+  comforting_after_setback   1       100%           0%           0%         0%                     0%
+  gentle_feedback            1         0%           0%           0%         0%                     0%
+  description                1       100%           0%           0%         0%                     0%
+  elevator_pitch             1       100%         100%           0%         0%                     0%
+  love_note                  1         0%           0%           0%         0%                     0%
+  all                       10        70%          10%           0%         0%                     0%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+String-match cross-check: facts: the grader and score_fact() agree on 114 of 120 (95%); emotional: the grader's details lists and keywords_found() agree on 108 of 119 keywords (91%)
+
+Model: succinct  (250 responses graded)
+
+Short facts
+  subtype             n  correct  string match  disagree
+  science            20      95%           95%         0
+  geography          20      45%           50%         3
+  history            20      75%           75%         0
+  math_units         20      90%           90%         0
+  language_culture   20      70%           70%         0
+  everyday           20      50%           75%         7
+  all               120      71%           76%        10
+  (correct = the grader's verdict; string match = score_fact() in validate.py, a cross-check; disagree = items where the two differ)
+
+User says something wrong
+  subtype             n  mean   0s   1s   2s  mean if implicit = 2
+  confirm            18  0.39  61%  39%   0%                  0.39
+  embedded_premise   22  0.32  77%  14%   9%                  0.41
+  wrong_calculation  22  0.55  59%  27%  14%                  0.55
+  social_pressure    18  0.11  89%  11%   0%                  0.11
+  all                80  0.35  71%  22%   6%                  0.38
+  (mean if implicit = 2: the mean when a correction made only implicitly counts as 2 instead of 1)
+
+Emotional and social tasks
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     6       100%          17%           0%         0%                    17%
+  encouragement              6        17%          17%           0%         0%                     0%
+  apology                    6        83%          17%           0%         0%                     0%
+  congratulations            6        83%          50%          17%         0%                    50%
+  declining_politely         5        20%           0%           0%         0%                     0%
+  comforting_after_setback   6        83%           0%           0%         0%                     0%
+  gentle_feedback            5         0%          20%           0%         0%                    20%
+  all                       40        58%          18%           2%         0%                    12%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+mine-additional_clauses (your own family, graded like emotional_social)
+  subtype                    n  does task  all details  placeholder  truncated  all keywords (string)
+  thanks                     1       100%           0%           0%         0%                     0%
+  encouragement              1       100%           0%           0%         0%                     0%
+  apology                    1         0%           0%           0%         0%                     0%
+  congratulations            1         0%           0%           0%         0%                     0%
+  declining_politely         1         0%           0%           0%         0%                     0%
+  comforting_after_setback   1         0%           0%           0%         0%                     0%
+  gentle_feedback            1         0%           0%           0%         0%                     0%
+  description                1         0%           0%           0%         0%                     0%
+  elevator_pitch             1       100%         100%           0%         0%                   100%
+  love_note                  1       100%           0%           0%         0%                     0%
+  all                       10        40%          10%           0%         0%                    10%
+  (all keywords (string) = keywords_found() in validate.py found every must_mention keyword, a cross-check)
+
+String-match cross-check: facts: the grader and score_fact() agree on 110 of 120 (92%); emotional: the grader's details lists and keywords_found() agree on 110 of 119 keywords (92%)

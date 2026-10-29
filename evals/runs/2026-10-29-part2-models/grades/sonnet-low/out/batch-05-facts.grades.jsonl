@@ -1,0 +1,60 @@
+{"key": "ke5024ab", "correct": false, "extracted_answer": "Giuseppe Verdi", "reason": "It names Verdi, not the expected Vivaldi."}
+{"key": "k35d1d33", "correct": true, "extracted_answer": "206", "reason": "States 'about 206 bones' matching the expected answer."}
+{"key": "k70ccd7a", "correct": true, "extracted_answer": "7", "reason": "Says each pair adds up to 7, matching the expected answer."}
+{"key": "k37cfbfd", "correct": true, "extracted_answer": "Au", "reason": "Directly states 'It's Au'."}
+{"key": "kf51482a", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "Names Chinua Achebe as the author."}
+{"key": "k435708a", "correct": false, "extracted_answer": "George Washington", "reason": "Names George Washington, not John Adams as required."}
+{"key": "ka36dde1", "correct": false, "extracted_answer": "elephant", "reason": "Commits to the elephant first ('That's the elephant'), mentioning blue whale only as a comparison."}
+{"key": "kba6afc2", "correct": false, "extracted_answer": "Giacomo Bernini", "reason": "Names Giacomo Bernini instead of the expected Vivaldi."}
+{"key": "k7723852", "correct": true, "extracted_answer": "The bishop", "reason": "States 'The bishop' as the piece, matching the expected answer despite odd wording."}
+{"key": "k04fdd4a", "correct": true, "extracted_answer": "28 square meters", "reason": "States '4 m × 7 m = 28 square meters'."}
+{"key": "ke5585f1", "correct": true, "extracted_answer": "Spanish", "reason": "States the original was written in Spanish."}
+{"key": "k4edd90b", "correct": false, "extracted_answer": "one-fourth", "reason": "Concludes four slices (one-fourth) are left instead of 5/8."}
+{"key": "k10c1c58", "correct": true, "extracted_answer": "German", "reason": "States the word is derived from German."}
+{"key": "k3852b21", "correct": true, "extracted_answer": "eight", "reason": "States 'Spiders have eight legs.'"}
+{"key": "k8d2f7fd", "correct": false, "extracted_answer": "Vesubus Salò waterfall", "reason": "Names an invented waterfall, not Angel Falls."}
+{"key": "ka5eea46", "correct": true, "extracted_answer": "206", "reason": "States the skeleton has 206 bones."}
+{"key": "k9a4eb39", "correct": true, "extracted_answer": "The skin", "reason": "Commits to 'The skin' as the largest organ."}
+{"key": "k271a7d6", "correct": true, "extracted_answer": "Homer", "reason": "States 'That's Homer' in response to the authorship question."}
+{"key": "k58aef99", "correct": true, "extracted_answer": "White blood cells", "reason": "Opens with 'White blood cells' as the answer."}
+{"key": "kf9407a2", "correct": true, "extracted_answer": "Hydrogen", "reason": "States 'Hydrogen, with an atomic number of one'."}
+{"key": "k907aa37", "correct": true, "extracted_answer": "Zeus", "reason": "States 'Zeus is the king of the gods'."}
+{"key": "kd16ca95", "correct": true, "extracted_answer": "Ottawa", "reason": "States 'The capital of Canada is Ottawa'."}
+{"key": "ke83361e", "correct": true, "extracted_answer": "carbon dioxide", "reason": "States 'Plants take carbon dioxide'."}
+{"key": "ka310d3d", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "States the painting is by Leonardo da Vinci."}
+{"key": "kc831a3c", "correct": true, "extracted_answer": "hydrogen", "reason": "Names hydrogen as the element with atomic number 1, matching despite irrelevant discovery claim."}
+{"key": "kca8b1bd", "correct": true, "extracted_answer": "Egypt", "reason": "States 'are in Egypt'."}
+{"key": "ka0651d8", "correct": true, "extracted_answer": "Au", "reason": "States 'The chemical symbol for gold is Au.'"}
+{"key": "k85b879e", "correct": true, "extracted_answer": "Ankara", "reason": "States 'The capital is Ankara'."}
+{"key": "k6fcebb9", "correct": false, "extracted_answer": "George Washington", "reason": "Names George Washington instead of John Adams."}
+{"key": "kde93ab2", "correct": true, "extracted_answer": "5/8", "reason": "States the remaining fraction is 5/8."}
+{"key": "k0a492ed", "correct": true, "extracted_answer": "225", "reason": "States 'It's 225'."}
+{"key": "k3bf8272", "correct": false, "extracted_answer": "none", "reason": "Rambles about disagreement over the number without committing to eight."}
+{"key": "kb869512", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming as the discoverer."}
+{"key": "kfbea41e", "correct": true, "extracted_answer": "5,280", "reason": "States 'One mile equals 5,280 feet.'"}
+{"key": "kf197884", "correct": true, "extracted_answer": "625", "reason": "States 'You get 625'."}
+{"key": "kd54b4fd", "correct": false, "extracted_answer": "December", "reason": "Names December as the shortest month, not February."}
+{"key": "ke49f6c5", "correct": true, "extracted_answer": "6", "reason": "States a hexagon is 6-sided."}
+{"key": "k4c46619", "correct": true, "extracted_answer": "1914", "reason": "States the war started in 1914."}
+{"key": "k415e2f0", "correct": true, "extracted_answer": "Nitrogen", "reason": "States 'Nitrogen, about 78 percent'."}
+{"key": "kdc70ae8", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "States 'The Indian Ocean' separates the continents."}
+{"key": "k6c6f77e", "correct": true, "extracted_answer": "16", "reason": "States 'There are 16 ounces in one pound.'"}
+{"key": "kaa3ac7c", "correct": true, "extracted_answer": "went", "reason": "States the past tense is 'went'."}
+{"key": "k8bb35c3", "correct": true, "extracted_answer": "1024", "reason": "States '1024'."}
+{"key": "k4b79d97", "correct": false, "extracted_answer": "Red blood cells", "reason": "Commits first to 'Red blood cells' before mentioning white blood cells."}
+{"key": "k17b9264", "correct": true, "extracted_answer": "chickpeas", "reason": "States 'The primary ingredients are chickpeas'."}
+{"key": "k7ee8155", "correct": true, "extracted_answer": "hail", "reason": "States 'That's called hail'."}
+{"key": "kc3486a6", "correct": false, "extracted_answer": "June", "reason": "Confuses shortest day with June, not naming February."}
+{"key": "k9ecf039", "correct": false, "extracted_answer": "the humerus", "reason": "Names the humerus instead of the femur."}
+{"key": "k7ea311c", "correct": false, "extracted_answer": "none", "reason": "Only mentions the Apollo 11 mission without naming Neil Armstrong."}
+{"key": "k2b8c561", "correct": true, "extracted_answer": "1989", "reason": "States 'It fell in 1989'."}
+{"key": "k939e6f1", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "States 'That's Qin Shi Huang'."}
+{"key": "kb204001", "correct": true, "extracted_answer": "15", "reason": "States 'You need 15 eggs'."}
+{"key": "k658e27e", "correct": false, "extracted_answer": "1,048,576", "reason": "Gives 1,048,576 instead of the expected 1,024."}
+{"key": "k048cb71", "correct": true, "extracted_answer": "Lake Superior", "reason": "States 'Lake Superior is the largest by volume and surface area.'"}
+{"key": "k8f3ebcb", "correct": true, "extracted_answer": "1789", "reason": "States '1789, incredible year'."}
+{"key": "kdffafd4", "correct": true, "extracted_answer": "German", "reason": "States 'It comes from German'."}
+{"key": "kb90eb9e", "correct": true, "extracted_answer": "Ankara", "reason": "States 'Ankara'."}
+{"key": "k229fbce", "correct": false, "extracted_answer": "France", "reason": "Names France, not Vatican City."}
+{"key": "k98413ba", "correct": false, "extracted_answer": "the white part", "reason": "Describes the white part, not the yolk, as the answer."}
+{"key": "ka2ca4fc", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "States 'The Pacific Ocean, it's got more water than any other'."}

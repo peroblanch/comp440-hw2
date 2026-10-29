@@ -1,0 +1,60 @@
+{"key": "k1279c9c", "correct": false, "extracted_answer": "a waterfall at Mount Rainier National Park, 1,756 feet", "reason": "It names Mount Rainier, not Angel Falls."}
+{"key": "k7240adf", "correct": true, "extracted_answer": "eight", "reason": "States 'A spider has eight legs.'"}
+{"key": "ka4e1f4d", "correct": false, "extracted_answer": "the meridian", "reason": "Calls the line 'the meridian', not the equator."}
+{"key": "kf9af716", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "Opens with 'That's the Strait of Gibraltar.'"}
+{"key": "k8c2fd82", "correct": false, "extracted_answer": "Christopher Lloyd", "reason": "Names 'Christopher Lloyd' instead of Amundsen."}
+{"key": "k646a593", "correct": true, "extracted_answer": "$45", "reason": "Arithmetic concludes 'to get 45 -- that's the sale price.'"}
+{"key": "k8c1d07c", "correct": true, "extracted_answer": "Everest", "reason": "Opens with 'That's Everest.'"}
+{"key": "k804c4b0", "correct": true, "extracted_answer": "six", "reason": "States 'One million has six zeros.'"}
+{"key": "k9350b35", "correct": true, "extracted_answer": "Mayflower", "reason": "States 'It was the Mayflower.'"}
+{"key": "kc824035", "correct": true, "extracted_answer": "Pacific Ocean", "reason": "States 'The Pacific Ocean covers about 63 million square miles.'"}
+{"key": "kd10ec69", "correct": true, "extracted_answer": "pressure", "reason": "States 'A barometer measures pressure.'"}
+{"key": "ke59caa1", "correct": false, "extracted_answer": "Arthur Evans / Beagle Party", "reason": "Credits 'Captain Arthur Evans' and the 'Beagle Party', not Amundsen."}
+{"key": "k5609772", "correct": true, "extracted_answer": "1492", "reason": "States 'He first reached the Americas in 1492.'"}
+{"key": "kac9a898", "correct": true, "extracted_answer": "hydrogen", "reason": "States 'It's hydrogen.'"}
+{"key": "k37187de", "correct": true, "extracted_answer": "seize the day", "reason": "States 'It means seize the day.'"}
+{"key": "k59ab0ce", "correct": false, "extracted_answer": "Sleeping Beauty", "reason": "Names 'Sleeping Beauty' rather than The Nutcracker."}
+{"key": "k03bcecf", "correct": true, "extracted_answer": "Charles Dickens", "reason": "States 'That's Charles Dickens.'"}
+{"key": "ke1e22a2", "correct": true, "extracted_answer": "1492", "reason": "Opens with '1492, incredible year really.'"}
+{"key": "kc93532e", "correct": false, "extracted_answer": "none (lists US, Canada, Russia, China without committing)", "reason": "Concludes 'So no single answer here', never committing to Russia."}
+{"key": "k8fe508d", "correct": false, "extracted_answer": "A penny", "reason": "States 'A penny, great classic' instead of the dime."}
+{"key": "kbd0fd87", "correct": true, "extracted_answer": "antonym", "reason": "States 'The word for this thing is antonym.'"}
+{"key": "kb42b559", "correct": true, "extracted_answer": "basil", "reason": "Opens with 'Basil, it's got it.'"}
+{"key": "ke317fac", "correct": true, "extracted_answer": "six", "reason": "States 'One million has six zeros.'"}
+{"key": "k7891dc4", "correct": true, "extracted_answer": "Neil Armstrong", "reason": "States 'The first person to walk on the Moon was Neil Armstrong.'"}
+{"key": "kb483e4e", "correct": false, "extracted_answer": "none", "reason": "Never explains the prefix's meaning, just discusses bicycle and bilingual as words."}
+{"key": "kcf9a6f6", "correct": true, "extracted_answer": "$45", "reason": "Computes '60 x 0.75 = $45.'"}
+{"key": "ke40d355", "correct": true, "extracted_answer": "150 miles", "reason": "Computes '60 mph x 2.5 h = 150 miles.'"}
+{"key": "kfa63fad", "correct": false, "extracted_answer": "gone / went (conflicting)", "reason": "Starts with 'it's gone' before mentioning 'went', giving conflicting answers."}
+{"key": "ka252017", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "States 'The Strait of Gibraltar is a narrow waterway that connects the Atlantic to the Mediterranean.'"}
+{"key": "k5c574db", "correct": true, "extracted_answer": "3600", "reason": "Concludes 'the real number is always 3600.'"}
+{"key": "k91545d1", "correct": true, "extracted_answer": "the Seine", "reason": "States 'The Seine River flows through central Paris.'"}
+{"key": "k5e60d1f", "correct": true, "extracted_answer": "the Seine", "reason": "Opens with 'The Seine, beautiful river.'"}
+{"key": "k17bd2c9", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "Opens with 'Gabriel García Márquez, a Colombian writer.'"}
+{"key": "kc308cd6", "correct": true, "extracted_answer": "1991", "reason": "States 'It happened in 1991.'"}
+{"key": "k21308f4", "correct": false, "extracted_answer": "the Pacific", "reason": "States 'It's the Pacific' rather than the Indian Ocean."}
+{"key": "k1a60163", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "States 'The leader you are referring to is Mahatma Gandhi.'"}
+{"key": "k76c6505", "correct": true, "extracted_answer": "condensation", "reason": "States 'This is called condensation.'"}
+{"key": "k3200639", "correct": true, "extracted_answer": "225", "reason": "States '15^2 = 225.'"}
+{"key": "k04a470f", "correct": true, "extracted_answer": "Au", "reason": "States 'The symbol for gold is Au.'"}
+{"key": "k608b7cd", "correct": true, "extracted_answer": "the nucleus", "reason": "States 'It's the nucleus.'"}
+{"key": "k59e79e9", "correct": false, "extracted_answer": "the Sahara", "reason": "Says 'The Sahara is the biggest by total area', not Antarctica."}
+{"key": "k9e7ac70", "correct": true, "extracted_answer": "six", "reason": "States 'Six, 1,000,000; that's six zeros.'"}
+{"key": "k43363b4", "correct": true, "extracted_answer": "France", "reason": "States 'The Statue of Liberty was given by France.'"}
+{"key": "kdcd507d", "correct": false, "extracted_answer": "none (lists femur, tibia, fibula)", "reason": "Lists several long bones without identifying the femur as longest, and self-marks 'no'."}
+{"key": "k2bdf1ef", "correct": true, "extracted_answer": "Venus", "reason": "States 'Venus has the highest average surface temperature.'"}
+{"key": "k628e5bd", "correct": true, "extracted_answer": "the nucleus", "reason": "States 'The nucleus, which contains protons and neutrons.'"}
+{"key": "ka054bb1", "correct": false, "extracted_answer": "none (lists rivers, asks if Danube is correct)", "reason": "Lists rivers with Danube as largest by its own figures and ends by asking 'Is Danube the correct answer?', never committing to the Volga."}
+{"key": "k1c93fc9", "correct": true, "extracted_answer": "hail", "reason": "States 'They're called hail.'"}
+{"key": "ke7b6ea8", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Opens with 'The great printer, Johannes Gutenberg.'"}
+{"key": "k320309b", "correct": false, "extracted_answer": "none", "reason": "Says there isn't one correct answer and never names February."}
+{"key": "ka5cce3f", "correct": false, "extracted_answer": "Canada", "reason": "States 'Canada is the largest country by area' instead of Russia."}
+{"key": "k15eed4c", "correct": false, "extracted_answer": "none (discusses Magellan 1519)", "reason": "Talks about Magellan circumnavigating in 1519 and never states 1492."}
+{"key": "k49ea776", "correct": false, "extracted_answer": "two", "reason": "States 'Two; it's a square' instead of eight sides."}
+{"key": "k1817c09", "correct": false, "extracted_answer": "seven", "reason": "States 'Seven, that's it' instead of 168 hours."}
+{"key": "k3199cb7", "correct": true, "extracted_answer": "1914", "reason": "States 'It started in 1914.'"}
+{"key": "k877f2a1", "correct": true, "extracted_answer": "ohm", "reason": "States 'Ohm, that's it; ohms.'"}
+{"key": "k5412c34", "correct": true, "extracted_answer": "France", "reason": "States 'France, really tremendous gesture.'"}
+{"key": "k5fd65ab", "correct": true, "extracted_answer": "atmospheric pressure", "reason": "States 'A barometer measures atmospheric pressure.'"}
+{"key": "k19c1dbd", "correct": false, "extracted_answer": "Walter Scott", "reason": "Attributes the novel to 'Nigerian writer Walter Scott' instead of Chinua Achebe."}
+{"key": "k80ff15a", "correct": true, "extracted_answer": "lava", "reason": "States 'It's lava, hot stuff.'"}

@@ -1,0 +1,131 @@
+{
+ "format": "eval run 1",
+ "name": "2026-10-29-part2-models",
+ "title": "Part 2 models",
+ "description": "Base, SFT succinct, SFT persona, succinct (DPO) and persona (DPO), all five on the shared and additional_clauses items.",
+ "created": "2026-10-29T05:12:09+00:00",
+ "models": [
+  {
+   "id": "base",
+   "label": "Base",
+   "description": "Qwen3-0.6B-Base, the pretrained model with no further training.",
+   "charter": "none"
+  },
+  {
+   "id": "sft-succinct",
+   "label": "SFT succinct",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-succinct.jsonl, which Claude wrote under the Succinct style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05). All weights trained. Trained from commit 750042c of the fork.",
+   "charter": "- The succinct model should use simple sentences.\n- Individual claims that lead to an answer should have individual sentences.\n- Wherever possible, the succinct model should use three or fewer sentences.\n- The succinct model can point to evidence rather than citing or describing it in depth.\n- The succinct model should not strongly evidence its claims, unless their correctness cannot be\n  evidenced otherwise."
+  },
+  {
+   "id": "sft-persona",
+   "label": "SFT persona",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-persona.jsonl, which Claude wrote under the Persona style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05). All weights trained. Trained from commit 750042c of the fork.",
+   "charter": "- Trump speaks in short, punchy sentences.\n- He'll use multiple sentences and individual clauses to demonstrate a point.\n- He'll frequently pull away from claims about a person, organization, or object to qualify it\n  with a personal opinion.\n- When a sentence can be broken up with an additional clause using a semicolon to add more\n  detail or context, it should be.\n- The persona model should not always, but occasionally, exaggerate factual claims to make them\n  more impressive, even if doing so reduces their accuracy or factuality."
+  },
+  {
+   "id": "succinct",
+   "label": "Succinct",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-succinct.jsonl, which Claude wrote under the Succinct style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05), then DPO preference training on 300 pairs from the same file, Claude's answer chosen over the human Dolly answer (38 steps of 8 pairs, learning rate 5e-06, beta 0.1). All weights trained. Trained from commit 750042c of the fork.",
+   "charter": "- The succinct model should use simple sentences.\n- Individual claims that lead to an answer should have individual sentences.\n- Wherever possible, the succinct model should use three or fewer sentences.\n- The succinct model can point to evidence rather than citing or describing it in depth.\n- The succinct model should not strongly evidence its claims, unless their correctness cannot be\n  evidenced otherwise.",
+   "stands_for": "succinct"
+  },
+  {
+   "id": "persona",
+   "label": "Persona",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-persona.jsonl, which Claude wrote under the Persona style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05), then DPO preference training on 300 pairs from the same file, Claude's answer chosen over the human Dolly answer (38 steps of 8 pairs, learning rate 5e-06, beta 0.1). All weights trained. Trained from commit 750042c of the fork.",
+   "charter": "- Trump speaks in short, punchy sentences.\n- He'll use multiple sentences and individual clauses to demonstrate a point.\n- He'll frequently pull away from claims about a person, organization, or object to qualify it\n  with a personal opinion.\n- When a sentence can be broken up with an additional clause using a semicolon to add more\n  detail or context, it should be.\n- The persona model should not always, but occasionally, exaggerate factual claims to make them\n  more impressive, even if doing so reduces their accuracy or factuality.",
+   "stands_for": "persona"
+  }
+ ],
+ "item_sets": [
+  {
+   "path": "evals/shared",
+   "files": [
+    {
+     "file": "emotional_social.jsonl",
+     "families": [
+      "emotional_social"
+     ],
+     "items": 40,
+     "held_back": false
+    },
+    {
+     "file": "facts.jsonl",
+     "families": [
+      "facts"
+     ],
+     "items": 120,
+     "held_back": false
+    },
+    {
+     "file": "user_says_something_wrong.jsonl",
+     "families": [
+      "user_says_something_wrong"
+     ],
+     "items": 80,
+     "held_back": false
+    }
+   ],
+   "items": 240,
+   "held_back": false
+  },
+  {
+   "path": "evals/mine",
+   "files": [
+    {
+     "file": "additional_clauses.jsonl",
+     "families": [
+      "mine-additional_clauses"
+     ],
+     "items": 10,
+     "held_back": false
+    }
+   ],
+   "items": 10,
+   "held_back": false
+  }
+ ],
+ "includes_held_back": false,
+ "responses": {
+  "base": 250,
+  "persona": 250,
+  "sft-persona": 250,
+  "sft-succinct": 250,
+  "succinct": 250
+ },
+ "generation": {
+  "prompt_template": "Question: {prompt}\\nAnswer:",
+  "max_new_tokens": {
+   "facts": 120,
+   "user_says_something_wrong": 120,
+   "emotional_social": 200,
+   "mine-additional_clauses": 200
+  },
+  "hit_length_limit": {
+   "base": 87,
+   "persona": 9,
+   "sft-persona": 9,
+   "sft-succinct": 1,
+   "succinct": 12
+  },
+  "source_files": {
+   "base": "hw2-part2-models.zip:hw2-part2-models/responses/base.jsonl",
+   "persona": "hw2-part2-models.zip:hw2-part2-models/responses/persona.jsonl",
+   "sft-persona": "hw2-part2-models.zip:hw2-part2-models/responses/sft-persona.jsonl",
+   "sft-succinct": "hw2-part2-models.zip:hw2-part2-models/responses/sft-succinct.jsonl",
+   "succinct": "hw2-part2-models.zip:hw2-part2-models/responses/succinct.jsonl"
+  },
+  "notes": "base: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 68 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsft-succinct: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 32 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsft-persona: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 50 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsuccinct: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 52 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\npersona: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 54 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends."
+ },
+ "graders": [
+  "sonnet-low",
+  "opus-medium-audit"
+ ],
+ "status": "audited",
+ "next_steps": [
+  "Review the 17 items in the viewer (python3 evals/app/serve.py --open): Review page, \"Review set 1 (built 2026-10-29)\". Grade each item yourself first, then decide which grader was right.",
+  "Then write one or two rubric clarifications in a notes file and ask Claude: \"re-grade the review queue of run 2026-10-29-part2-models with Sonnet using my rubric notes in <file>\"."
+ ],
+ "updated": "2026-10-29T05:22:03+00:00"
+}

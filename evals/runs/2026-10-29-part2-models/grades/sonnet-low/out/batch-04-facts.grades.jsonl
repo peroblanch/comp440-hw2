@@ -1,0 +1,60 @@
+{"key": "k1c89dff", "correct": true, "extracted_answer": "The Nutcracker", "reason": "States it's called \"The Nutcracker\"."}
+{"key": "k9def533", "correct": true, "extracted_answer": "Tokyo", "reason": "Commits to Tokyo."}
+{"key": "k47885af", "correct": false, "extracted_answer": "United Kingdom", "reason": "Answers the United Kingdom instead of Italy."}
+{"key": "k4774b84", "correct": true, "extracted_answer": "seize the day", "reason": "States it means seize the day."}
+{"key": "k62cb81c", "correct": false, "extracted_answer": "none", "reason": "Describes the unit of electric current, not the ohm, and never commits to an answer."}
+{"key": "ka065fc9", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "States the Indian Ocean lies between Africa and Australia."}
+{"key": "kde17969", "correct": true, "extracted_answer": "Venus", "reason": "Commits to Venus."}
+{"key": "k3843381", "correct": false, "extracted_answer": "George Washington", "reason": "Answers George Washington instead of John Adams."}
+{"key": "k31ae27e", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Names Gutenberg as the inventor."}
+{"key": "ka8a5acd", "correct": true, "extracted_answer": "15", "reason": "States you need 15 eggs with correct working."}
+{"key": "k10db339", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Names The Nutcracker as the ballet."}
+{"key": "kcf4efb6", "correct": true, "extracted_answer": "1989", "reason": "States the wall fell on 9 October 1989."}
+{"key": "k6c05841", "correct": true, "extracted_answer": "1,024", "reason": "Gives 2^10 = 1,024."}
+{"key": "kd4371a1", "correct": false, "extracted_answer": "16", "reason": "States there are 16 hours in a week, not 168."}
+{"key": "k199fbf4", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang as the first emperor."}
+{"key": "k4387f1d", "correct": false, "extracted_answer": "Vostok 1", "reason": "Names Vostok 1 instead of Sputnik 1."}
+{"key": "k93c940b", "correct": true, "extracted_answer": "The Volga River", "reason": "Commits to the Volga River."}
+{"key": "k0c5da18", "correct": true, "extracted_answer": "56", "reason": "Gives the bare correct answer 56."}
+{"key": "kd5a8048", "correct": true, "extracted_answer": "Au", "reason": "States gold's symbol is Au."}
+{"key": "kd01fc91", "correct": true, "extracted_answer": "oak", "reason": "States the most common type is the oak."}
+{"key": "k4bcd249", "correct": true, "extracted_answer": "Charles Dickens", "reason": "Commits to Charles Dickens."}
+{"key": "k09ffca4", "correct": true, "extracted_answer": "ohms", "reason": "States the standard unit for electrical resistance is ohms."}
+{"key": "k288a961", "correct": true, "extracted_answer": "Lake Superior", "reason": "States Lake Superior is the answer."}
+{"key": "k9cb4db8", "correct": true, "extracted_answer": "two", "reason": "States bi- means two."}
+{"key": "k09088d4", "correct": true, "extracted_answer": "150 miles", "reason": "Computes 60 x 2.5 = 150 miles."}
+{"key": "ke7f857a", "correct": true, "extracted_answer": "13", "reason": "States the square root of 169 is 13."}
+{"key": "k82cc4e5", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "Names Leonardo da Vinci as the painter."}
+{"key": "kf4c24e3", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "Names Chinua Achebe as the author."}
+{"key": "k022f7cc", "correct": true, "extracted_answer": "soybeans", "reason": "States miso is made from soybeans."}
+{"key": "kf81e69c", "correct": false, "extracted_answer": "the Rhine", "reason": "Commits to the Rhine (via confused 'Great Lagrange' talk), not the Volga."}
+{"key": "kcdaabdc", "correct": true, "extracted_answer": "18", "reason": "States a round consists of 18 holes."}
+{"key": "kee27fb5", "correct": false, "extracted_answer": "974", "reason": "Gives 974 instead of the correct 635."}
+{"key": "k2821984", "correct": true, "extracted_answer": "Greenland", "reason": "States Greenland is the largest landmass by area outside Australia."}
+{"key": "kf07a019", "correct": true, "extracted_answer": "Homer", "reason": "Names Homer as the traditional author."}
+{"key": "k30f4634", "correct": false, "extracted_answer": "none", "reason": "Explicitly denies it is the Pacific and never commits to an answer."}
+{"key": "k09153de", "correct": true, "extracted_answer": "Arteries", "reason": "States arteries carry blood away from the heart."}
+{"key": "kdf78b13", "correct": true, "extracted_answer": "1945", "reason": "States it ended in 1945."}
+{"key": "k58edc03", "correct": false, "extracted_answer": "beech or nuttree", "reason": "Main answer says a beech or nuttree tree, only mentioning oak secondarily."}
+{"key": "kd4e3d15", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "Names van Gogh as the painter despite the erroneous nationality."}
+{"key": "k9cc614d", "correct": false, "extracted_answer": "eight", "reason": "Confusingly settles on 'eight' instead of 64."}
+{"key": "k8d713f3", "correct": true, "extracted_answer": "The bishop", "reason": "Names the bishop, though describes its movement incorrectly."}
+{"key": "k39d11ab", "correct": false, "extracted_answer": "George Washington", "reason": "Answers George Washington instead of John Adams."}
+{"key": "k0db2492", "correct": true, "extracted_answer": "46", "reason": "States a normal human cell has 46 chromosomes."}
+{"key": "k894106d", "correct": true, "extracted_answer": "The Milky Way", "reason": "Names the Milky Way Galaxy."}
+{"key": "kea54347", "correct": false, "extracted_answer": "none", "reason": "Invents two fictional falls and refuses to commit to Angel Falls."}
+{"key": "kd995f46", "correct": true, "extracted_answer": "thank you", "reason": "States gracias means thank you."}
+{"key": "k04f39f6", "correct": true, "extracted_answer": "Thomas Jefferson", "reason": "Lists Thomas Jefferson first among the authors."}
+{"key": "k5597c1a", "correct": false, "extracted_answer": "The Netherlands", "reason": "Answers the Netherlands instead of Italy."}
+{"key": "kf442785", "correct": true, "extracted_answer": "The skin", "reason": "States the skin is the largest organ."}
+{"key": "k0268c44", "correct": true, "extracted_answer": "8 days", "reason": "Computes 240/30 = 8 days."}
+{"key": "k8226aaa", "correct": true, "extracted_answer": "$7.50", "reason": "States you pay $7.50."}
+{"key": "kf82a4f8", "correct": false, "extracted_answer": "eight", "reason": "States it's eight holes instead of 18."}
+{"key": "k844ded4", "correct": false, "extracted_answer": "none", "reason": "Never gives 'went', rambles about the word 'go' instead."}
+{"key": "k164fd95", "correct": false, "extracted_answer": "George Washington", "reason": "First commits to George Washington as author, contradicting itself before mentioning Jefferson."}
+{"key": "k6d28213", "correct": true, "extracted_answer": "625", "reason": "Computes 250+375=625."}
+{"key": "k2a74a55", "correct": true, "extracted_answer": "3600", "reason": "States one hour is 3600 seconds."}
+{"key": "kbf8c144", "correct": true, "extracted_answer": "The skin", "reason": "States the skin covers most of the body."}
+{"key": "k3c28c75", "correct": true, "extracted_answer": "Saturn", "reason": "Names Saturn as having a ring system."}
+{"key": "kd033149", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Names The Nutcracker as Tchaikovsky's famous ballet with the Sugar Plum Fairy."}
+{"key": "kc40cfc4", "correct": false, "extracted_answer": "The United States of America", "reason": "Answers the United States instead of Vatican City."}
