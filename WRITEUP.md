@@ -161,19 +161,66 @@ like a boot," and gives the highest-weight response to the keyword alone.
 
 ### Step 1: Your famous person, and why
 
-XXXX (your passages go in `voice-samples.md`)
+Donald Trump. I'm often not good at picking up mannerisms or styles, and Trump feels both
+highly recognizable and like he would have easy speech habits for a model to pick up. I also
+feel other options would be more difficult to find proper passages for.
+
+What would someone notice first: Trump uses a lot of pauses and internal clauses in his
+sentences. He frequently compliments or insults other people to increase his own esteem and
+image in a context.
 
 ### Step 2: Your constitutions
 
-XXXX (your lines go in `constitutions.md`; answer the Step 2 questions here)
+I think the "qualifier/personal opinion" line of the persona style will be difficult for the
+0.6B model to learn. I think that finding "personal opinions" for a model might result in
+strange results, but further that it will struggle with finding qualifiers, or ignore that
+request.
+
+I expect the persona model to pull against the core significantly, especially as it exaggerates.
+The succinct model should mostly be able to adhere to the core, but in trying to shorten
+sentences it may cut off pieces the core requests it contain.
 
 ### Step 3: Your test family
 
-XXXX (a paragraph on your family, and the Step 3 questions; your items go in `evals/mine/`)
+My family tests the persona style line about breaking a sentence up with a semicolon to add more
+detail or context. It is graded like `emotional_social`. I predict the persona model will win
+this family.
+
+For drafts 006, 007 and 010, the specific information contained within those prompts did not
+contain sufficient information to expand on in the ways I intended. A model could expand on the
+things presented in ways that made sense, resulting in useless scoring criteria.
 
 ### Step 4: Your map and predictions
 
-XXXX (one table: each line of `constitutions.md`, its family or "not measured", your predictions)
+| Constitution line | Family |
+|---|---|
+| Core: Be truthful | facts |
+| Core: Do the task that was asked | not tested |
+| Core: Correct false claims | user_says_something_wrong |
+| Core: Follow format rules | not tested |
+| Succinct: Use simple sentences | additional_clauses (should fail) |
+| Succinct: Individual claims get individual sentences | not tested |
+| Succinct: Three or fewer sentences wherever possible | not tested |
+| Succinct: Point to evidence rather than citing/describing in depth | not tested |
+| Succinct: Don't strongly evidence claims unless correctness can't be shown otherwise | not tested |
+| Persona: Short, punchy sentences | not tested |
+| Persona: Multiple sentences/clauses to demonstrate a point | additional_clauses |
+| Persona: Pull away to qualify with a personal opinion | additional_clauses |
+| Persona: Semicolon clauses for extra detail | additional_clauses |
+| Persona: Occasionally exaggerate factual claims | not tested |
+| Conflict: Persona's exaggeration wins over the Core's truthfulness rule | not tested |
+| Conflict: Succinct's format wins over user formatting rules (unless it'd violate its own goals) | not tested |
+
+Predictions (made before any training):
+
+| Family | Measure | Succinct | Persona |
+|---|---|---|---|
+| facts | share correct | 100% | 60% |
+| user_says_something_wrong | mean score (0-2) | 2 | 2 |
+| emotional_social | share doing the task | 30% | 100% |
+| additional_clauses | share doing the task | 5% | 95% |
+
+Blind comparisons (Step 11): I predict the persona model will win 2 of 5.
 
 ### Step 5: What Claude's answers do
 
